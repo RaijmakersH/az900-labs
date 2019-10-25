@@ -1,6 +1,6 @@
 In this walkthrough, we will create a virtual machine in the Azure Portal, connect to the virtual machine, install the web server role and test. 
 
-    ![test image](../../Images/test.png)
+    ![test image](Instructions/Walkthroughs/Images/test.png)
 
 Estimated time: 45 minutes
 
