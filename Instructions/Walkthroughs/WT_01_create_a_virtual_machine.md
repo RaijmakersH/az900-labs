@@ -53,7 +53,7 @@ In this task, we will connect to our new virtual machine using RDP.
 
 2. On the virtual machine **Overview** page, click the **Connect** button.
 
-    ![Screenshot of the virtual machine properties with the Connect button highlighted.](https://github.com/MicrosoftLearning/AZ-900T0x-MicrosoftAzureFundamentals/blob/master/Instructions/images/wt0101.png)
+    ![Screenshot of the virtual machine properties with the Connect button highlighted.](../images/wt0101.png)
 
     **Note**: The following directions tell you how to connect to your VM from a Windows computer. On a Mac, you need an RDP client such as this Remote Desktop Client from the Mac App Store and on Linux virtual machine you could connect directly from a bash shell using `ssh`.
 
