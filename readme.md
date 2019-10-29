@@ -1,5 +1,7 @@
 # AZ-900T00 and AZ-900T01: Microsoft Azure Fundamentals (Preview)
 
+**This repository is being tested for the upcoming releases of the new Azure Fundamentals courses. Check back for more information.**
+
 - **[Download Latest Student Handbook and AllFiles Content](../../releases/latest)**
 - **Are you a MCT?** - Have a look at our [GitHub User Guide for MCTs](https://microsoftlearning.github.io/MCT-User-Guide/)
 - **Need to manually build the lab instructions?** - Instructions are available in the [MicrosoftLearning/Docker-Build](https://github.com/MicrosoftLearning/Docker-Build) repository
