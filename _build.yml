@@ -29,3 +29,8 @@ jobs:
           releaseNotes: '# Version $(Build.BuildNumber) Release'
           assets: '$(Build.SourcesDirectory)/out/*.zip'
           assetUploadMode: replace
+      - task: PublishBuildArtifacts@1
+        displayName: 'Publish Output Files'
+        inputs:
+          pathtoPublish: '$(Build.SourcesDirectory)/out/'
+          artifactName: 'Lab Files'
