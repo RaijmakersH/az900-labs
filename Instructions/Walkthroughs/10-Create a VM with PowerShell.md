@@ -3,12 +3,13 @@ wts:
     title: '10 - Create a VM with PowerShell'
     module: 'Module 02 - Core Azure Services'
 ---
+# 10 - Create a VM with PowerShell
 
 In this walk-through, we will install PowerShell locally, create a resource group and virtual machine, access and use the Cloud Shell, and review Azure Advisor recommendations. 
 
 Estimated time: 35 minutes
 
-**Task 1: Configure PowerShell locally**
+# Task 1: Configure PowerShell locally
 
 In this task, we will configure PowerShell to run from your local machine. 
 
@@ -36,7 +37,7 @@ In this task, we will configure PowerShell to run from your local machine.
 
     **Note:** If prompted, answer **Yes to All** to trust updates to the Az module. If you already have the latest version of the Az module installed, the prompt will be returned automatically.
 
-**Task 2: Create a resource group and virtual machine**
+# Task 2: Create a resource group and virtual machine
 
 In this task, we will use PowerShell to create a resource group and a virtual machine.  
 
@@ -81,7 +82,7 @@ In this task, we will use PowerShell to create a resource group and a virtual ma
 
 8. Close your local PowerShell session. 
 
-**Task 3: Execute commands in the Cloud Shell**
+# Task 3: Execute commands in the Cloud Shell
 
 In this task, we will practice executing PowerShell commands from the Cloud Shell. 
 
@@ -115,7 +116,7 @@ In this task, we will practice executing PowerShell commands from the Cloud Shel
     Get-AzVM -name myVMPS -status | Format-Table -autosize
     ```
 
-**Task 4: Review Azure Advisor Recommendations**
+# Task 4: Review Azure Advisor Recommendations
 
 **Note:** This same task is in the Create a VM with Azure CLI. 
 

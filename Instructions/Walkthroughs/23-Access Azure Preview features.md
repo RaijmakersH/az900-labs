@@ -4,13 +4,13 @@ wts:
     module: 'Module 04 - Azure Pricing and Support'
 ---
 
-
+# 23 - Access Azure Preview features
 
 In this walkthrough, we will access and identify Azure preview services and features, and view the latest Azure updates information.
 
 Estimated time: 10 minutes
 
-**Task 1: Access preview services and features**
+# Task 1: Access preview services and features
 
 In this task, we will review Marketplace Preview features. 
 
@@ -28,7 +28,7 @@ In this task, we will review Marketplace Preview features.
 
     **Note**: In these scenarios, where new functionality or features are made available within an existing generally available Azure service or product, although you may be using the Azure service in production, the preview feature or functionality may not yet be ready for production deployments. And you should make sure you are aware of any limitations around its use before deploying to production.
 
-**Task 2: Review the Azure Updates page**
+# Task 2: Review the Azure Updates page
 
 In this task, we will review the Azure Updates page.
 
@@ -40,11 +40,11 @@ In this task, we will review the Azure Updates page.
 
     ![Screenshot of Azure Updates page with details related to Kubernetes and In preview returned.](../images/2302.png)
 
-3. Click on any item in the results list to get more detailed information. 
+4. Click on any item in the results list to get more detailed information. 
 
-4. Return to the **Azure Updates** page, view items that are now have a status of **General Availability** by clicking **Now available** and noting the items now displaying. Browse any that are of interest to you.
+5. Return to the **Azure Updates** page, view items that are now have a status of **General Availability** by clicking **Now available** and noting the items now displaying. Browse any that are of interest to you.
 
-5. Return to the **Azure Updates** page, click on the **In development** tab and note the items returned that are currently in development. Browse any that are of interest to you.
+6. Return to the **Azure Updates** page, click on the **In development** tab and note the items returned that are currently in development. Browse any that are of interest to you.
 
 
 Congratulations! You have accessed and identified Azure preview services and features, and viewed the latest Azure updates information.

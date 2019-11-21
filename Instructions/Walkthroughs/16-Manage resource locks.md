@@ -3,13 +3,13 @@ wts:
     title: '16 - Manage resource locks'
     module: 'Module 03 - Security, Privacy, Compliance and Trust'
 ---
-
+# 16 - Manage resource locks
 
 In this walkthrough, we will create a resource group, add a lock to resource group and test deletion, test deleting a resource in the resource group, and remove the resource lock. 
 
 Estimated time: 15 minutes
 
-**Task 1: Create a resource group**
+# Task 1: Create a resource group
 
 In this task, we will create a resource group for this exercise. 
 
@@ -24,8 +24,9 @@ In this task, we will create a resource group for this exercise.
     | Subscription | **Use your subscription** |
     | Name | **myRGLocks** |
     | Region | **(US) East US** |
+    | | |
 
-**Task 2:  Add a Lock to the resource group and test deletion**
+# Task 2:  Add a Lock to the resource group and test deletion
 
 In this task, we will add a resource lock to the resource group and test deleting the resource group. 
 
@@ -43,12 +44,13 @@ In this task, we will add a resource lock to the resource group and test deletin
     | -- | -- |
     | Lock name | **RGLock** |
     | Lock Type | **Delete** |
+    | | |
 
 5. Select the resource group's **Overview** blade and select **Delete resource group**. Confirm the name of the resource group and click **OK**. You receive an error message stating the resource group is locked and can't be deleted.
 
     ![Screenshot of the delete locks failed.](../images/1602.png)
 
-**Task 3: Test deleting a member of the resource group**
+# Task 3: Test deleting a member of the resource group
 
 In this task, we will test if the resource lock protects a storage account in the resource group. 
 
@@ -67,6 +69,7 @@ In this task, we will test if the resource lock protects a storage account in th
     | Account kind | **StorageV2 (general purpose v2)** |
     | Replication | **Locally redundant storage (LRS)** |
     | Access tier (default) | **Hot** |
+    | | |
 
 3.  Wait for the notification that the stroage account was successfully created. 
 
@@ -76,7 +79,7 @@ In this task, we will test if the resource lock protects a storage account in th
 
     **Note**: Although we did not create a lock specifically for the storage account, we did create a lock at the resource group level, which contains the storage account. As such this *parent* level lock prevents us from deleting the resource, the storage account inherits the lock from the parent.
 
-**Task 4: Remove the resource lock**
+# Task 4: Remove the resource lock
 
 In this task, we will remove the resource lock and test. 
 

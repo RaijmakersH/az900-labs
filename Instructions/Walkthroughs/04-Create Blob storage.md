@@ -3,12 +3,13 @@ wts:
     title: '04 - Create blob storage'
     module: 'Module 02 - Core Azure Services'
 ---
+# 04 - Create blob storage
 
 In this walkthrough, we will create a storage account, then work with blob storage files.
 
 Estimated time: 25 minutes. 
 
-**Task 1: Create a storage account**
+# Task 1: Create a storage account
 
 In this task, we will create a new storage account. 
 
@@ -29,6 +30,7 @@ In this task, we will create a new storage account.
     | Account kind | **StorageV2 (general purpose v2)** |
     | Replication | **Locally redundant storage (LRS)** |
     | Access tier (default) | **Hot** |
+    | | |
 
 5. Select **Review + Create** to review your storage account settings and allow Azure to validate the configuration. 
 
@@ -38,7 +40,7 @@ In this task, we will create a new storage account.
 
     ![Screenshot of the newly created storage account in the Azure portal .](../images/0401.png)
 
-**Task 2: Work with blob storage**
+# Task 2: Work with blob storage
 
 In this task, we will create a Blob container and upload a blob file. 
 
@@ -51,6 +53,7 @@ In this task, we will create a Blob container and upload a blob file.
     | --- | --- |
     | Name | **blob1**  |
     | Public access level| **Private (no anonymous access)** |
+    | | |
 
     ![Screenshot of the newly created blob container in the storage account in the Azure portal.](../images/0402.png)
 
@@ -66,7 +69,7 @@ In this task, we will create a Blob container and upload a blob file.
 
 8. As you have time, return to your storage account and review the options for Files, Tables, and Queues.
 
-**Task 3: Monitor the storage account**
+# Task 3: Monitor the storage account
 
 1. Return to the main storage account page.
 

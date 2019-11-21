@@ -3,13 +3,13 @@ wts:
     title: '13 - Implement Azure Key Vault'
     module: 'Module 03 - Security, Privacy, Compliance and Trust'
 ---
-
+# 13 - Implement Azure Key Vault
 
 In this walkthrough, we will create an Azure Key vault and then create a password secret within that key vault, providing a securely stored, centrally managed password for use with applications.
 
 Estimated time: 10 minutes
 
-**Task 1: Create an Azure Key Vault**
+# Task 1: Create an Azure Key Vault
 
 1. Sign in to the [Azure portal](https://portal.azure.com).
 
@@ -24,6 +24,7 @@ Estimated time: 10 minutes
     | Key vault name | **keyvaulttestxxx** (must be unique) |
     | Location | **East US** |
     | Pricing tier | **Standard** |
+    | | |
 
 4. Click **Review + create**, and then click **Create**. 
 
@@ -35,7 +36,7 @@ Estimated time: 10 minutes
 
     **Note**: Your Azure account is the only one authorized to perform operations on this new vault. You can modify this if you wish in the **Settings** and then the **Access policies** section.
 
-**Task 2: Add a secret to the Key Vault**
+# Task 2: Add a secret to the Key Vault
         
 In this task, we will add a password to the key vault. 
 
@@ -48,6 +49,7 @@ In this task, we will add a password to the key vault.
     | Upload options | **Manual** |
     | Name | **ExamplePasswordn* |
     | Value | **hVFkk96** |
+    | | |
 
 3. Click **Create**.
 

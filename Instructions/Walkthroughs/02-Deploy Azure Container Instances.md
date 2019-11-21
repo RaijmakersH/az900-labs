@@ -4,11 +4,13 @@ wts:
     module: 'Module 02 - Core Azure Services'
 ---
 
+# 02 - Deploy Azure Container Instances
+
 In this walkthrough we create, configure, and deploy a Docker container to Azure Container Instances (ACI) in the Azure Portal. The container is a Welcome to ACI web application that displays a static HTML page. 
 
 Estimate: 20 minutes.
 
-**Task 1: Create a container instance**
+# Task 1: Create a container instance
 
 In this task, we will create a new container instance for the web application. 
 
@@ -28,12 +30,15 @@ In this task, we will create a new container instance for the web application.
 	| Container image| **microsoft/aci-helloworld**|
 	| Subscription | **Choose your subscription**|
 	| OS Type| **Linux** |
+	|||
+
 
 4. Configure the Networking tab. Leave all other settings at their default values.
 
 	| Setting| Value|
 	|--|--|
 	| DNS name label| **mycontainerdnsxxx** (must be unique) |
+	|||
 	
 	**Note**: Your container will be publicly reachable at dns-name-label.region.azurecontainer.io. If you receive a **DNS name label not available** error message, specify a different DNS name label.
 
@@ -47,7 +52,7 @@ In this task, we will create a new container instance for the web application.
 
 8. While you wait you may be interested in viewing the [sample code behind this simple application](https://github.com/Azure-Samples/aci-helloworld).  Browse the \app folder. 
 
-**Task 2: Deploy the container**
+# Task 2: Deploy the container
 
 In this task, we will deploy the container instance and ensure the welcome page displays.
 

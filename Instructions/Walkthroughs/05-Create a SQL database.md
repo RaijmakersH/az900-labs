@@ -4,11 +4,13 @@ wts:
     module: 'Module 02 - Core Azure Services'
 ---
 
+# 05 - Create a SQL database
+
 In this walkthrough, we will create a SQL database in Azure and then query the data in that database.
 
 Estimated time: 25 minutes
 
-**Task 1: Create the database.**
+# Task 1: Create the database
 
 In this task, we will create a new SQL database using the AdventureWorksLT sample database. 
 
@@ -23,6 +25,7 @@ In this task, we will create a new SQL database using the AdventureWorksLT sampl
     | Subscription | **Choose your subscription** |
     | Resource group | **myRGDb** (create new) |
     | Database name| **db1** | 
+    | | |
 
 3. Next to **Server** click **Create new** and enter this information. Click **OK** when finished.
 
@@ -33,7 +36,7 @@ In this task, we will create a new SQL database using the AdventureWorksLT sampl
     | Password | **Pa$$w0rd1234** |
     | Location | **(US) East US** |
     | Allow Azure services to access server | **Check the box** |
-
+    | | |
 
    ![Screenshot of the Server pane and the New Server pane with fields filled in as per the table and the Select button highlighted.](../images/0501.png)
 
@@ -42,12 +45,13 @@ In this task, we will create a new SQL database using the AdventureWorksLT sampl
     | Setting | Value | 
     | --- | --- |
     | Use existing data | **Sample** | 
+    | | |
 
 5. Click **Review + create** and then **Create** to deploy and provision the resource group, server, and database. It can take approx. 2 to 5 minutes to deploy.
 
 6. Monitor your deployment. 
 
-**Task 2: Test the database.**
+# Task 2: Test the database.
 
 In this task, we will configure the SQL server and run a SQL query. 
 
@@ -68,8 +72,6 @@ In this task, we will configure the SQL server and run a SQL query.
     ![Screenshot of the SQL server page.](../images/0504.png)
 
 6. From the SQL server **Overview** blade, click **Show firewall settings**.
-
-    ![Screenshot of the SQL server Overview blade with the Show firewall settings highlighted.](../images/0505.png)
 
 7. Click **Add client IP** (top menu bar) and add your IP address from the error page. Be sure to **Save** your changes. 
 

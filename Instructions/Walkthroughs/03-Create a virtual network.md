@@ -3,12 +3,13 @@ wts:
     title: '03 - Create a virtual network'
     module: 'Module 02 - Core Azure Services'
 ---
+# 03 - Create a virtual network
 
 In this walkthrough, we will create a virtual network, deploy two virtual machines onto that virtual network and then configure them to allow one virtual machine to ping the other over that virtual network.
 
 Estimated time: 45 minutes
 
-**Task 1: Create a virtual network**
+# Task 1: Create a virtual network
 
 In this task, we will create a new virtual network. 
 
@@ -24,6 +25,7 @@ In this task, we will create a new virtual network.
     | Resource group | **myRGVNet** (create new) |
     | Name | **vnet1** |
     | Region | **East US** |
+    | | |
 
 4. Move to the **IP Addresses** tab. Take the defaults. Use the IP Address Space delete icon if you need to make changes. 
 
@@ -32,6 +34,7 @@ In this task, we will create a new virtual network.
     | Address space |**10.1.0.0/16** |
     | Subnet - Name | **default** |
     | Subnet Address range | **10.1.0.0/24** |
+    | | |
 
     ![Screenshot of the Create virtual network IP Addresses tab with the default fields.](../images/0301.png)
 
@@ -41,7 +44,7 @@ In this task, we will create a new virtual network.
 
 7. For your organization how will you know which virtual networks and IP addressing you will need?
 
-**Task 2: Create two virtual machines**
+# Task 2: Create two virtual machines
 
 In this task, we will create two virtual machines in the virtual network. 
 
@@ -60,12 +63,14 @@ In this task, we will create two virtual machines in the virtual network.
    | Password| **Pa$$w0rd1234** |
    | Public inbound ports| Select **Allow selected ports**  |
    | Selected inbound ports| **RDP** |
+   |||
 
 3. Select the **Networking** tab. Make sure the virtual machine is placed in the vnet1 virtual network. Review the default settings, but do not make any other changes. 
 
    | Setting | Value | 
    | --- | --- |
    | Virtual network | **vnet1** |
+   |||
 
 4. Select **Review + create**. After the Validation passes, select **Create**. Deployment times can vary but it can generally take between three to six minutes to deploy.
 
@@ -79,12 +84,13 @@ In this task, we will create two virtual machines in the virtual network.
     | Virtual machine name |  **vm2** |
     | Virtual network | **vnet1** |
     | Public IP | **vm2-ip** (new) |
+    |||
 
 7. When finished creating **vm2**, validate the configuration by clicking **Review + create** and once successfully validated click **Create**.
 
 8. Wait for your virtual machines to deploy. 
 
-**Task 3: Test the connection**
+# Task 3: Test the connection 
 
 In this task, we will allow ICMP connections and test that the virtual machines can communicate (ping) each other. 
 
@@ -129,12 +135,9 @@ In this task, we will allow ICMP connections and test that the virtual machines 
 
 10. Return to the vm1 remote session and try the ping again. You should now be successful. 
 
-
    ```PowerShell
    ping vm2
    ```
-
-![Screenshot of PowerShell command prompt with the command ping vm1 after been run and the output indicating the command was successful.](../../Linked_Image_Files/walkthrough-createvnetportal13.png)
 
 Congratulations! You have configured and deployed two virtual machines in a virtual network. You have also configured the firewall so one of the virtual machines allows ping requests. 
 

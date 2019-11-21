@@ -3,12 +3,13 @@ wts:
     title: '07 - Implement Azure Functions'
     module: 'Module 02 - Core Azure Services'
 ---
+# 07 - Implement Azure Functions
 
 In this walkthrough, we will create a Function App to display a Hello message when there is an HTTP request. 
 
 Estimated time: 30 minutes
 
-**Task 1: Create a Function app**
+# Task 1: Create a Function app
 
 In this task, we will create a Function app.
 
@@ -26,6 +27,7 @@ In this task, we will create a Function app.
     | OS | **Windows** |
     | Hosting plan | **Consumption plan** |
     | Location | **East US** |
+    | | |	
 
 4. Select the **Create** button to begin provisioning and deploying your new Azure Function App.
 
@@ -35,7 +37,7 @@ In this task, we will create a Function app.
 
     ![Screenshot of the Function App page with the new Function app.](../images/0701.png)
 
-**Task 2: Create a HTTP triggered function and test**
+# Task 2: Create a HTTP triggered function and test
 
 In this task, we will use the Webhook + API function to display a message when there is an HTTP request. 
 
@@ -71,7 +73,7 @@ In this task, we will use the Webhook + API function to display a message when t
 
 9. When your function runs, trace information is written to log files in Azure. To view the logs in Azure portal, return to the function editor, and select the **Logs** button.
 
-    ![Screenshot of a trace information log resulting from running the function inside the function editor in Azure portal. The logs button for accessing the trace information and some of the log content are highlighted to indicate how to access and read a trace information log from the function editor.](../images/0708.png)
+    ![Screenshot of a trace information log resulting from running the function inside the function editor in Azure portal.](../images/0709.png)
 
 Congratulations! You have created a Function App to display a Hello message when there is an HTTP request. 
 

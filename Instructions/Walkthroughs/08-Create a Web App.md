@@ -3,12 +3,13 @@ wts:
     title: '08 - Create a Web App'
     module: 'Module 02 - Core Azure Services'
 ---
+# 08 - Create a Web App
 
 In this walkthrough, we will create a new web app that runs a Docker container. The container displays a Welcome message. 
 
 Estimated time: 25 minutes. 
 
-**Task 1: Create a Web App**
+# Task 1: Create a Web App
 
 Azure App Service is actually a collection of four services, all of which are built to help you host and run web applications. The four services (Web Apps, Mobile Apps, API Apps, and Logic Apps) look different, but in the end they all operate in very similar ways. Web Apps are the most commonly used of the four services, and this is the service that we will be using in this lab.
 
@@ -28,6 +29,7 @@ In this task, you will create an Azure App Service Web App.
     | Publish | **Docker Container** |
     | Operating system | **Linux** |
     | Region | **East US** (ignore any service plan availabiity warnings) |
+    | | |	
 
 4. Click **Next > Docker** and configure the container information. The startup command is optional and not need in this exercise. 
 
@@ -39,11 +41,12 @@ In this task, you will create an Azure App Service Web App.
     | Image source | **Docker Hub** |
     | Access type | **Public** |
     | Image and tag | **microsoft/aci-helloworld** |
+    | | |	
 
 
 5. Click **Review + create**, and then **Create**. 
 
-**Task 2: Test the Web App**
+# Task 2: Test the Web App
 
 In this task, we will test the web app.
 

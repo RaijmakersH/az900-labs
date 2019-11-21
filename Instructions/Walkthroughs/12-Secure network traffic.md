@@ -3,13 +3,13 @@ wts:
     title: '12 - Secure network traffic'
     module: 'Module 03 - Security, Privacy, Compliance and Trust'
 ---
-
+# 12 - Secure network traffic
 
 In this walk-through, we will create and configure inbound and outbound security port rules.
 
 Estimated time: 45 minutes
 
-**Task 1: Create a virtual machine**
+# Task 1: Create a virtual machine
 
 In this task, we will deploy a custom template that creates a virtual machine. 
 
@@ -30,6 +30,7 @@ In this task, we will deploy a custom template that creates a virtual machine.
     | Admin password | **Pa$$w0rd1234** |
     | DNS prefix | **myrgsecurexxx** (must be unique) |
     | Windows OS version | 2016-Datacenter |
+    | | |
 
 5. Check the box to **Agree with the terms and conditions stated above**. 
 
@@ -45,7 +46,7 @@ In this task, we will deploy a custom template that creates a virtual machine.
 
 11. Also, notice the name of the network interface, **myVMNic**.
 
-**Task 2: Create a network security group**
+# Task 2: Create a network security group
 
 In this task, we will create a network security group and associate the network interface.
 
@@ -59,6 +60,7 @@ In this task, we will create a network security group and associate the network 
     | Region | **(US) East US**  |
     | Resource group | **myRGSecure** (this will not be available until the region is set) |
     | Name | **myNSGSecure** |
+    | | |
 
 3. Click **Review + create** and then after the validation click **Create**.
 
@@ -69,7 +71,7 @@ In this task, we will create a network security group and associate the network 
 6. Select **myVMNic** which the network interace for your new virtual machine. 
 
 
-**Task 3: Configure an inbound security port rule to allow RDP**
+# Task 3: Configure an inbound security port rule to allow RDP
 
 In this task, we willallow RDP to the virtual machine by configuring an inbound security port rule. 
 
@@ -99,10 +101,11 @@ In this task, we willallow RDP to the virtual machine by configuring an inbound 
     | Action | **Allow** |
     | Priority | **300** |
     | Name | **Allow RDP** |
+    | | |
 
 7. Wait for the rule to deploy, and then try again to RDP into the virtual machine. This time you should be successful. Remember the user is **azureuser** and the password is **Pa$$w0rd1234**.
 
-**Task 4: Configure an outbound security port rule to deny Internet access.**
+# Task 4: Configure an outbound security port rule to deny Internet access
 
 In this task, we will create a NSG and associate it with the virtual machine. We will then deny Internet access and test to ensure the rule is working.
 
@@ -135,6 +138,7 @@ In this task, we will create a NSG and associate it with the virtual machine. We
     | Action | **Deny** |
     | Priority | **4000** |
     | Name | **Deny Internet** |
+    | | |
 
 8. Return to your RDP session. 
 

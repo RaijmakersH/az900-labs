@@ -3,12 +3,13 @@ wts:
     title: '19 - Use the Azure Pricing Calculator'
     module: 'Module 04 - Azure Pricing and Support'
 ---
+# 19 - Use the Pricing Calculator
 
 In this walkthrough, we will use the Azure Pricing Calculator to generate a cost estimate for an Azure virtual machine and related network resources.
 
 Estimated time: 30 minutes
 
-**Task 1: Configure the pricing calculator**
+# Task 1: Configure the pricing calculator
 
 In this task, we will configure an simple infrastructure in the Azure Pricing Calculator. 
 
@@ -27,10 +28,12 @@ In this task, we will configure an simple infrastructure in the Azure Pricing Ca
     |Region|Operating system|Type|
     |------|----------------|----|
     |North Europe|Windows|(OS only)|
+    | | |
 
     |Tier|Instance|
     |----|--------|
     |Standard|A2: 2 Core(s), 3.5 GB RAM, 135 GB Temporary storage|
+    | | |
 
    ![Screenshot of the vm configuration area within the Azure pricing calculator estimate webpage. The highlighted examples of user inputted vm configuration property values indicate how to specify a vm configuration within an Azure pricing calculator estimate.](../images/1902.png)
 
@@ -75,23 +78,27 @@ In this task, we will configure an simple infrastructure in the Azure Pricing Ca
     |Region|Tier|Size|
     |------|----|----|
     |North Europe|Basic|Small|
+    | | |
 
     |Instances|Hours|
     |-------|-------|
     |1|365|
+    | | |
 
     |Data processed|
     |--------------|
     |50 GB|
+    | | |
 
     |Zone 1: North America, Europe|
     |-----------------------------|
     |50 GB|
+    | | |
 
     ![Screenshot of the application gateway configuration area within the Azure pricing calculator estimate webpage.](../images/1909.png)
 
 
-**Task 2: Review the pricing estimate**
+# Task 2: Review the pricing estimate
 
 In this task, we will review the results of the Azure Pricing Calculator. 
 

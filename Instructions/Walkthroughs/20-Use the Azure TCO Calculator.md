@@ -1,9 +1,9 @@
 ---
 wts:
-    title: '20 - Use the AzureTCO Calculator'
+    title: '20 - Use the Azure TCO Calculator'
     module: 'Module 04 - Azure Pricing and Support'
 ---
-
+# 20 - Use the Azure TCO Calculator
 
 
 In this walkthrough, you will use the Total Cost of Ownership (TCO) Calculator to generate cost comparison report for an on-premises environment.
@@ -12,7 +12,7 @@ Estimated time: 20 minutes
 
 **Note**: This walkthrough provides example definitions of on-premises infrastructure and workloads for a typical datacenter. To create a TCO Calculator report, use the example definitions or provide details of your *actual* on-premises infrastructure and workloads.
 
-**Task 1: Configure the TCO calculator**
+# Task 1: Configure the TCO calculator
 
 In this task, we will add infrastructure information to the calculator. 
 
@@ -31,6 +31,7 @@ In this task, we will add infrastructure information to the calculator.
     | Core(s) | **8**|
     | RAM | **16** |
     | Optimize by | **CPU** |
+    | | |
 
 3. Select **+ Add server workload** to make a row for a new server workloads definition. 
 
@@ -45,6 +46,7 @@ In this task, we will add infrastructure information to the calculator.
     | Core(s) | **8**|
     | RAM | **16** |
     | Optimize by | **CPU** |
+    | | |
 
 
 4. In the **Storage** pane, click **Add storage**.
@@ -57,6 +59,7 @@ In this task, we will add infrastructure information to the calculator.
     | Capacity | **60 TB** |  
     | Backup | **120 TB** |
     | Archive | **0 TB** |
+    | | |
 
 
 5. In the **Networking** pane, add bandwidth. 
@@ -64,6 +67,7 @@ In this task, we will add infrastructure information to the calculator.
     | Settings | Value |
     | -- | -- |
     | Outbound bandwidth | 15 TB|
+    | | |
 
 6. Click **Next**.
 
@@ -72,10 +76,11 @@ In this task, we will add infrastructure information to the calculator.
     | Settings | Value |
     | -- | -- |
     | Currency | **Euro** |
+    | | |
 
 8. Select **Next**.
 
-**Task 2: Review the results and save a copy**
+# Task 2: Review the results and save a copy
 
 In this task, we will review cost saving recommendations and download a report. 
 
@@ -85,6 +90,7 @@ In this task, we will review cost saving recommendations and download a report.
     | -- | -- |
     | Timeframe| **3 years** |
     | Region | **North Europe** |
+    | | |
 
 
 2. To modify the information you provided, go to the bottom of the page, and select **Back**. 

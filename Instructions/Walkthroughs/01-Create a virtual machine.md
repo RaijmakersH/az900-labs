@@ -3,6 +3,7 @@ wts:
     title: '01 - Create a virtual machine in the portal'
     module: 'Module 02 - Core Azure Services'
 ---
+# 01 - Create a virtual machine in the portal
 
 In this walkthrough, we will create a virtual machine in the Azure Portal, connect to the virtual machine, install the web server role and test. 
 
@@ -10,7 +11,7 @@ Estimated time: 45 minutes
 
 **Note**: Take time during this walk-through to click and read the Informational icons. 
 
-**Task 1: Create the virtual machine**
+# Task 1: Create the virtual machine
 
 In this task, we will create a Windows Server 2016 Datacenter virtual machine. 
 
@@ -20,22 +21,24 @@ In this task, we will create a Windows Server 2016 Datacenter virtual machine.
 
 3. In the **Basics** tab, fill in the information. Leave the defaults for everthing else.
 
-    | Settings | Values |
-    |--|--|
-    | Subscription | **Choose your subscription**|
-    | Resource group | **myRGVM** (create new) |
-    | Virtual machine name | **myVm** |
-    | Location | **(US) East US**|
-    | Image | **Windows Server 2016 Datacenter**|
-    | Administrator account username | **azureuser** |
-    | Administrator account password | **Pa$$w0rd1234**|
-    | Inbound port rules - Allow select ports | **RDP (3389)** and **HTTP (80)**|
+	|Settings | Values |
+	|---|---|
+	|Subscription | **Choose your subscription**|
+	|Resource group | **myRGVM** (create new) |
+	|Virtual machine name | **myVm** |
+	|Location | **(US) East US**|
+	|Image | **Windows Server 2016 Datacenter**|
+	|Administrator account username | **azureuser** |
+	|Administrator account password | **Pa$$w0rd1234**|
+	|Inbound port rules - Allow select ports | **RDP (3389)** and **HTTP (80)**|
+	|||
 
 4. Move to the Management tab and the **Monitoring** section.
 
-    | Settings | Values |
-    |--|--|
-    | Boot diagnostics | **Off**|
+	|Settings | Values |
+	|---|---|
+	Boot diagnostics | **Off**|
+	|||
 
 5. Leave the remaining defaults and then select the **Review + create** button at the bottom of the page.
 
@@ -43,7 +46,7 @@ In this task, we will create a Windows Server 2016 Datacenter virtual machine.
 
 7. You will receive updates on the deployment page and on the **Notifications** icon (top menu).
 
-**Task 2: Connect to the virtual machine**
+# Task 2: Connect to the virtual machine
 
 In this task, we will connect to our new virtual machine using RDP. 
 
@@ -74,7 +77,7 @@ In this task, we will connect to our new virtual machine using RDP.
 
 Congratulations! You have deployed and connected to a Windows Server virtual machine in Azure
 
-**Task 3: Install the web server role and test**
+# Task 3: Install the web server role and test
 
 In this task, install the Web Server role on the server and ensure the default IIS welcome page can be displayed.
 

@@ -3,13 +3,13 @@ wts:
     title: '18 - Explore the Trust Center'
     module: 'Module 03-Security, Privacy, Compliance and Trust'
 ---
-
+# 18 - Explore the Trust Center
 
 In this walkthrough, we will access the Trust Center, Service Trust Portal (STP), and Compliance Manager.
 
 Estimated time: 10 minutes
 
-**Task 1: Access the Trust Center**
+# Task 1: Access the Trust Center
 
 1. In a browser, access the [Microsoft Trust Center compliance offerings](https://docs.microsoft.com/en-us/microsoft-365/compliance/offering-home) page.
 
@@ -23,7 +23,7 @@ Estimated time: 10 minutes
 
 6. Browse through any content you find of interest. Is there a compliance offering your organization is most interested in?
 
-**Task 2: Access the Service Trust Portal (STP)**
+# Task 2: Access the Service Trust Portal (STP)
 
 1. In a browser, access the [Service Trust Portal (STP)](https://servicetrust.microsoft.com)
 
@@ -35,7 +35,7 @@ Estimated time: 10 minutes
 
 5. As you have time, review anything that is of interest to you. 
 
-**Task 3: Access the Compliance Manager**
+# Task 3: Access the Compliance Manager
 
 1. The Compliance Manager makes it easy to perform risk assessments of Microsoft's cloud services. Use Compliance Manager to manage your organization's compliance activities from implementation to reporting. If you want to try the Compliance Manager you will need to login.
 

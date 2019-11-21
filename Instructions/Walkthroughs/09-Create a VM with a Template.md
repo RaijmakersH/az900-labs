@@ -3,12 +3,13 @@ wts:
     title: '09 - Create a VM with a Template'
     module: 'Module 02 - Core Azure Services'
 ---
+# 09 - Create a VM with a Template
 
 In this walkthrough, we will deploy a virtual machine with a QuickStart template and examine monitoring capabilities.
 
 Estimated time: 30 minutes
 
-**Task1: Explore the gallery and locate a template**
+# Task1: Explore the gallery and locate a template
 
 In this task, we will browse the Azure QuickStart gallery and deploy a template to create a virtual machine. 
 
@@ -32,10 +33,11 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
 	|----|----|
 	| Subscription | **Choose your subscription**|
 	| Resource group | **myRGTemplate** (create new) |
-    | Admin username | **azureuser** |
-    | Admin password | **Pa$$w0rd1234** |
-    | DNS label prefix | **myvmtemplatexxx** (this must be unique) |
-    | Windows OS version | **2016-Datacenter** |
+    	| Admin username | **azureuser** |
+    	| Admin password | **Pa$$w0rd1234** |
+    	| DNS label prefix | **myvmtemplatexxx** (this must be unique) |
+    	| Windows OS version | **2016-Datacenter** |
+   	| | |
 
 7. Check the box **I agree to the terms and conditions stated above.** and then click **Purchase**.
 
@@ -43,7 +45,7 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
 
 8. Monitor your deployment. 
 
-**Task 2: Verify and monitor your virtual machine deployment**
+# Task 2: Verify and monitor your virtual machine deployment
 
 In this task, we will verify the virtual machine deployed correctly. 
 
@@ -67,7 +69,7 @@ In this task, we will verify the virtual machine deployed correctly.
 
 8. Click on the **Activity log** (left pane). Activity logs record when resources are created or modified. 
 
-11. Click **Add filter**, and experiment with searching for different event types and operations. 
+9. Click **Add filter**, and experiment with searching for different event types and operations. 
 
     ![Screenshot of the Add filters page with Event type selected.](../images/0904.png)
 

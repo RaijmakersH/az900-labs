@@ -3,7 +3,7 @@ wts:
     title: '11 - Create a VM with the CLI'
     module: 'Module 02 - Core Azure Services'
 ---
-
+# 11 - Create a VM with the CLI
 
 In this walkthrough, we will install the Azure CLI locally, create a resource group and virtual machine, use the Cloud Shell, and review Azure Advisor recommendations. 
 
@@ -11,7 +11,7 @@ Estimated time: 35 minutes
 
 **Note**: The following steps are based on a Windows installation, however they could equally be applicable to a Mac or Linux environment. However, there are [specific installation steps for each environment](https://docs.microsoft.com/cli/azure/install-azure-cli).
 
-**Task 1: Install the CLI locally**
+# Task 1: Install the CLI locally
 
 In this task, we will install the Azure CLI on your local machine. 
 
@@ -25,7 +25,7 @@ In this task, we will install the Azure CLI on your local machine.
 
     **Note:** The Azure CLI is run by opening a Bash shell in the Linux or macOS, or it can be run from the command prompt or PowerShell app in Windows. 
 
-**Task 2: Create a resource group and a virtual machine**
+# Task 2: Create a resource group and a virtual machine
 
 1. On your local machine, open a **Command Prompt**. Be sure to **Run as administrator**. If prompted, confirm (Yes) the app can make changes to your device.
 
@@ -57,7 +57,7 @@ In this task, we will install the Azure CLI on your local machine.
     az group list --output table
     ```
 
-6. Create a new virtual machine. This command must all be on one line. And, there should not be any tick (`) marks when it is all on one line. 
+7. Create a new virtual machine. This command must all be on one line. And, there should not be any tick (`) marks when it is all on one line. 
 
 
     ```cli
@@ -73,15 +73,15 @@ In this task, we will install the Azure CLI on your local machine.
     **Note**: The command will take 2 to 3 minutes to complete. The command will create a virtual machine and various resources associated with it such as storage, networking and security resources. Do not continue to the next step until the virtual machine deployment is complete. You can close the Azure Cloud Shell once it is complete.
 
 
-5. When the command finishes running, sign in to the [Azure portal](https://portal.azure.com).
+8. When the command finishes running, sign in to the [Azure portal](https://portal.azure.com).
 
-6. Search for **Virtual machines** and verify that **myVMCLI** is running.
+9. Search for **Virtual machines** and verify that **myVMCLI** is running.
 
     ![Screenshot of the virtual machines page with myVMPS in a running state.](../images/1101.png)
 
-7. Close your local CLI session. 
+10. Close your local CLI session. 
 
-**Task 3: Execute commmands in the Cloud Shell**
+# Task 3: Execute commmands in the Cloud Shell
 
 In this task, we will practice executing CLI commands from the Cloud Shell. 
 
@@ -117,9 +117,7 @@ In this task, we will practice executing CLI commands from the Cloud Shell.
     az vm show --resource-group myRGCLI --name myVMCLI --show-details --output table 
     ```
 
-**Task 4: Review Azure Advisor Recommendations**
-
-**Note:** This same task is in the Create a VM with Azure PowerShell walkthrough. 
+# Task 4: Review Azure Advisor Recommendations
 
 In this task, we will review Azure Advisor recommendations. 
 

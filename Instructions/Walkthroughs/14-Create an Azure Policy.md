@@ -3,13 +3,13 @@ wts:
     title: '14 - Create an Azure Policy'
     module: 'Module 03 - Security, Privacy, Compliance and Trust'
 ---
-
+# 14 - Create an Azure Policy
 
 In this walkthrough, we will create an Azure Policy to restrict deployment of Azure resources to a specific location.
 
 Estimated time: 20 minutes
 
-**Task 1: Create a Policy assignment**
+# Task 1: Create a Policy assignment
 
 In this task, we will configure the Allowed location policy and assign it to our subscription. 
 
@@ -45,7 +45,7 @@ In this task, we will configure the Allowed location policy and assign it to our
 
    ![Screenshot of Policy - Assignments pane with the allowed locations assignment highlighted.](../images/1406.png)
 
-**Task 2: Test Allowed location policy**
+# Task 2: Test Allowed location policy
 
 In this task, we will test the Allowed location policy. 
 
@@ -59,6 +59,7 @@ In this task, we will test the Allowed location policy.
     | Resource group | **myRGPolicy** (create new) |
     | Storage account name | **storageaccountxxx** (must be unique) |
     | Location | **(US) East US** |
+    | | |
 
 3. Click **Review + create**.
 
@@ -69,7 +70,7 @@ In this task, we will test the Allowed location policy.
     ![Screenshot of disallowed due to policy error.](../images/1406.png)
 
 
-**Task 3: Delete the policy assignment**
+# Task 3: Delete the policy assignment
 
 In this task, we will remove the Allowed location policy assignment and test. 
 

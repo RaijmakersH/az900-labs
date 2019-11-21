@@ -1,16 +1,16 @@
 ---
 wts:
-    title: '22 - Open a Support Request'
+    title: '21 - Open a Support Request'
     module: 'Module 04 - Azure Pricing and Support'
 ---
-
+# 21 - Open a Support Request
 
 
 In this walkthrough, we will view available support plan options and then practice creating and monitoring a new support request.
 
 Estimated time: 10 minutes
 
-**Task 1: View available support plan options and a technical support request**
+# Task 1: View available support plan options and a technical support request
 
 1. Sign in to the [Azure portal](https://portal.azure.com).
 
@@ -27,6 +27,7 @@ Estimated time: 10 minutes
     | Service | **All services**, **Virtual Machine running Linux** |
     | Summary | **Disk access is very slow for large files.** |
     | Problem type | **VM performance**, **Disk throughput is lower than expected**, **Save** |
+    | | |
 
 5. Click **Next: Solutions >>** and read through the recommended solutions.
 
@@ -34,7 +35,7 @@ Estimated time: 10 minutes
 
     **Note:** We will stop at this point. Do you understand how to submit a technical request?
 
-**Task 2: Create a billing support request**
+# Task 2: Create a billing support request
 
 1. Return to the **New support request** section and the **Basics** tab. 
 
@@ -44,6 +45,7 @@ Estimated time: 10 minutes
     | Subscription | **Choose your subscription** |
     | Summary | **Monthly charge is not correct.** |
     | Select problem type | **Pricing**, **Help me understand when I will be charged.**, **Select**, **Save** |
+    | | |
 
 2. Click **Next: Solutions** and read through the recommended solutions.
 

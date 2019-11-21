@@ -3,13 +3,13 @@ wts:
     title: '17 - Implement resource tagging'
     module: 'Module 03 - Security, Privacy, Compliance and Trust'
 ---
-
+# 17 - Implement resource tagging
 
 In this walkthrough, we will create a policy assignment that requires tagging, created a storage account and test the tagging, view resources with a specified tag, and remove the tagging policy.
 
 Estimated time: 30 minutes
 
-**Task 1: Create a Policy assignment**
+# Task 1: Create a Policy assignment
 
 In this task, we will configure the **Require specified tag** policy and assign it to our subscription. 
 
@@ -35,7 +35,7 @@ In this task, we will configure the **Require specified tag** policy and assign 
 
    ![Screenshot of Policy - Assignments pane with the allowed locations assignment highlighted.](../images/1703.png)
 
-**Task 2: Create a storage account to test the required tagging**
+# Task 2: Create a storage account to test the required tagging
 
 In this task, we will create storage accounts to test the required tagging. 
 
@@ -49,6 +49,7 @@ In this task, we will create storage accounts to test the required tagging.
     | Resource group | **myRGTags** (new) |
     | Storage account name | **storageaccountxxx** (must be unique) |
     | Location | **(US) East US** |
+    | | |
 
 3. Click **Review + create**. 
 
@@ -66,10 +67,11 @@ In this task, we will create storage accounts to test the required tagging.
     | --- | --- |
     | Tag name | **Company** (may not be in the drop-down list) |
     | Tag value | **Contoso** |
+    | | |
 
 6. Click **Review + create**, and the validation should now pass. Click **Create** to deploy the storage account. 
 
-**Task 3: View all resources with a specific tag**
+# Task 3: View all resources with a specific tag
 
 1. In the Portal, search and select **Tags**.
 
@@ -83,7 +85,7 @@ In this task, we will create storage accounts to test the required tagging.
 
     ![Screenshot of the All Resources filter with Company selected.](../images/1706.png)
 
-**Task 4: Delete the policy assignment**
+# Task 4: Delete the policy assignment
 
 In this task, we will remove the **Require specific tag** policy so it does not affect our future work. 
 
