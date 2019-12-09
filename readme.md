@@ -1,4 +1,4 @@
-# AZ-900T00 and AZ-900T01: Microsoft Azure Fundamentals (Preview)
+# AZ-900T00 and AZ-900T01: Microsoft Azure Fundamentals
 
 **This repository is being tested for the upcoming releases of the new Azure Fundamentals courses. Check back for more information.**
 
