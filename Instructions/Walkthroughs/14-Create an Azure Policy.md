@@ -43,8 +43,6 @@ In this task, we will configure the Allowed location policy and assign it to our
 
 9. The **Allowed locations** policy assignment is now listed on the **Policy - Assignments** pane and it is now in place and available to enforce at the scope level we specified (subscription level).
 
-   ![Screenshot of Policy - Assignments pane with the allowed locations assignment highlighted.](../images/1406.png)
-
 # Task 2: Test Allowed location policy
 
 In this task, we will test the Allowed location policy. 
