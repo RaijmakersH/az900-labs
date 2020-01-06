@@ -23,13 +23,13 @@ In this task, we will create a Function app.
     | -- | --|
     | App name | **function-xxx** (this must be unique) |
     | Subscription | **Choose your subscription** |
-    | Resource group | **myRGFunction** (create new) |
-    | OS | **Windows** |
-    | Hosting plan | **Consumption plan** |
-    | Location | **East US** |
+    | Resource group | **myRGFunction** (Create new) |
+    | Publish | **Code** |
+    | Runtime stack | **.NET Core** |
+    | Region | **East US** |
     | | |	
 
-4. Select the **Create** button to begin provisioning and deploying your new Azure Function App.
+4. Select the **Review + Create** button and, after verification, select the **Create** button to begin provisioning and deploying your new Azure Function App.
 
 5. Wait for the Notiication that the resource has been created.
 
@@ -61,7 +61,7 @@ In this task, we will use the Webhook + API function to display a message when t
 
     ![Screenshot of the get function URL pane inside the function editor in Azure portal. The display elements get function URL button, set key dropdown, and copy URL button are highlighted to indicate how to obtain and copy the function URL from the function editor.](../images/0705.png)
 
-7. Paste the copied function URL into your web browser's address bar. When the page is requested the function will run. Notice the message that the function needs a name. 
+7. Open a new browser tab and paste the copied function URL into your web browser's address bar. When the page is requested the function will run. Notice the message that the function needs a name. 
 
     ![Screenshot of the please provide a name message.](../images/0706.png)
 
@@ -71,9 +71,11 @@ In this task, we will use the Webhook + API function to display a message when t
 
     ![Screenshot of a highlighted function URL and an appended example user name in the address bar of a web browser. The hello message and user name are also highlighted to illustrate the output of the function in the main browser window.](../images/0707.png)
 
-9. When your function runs, trace information is written to log files in Azure. To view the logs in Azure portal, return to the function editor, and select the **Logs** button.
+9. When your function runs, trace information is written to log files in Azure. To view the logs in Azure portal, return to the function editor and, at the bottom of the page, select the **Logs** button.
 
-    ![Screenshot of a trace information log resulting from running the function inside the function editor in Azure portal.](../images/0709.png)
+    ![Screenshot of a trace information log resulting from running the function inside the function editor in Azure portal.](../images/0709.png) 
+
+    **Note**: If no log information was collected, retun to the browser tab where you pasted the function app URL, refresh the page and then return to the Logs tab.
 
 Congratulations! You have created a Function App to display a Hello message when there is an HTTP request. 
 
