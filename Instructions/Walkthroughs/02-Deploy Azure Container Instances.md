@@ -14,9 +14,9 @@ In this task, we will create a new container instance for the web application.
 
 1. Sign in to the [Azure portal](https://portal.azure.com).
 
-2. From the Home page, search for and select **Container instances** and then click **+ Add**. 
+2. From the **All services** blade, search for and select **Container instances** and then click **+ Add**. 
 
-3. Provide the following Basic details for the new container instance  (leave the defaults for everthing else)): 
+3. Provide the following Basic details for the new container instance  (leave the defaults for everything else)): 
 
 	| Setting| Value|
 	|----|----|

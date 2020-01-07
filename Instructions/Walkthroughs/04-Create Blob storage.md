@@ -13,9 +13,9 @@ In this task, we will create a new storage account.
 
 1. Sign in to the Azure portal at <a href="https://portal.azure.com" target="_blank"><span style="color: #0066cc;" color="#0066cc">https://portal.azure.com</span></a>
 
-2. From the Home page, search for and select **Storage accounts**, and then click **+ Add**. 
+2. From the **All services** blade, search for and select **Storage accounts**, and then click **+ Add**. 
 
-3. On the **Basics** tab of the **Create storage account** blade, fill in the following information (replace **xxxx** in the name of the storage account with letters and digits such that the name is globally unique). Leave the defaults for everthing else:
+3. On the **Basics** tab of the **Create storage account** blade, fill in the following information (replace **xxxx** in the name of the storage account with letters and digits such that the name is globally unique). Leave the defaults for everything else.
 
     | Setting | Value | 
     | --- | --- |

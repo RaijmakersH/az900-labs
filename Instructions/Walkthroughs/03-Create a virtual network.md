@@ -1,4 +1,4 @@
----
+﻿---
 wts:
     title: '03 - Create a virtual network'
     module: 'Module 02 - Core Azure Services'
@@ -13,9 +13,9 @@ In this task, we will create a virtual network.
 
 1. Sign in to the Azure portal at <a href="https://portal.azure.com" target="_blank"><span style="color: #0066cc;" color="#0066cc">https://portal.azure.com</span></a>
 
-2. From the Home page, search for and select **Virtual networks**, and then click **+ Add**. 
+2. From the **All services** blade, search for and select **Virtual networks**, and then click **+ Add**. 
 
-3. On the **Create virtual network** blade, fill in the following (leave the defaults for everthing else):
+3. On the **Create virtual network** blade, fill in the following (leave the defaults for everything else):
 
     | Setting | Value | 
     | --- | --- |
@@ -39,9 +39,9 @@ In this task, we will create a virtual network.
 
 In this task, we will create two virtual machines in the virtual network. 
 
-1. From the Home page, search for **Virtual machines** and then click **+ Add**. 
+1. From the **All services** blade, search for **Virtual machines** and then click **+ Add**. 
 
-2. On the **Basics** tab, fill in the following information (leave the defaults for everthing else):
+2. On the **Basics** tab, fill in the following information (leave the defaults for everything else):
 
    | Setting | Value | 
    | --- | --- |
