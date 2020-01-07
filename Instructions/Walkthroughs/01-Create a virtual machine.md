@@ -7,19 +7,17 @@ wts:
 
 In this walkthrough, we will create a virtual machine in the Azure Portal, connect to the virtual machine, install the web server role and test. 
 
-Estimated time: 45 minutes
-
 **Note**: Take time during this walk-through to click and read the Informational icons. 
 
 # Task 1: Create the virtual machine
 
-In this task, we will create a Windows Server 2016 Datacenter virtual machine. 
+In this task, we will create a Windows Server 2019 Datacenter virtual machine. 
 
 1. Sign in to the [Azure portal](https://portal.azure.com).
 
-2. Search for **Virtual machines** and then click **+Add**.
+2. From the Home page, search for **Virtual machines** and then click **+ Add**.
 
-3. In the **Basics** tab, fill in the information. Leave the defaults for everthing else.
+3. On the **Basics** tab, fill in the following information (leave the defaults for everthing else):
 
 	|Settings | Values |
 	|---|---|
@@ -27,24 +25,24 @@ In this task, we will create a Windows Server 2016 Datacenter virtual machine.
 	|Resource group | **myRGVM** (create new) |
 	|Virtual machine name | **myVm** |
 	|Location | **(US) East US**|
-	|Image | **Windows Server 2016 Datacenter**|
+	|Image | **Windows Server 2019 Datacenter**|
 	|Administrator account username | **azureuser** |
 	|Administrator account password | **Pa$$w0rd1234**|
 	|Inbound port rules - Allow select ports | **RDP (3389)** and **HTTP (80)**|
 	|||
 
-4. Move to the Management tab and the **Monitoring** section.
+4. Switch to the Management tab, and in its **Monitoring** section, select the following setting:
 
 	|Settings | Values |
 	|---|---|
 	Boot diagnostics | **Off**|
 	|||
 
-5. Leave the remaining defaults and then select the **Review + create** button at the bottom of the page.
+5. Leave the remaining defaults and then click the **Review + create** button at the bottom of the page.
 
 6. Once Validation is passed click the **Create** button. It can take anywhere from five to seven minutes to deploy the virtual machine.
 
-7. You will receive updates on the deployment page and on the **Notifications** icon (top menu).
+7. You will receive updates on the deployment page and via the **Notifications** icon (top menu).
 
 # Task 2: Connect to the virtual machine
 
