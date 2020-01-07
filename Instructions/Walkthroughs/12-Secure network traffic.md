@@ -19,7 +19,7 @@ In this task, we will deploy a custom template that creates a virtual machine.
 
 3. Select **Create a Windows virtual machine**.
 
-4. Complete the template.
+4. Complete the template, leaving other settings at their default.
 
     | Setting | Value |
     | -- | -- |
@@ -42,9 +42,9 @@ In this task, we will deploy a custom template that creates a virtual machine.
 
 9. Select the **SimpleWinVM** virtual machine.
 
-10. Click  **Networking** and notice the message, "This network interface does not contain network security groups."
+10. Click  **Networking** and then click the name of the Network Interface, **MyVMNic**.
 
-11. Also, notice the name of the network interface, **myVMNic**.
+11. Notice that there is no Network security group associated with this network interface.
 
 # Task 2: Create a network security group
 
@@ -57,16 +57,16 @@ In this task, we will create a network security group and associate the network 
     | Setting | Value |
     | -- | -- |
     | Subscription | **Choose your subscription** |
-    | Region | **(US) East US**  |
-    | Resource group | **myRGSecure** (this will not be available until the region is set) |
+    | Resource group | **myRGSecure** |
     | Name | **myNSGSecure** |
+    | Region | **(US) East US**  |
     | | |
 
 3. Click **Review + create** and then after the validation click **Create**.
 
 4. After the NSG is created, **Go to resource**.
 
-5. Under **Settings** click **Network interfaces** and then **Associate**.
+5. Under **Settings** click **Network interfaces** and then **+ Associate**.
 
 6. Select **myVMNic** which the network interace for your new virtual machine. 
 
@@ -83,13 +83,9 @@ In this task, we willallow RDP to the virtual machine by configuring an inbound 
 
     ![Screenshot of the error message that the virtual machine connection has failed.](../images/1201.png)
 
-5. Under **Settings**, click on **Networking**, and then click **Add an Inbound port rule**. Notice the rules deny all inbound traffic except traffic within the virtual network, including a load balancer.
+5. Under **Settings**, click on **Networking**, and notice the inbound rules for the **myNSGSecure (attached to network interface: myVMNic)** network security group deny all inbound traffic except traffic within the virtual network, including a load balancer. 
 
-    ![Screenshot of the add a security port rule page.](../images/1202.png)
-
-6. Review the inbound security port rules. Notice what is allowed and that RDP through port 3389 is not listed. 
-
-6. Click **Add inbound port rule**. Click **Add** when you are done. 
+6. Click **Add an Inbound port rule** to the right of the **myNSGSecure (attached to network interface: myVMNic)** network security group. Click **Add** when you are done. 
 
     | Setting | Value |
     | -- | -- |
@@ -100,22 +96,20 @@ In this task, we willallow RDP to the virtual machine by configuring an inbound 
     | Protocol | **TCP** |
     | Action | **Allow** |
     | Priority | **300** |
-    | Name | **Allow RDP** |
+    | Name | **AllowRDP** |
     | | |
 
 7. Wait for the rule to deploy, and then try again to RDP into the virtual machine. This time you should be successful. Remember the user is **azureuser** and the password is **Pa$$w0rd1234**.
 
 # Task 4: Configure an outbound security port rule to deny Internet access
 
-In this task, we will create a NSG and associate it with the virtual machine. We will then deny Internet access and test to ensure the rule is working.
-
-**Note:** In the first task we applied a rule to an individual virtual machine. In this task we are using a NSG which can enforce rules across many resources. 
+In this task, we will create a NSG outbound port rule that will deny Internet access and then test to ensure the rule is working.
 
 1. Continue in your virtual machine RDP session. 
 
 2. After the machine starts, open an **Internet Explorer** browser. 
 
-3. Verify that you can access www.bing.com. You will need to work through the IE enhanced security pop-ups. 
+3. Verify that you can access https://www.bing.com and then close Internet Explorer. You will need to work through the IE enhanced security pop-ups. 
 
 **Note:** We will now configure a rule to deny outbound internet access. 
 
@@ -125,7 +119,7 @@ In this task, we will create a NSG and associate it with the virtual machine. We
 
 6. Notice there is a rule, **AllowInternetOutbound**. This a default rule and cannot be removed. 
 
-7. Click **Add outbound security rule** and configure a new outbound security rule with a higher priority that will deny internet traffic. Click **Add** when you are finished. 
+7. Click **Add outbound port rule** to the right of the **myNSGSecure  (attached to network interface: myVMNic)** network security group and configure a new outbound security rule with a higher priority that will deny internet traffic. Click **Add** when you are finished. 
 
     | Setting | Value |
     | -- | -- |
@@ -137,12 +131,12 @@ In this task, we will create a NSG and associate it with the virtual machine. We
     | Protocol | **TCP** |
     | Action | **Deny** |
     | Priority | **4000** |
-    | Name | **Deny Internet** |
+    | Name | **DenyInternet** |
     | | |
 
 8. Return to your RDP session. 
 
-9. Browse to www.microsoft.com. The page should not display. 
+9. Browse to https://www.microsoft.com. The page should not display. You may need to work through additional IE enhanced security pop-ups.  
 
 **Note**: To avoid additional costs, you can remove this resource group. Search for resource groups, click your resource group, and then click **Delete resource group**. Verify the name of the resource group and then click **Delete**. Monitor the **Notifications** to see how the delete is proceeding.
 
