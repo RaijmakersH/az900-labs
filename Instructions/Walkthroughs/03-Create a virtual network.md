@@ -13,7 +13,7 @@ In this task, we will create a virtual network.
 
 1. Sign in to the Azure portal at <a href="https://portal.azure.com" target="_blank"><span style="color: #0066cc;" color="#0066cc">https://portal.azure.com</span></a>
 
-2. From the Home page, search for **Virtual networks**, and then click **+ Add**. 
+2. From the Home page, search for and select **Virtual networks**, and then click **+ Add**. 
 
 3. On the **Create virtual network** blade, fill in the following (leave the defaults for everthing else):
 
