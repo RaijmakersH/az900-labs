@@ -50,7 +50,7 @@ In this task, we will connect to our new virtual machine using RDP.
 
 1. Search for **myVM** and select your new virtual machine.
 
-**Note**: You could also use the **Go to resource** link on the deployment page and in the **Notification** area.
+**Note**: You could also use the **Go to resource** link on the deployment page or the link to the resource in the **Notification** area.
 
 2. On the virtual machine **Overview** blade, click the **Connect** button.
 
