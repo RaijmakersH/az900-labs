@@ -19,24 +19,25 @@ In this task, we will create a Windows Server 2019 Datacenter virtual machine.
 
 3. On the **Basics** tab, fill in the following information (leave the defaults for everything else):
 
-	|Settings | Values |
-	|---|---|
-	|Subscription | **Choose your subscription**|
-	|Resource group | **myRGVM** (create new) |
-	|Virtual machine name | **myVm** |
-	|Location | **(US) East US**|
-	|Image | **Windows Server 2019 Datacenter**|
-	|Administrator account username | **azureuser** |
-	|Administrator account password | **Pa$$w0rd1234**|
-	|Inbound port rules - Allow select ports | **RDP (3389)** and **HTTP (80)**|
-	|||
+    | Settings | Values |
+    |  -- | -- |
+    | Subscription | **Choose your subscription**|
+    | Resource group | **myRGVM** (create new) |
+    | Virtual machine name | **myVm** |
+    | Location | **(US) East US**|
+    | Image | **Windows Server 2019 Datacenter**|
+    | Size | Standard D2s v3|
+    | Administrator account username | **azureuser** |
+    | Administrator account password | **Pa$$w0rd1234**|
+    | Inbound port rules - Allow select ports | **RDP (3389)** and **HTTP (80)**|
+    | | |
 
 4. Switch to the Management tab, and in its **Monitoring** section, select the following setting:
 
-	|Settings | Values |
-	|---|---|
-	Boot diagnostics | **Off**|
-	|||
+    | Settings | Values |
+    | -- | -- |
+    | Boot diagnostics | **Off**|
+    | | |
 
 5. Leave the remaining defaults and then click the **Review + create** button at the bottom of the page.
 
@@ -50,7 +51,7 @@ In this task, we will connect to our new virtual machine using RDP.
 
 1. Search for **myVM** and select your new virtual machine.
 
-**Note**: You could also use the **Go to resource** link on the deployment page or the link to the resource in the **Notification** area.
+    **Note**: You could also use the **Go to resource** link on the deployment page or the link to the resource in the **Notification** area.
 
 2. On the virtual machine **Overview** blade, click the **Connect** button.
 
