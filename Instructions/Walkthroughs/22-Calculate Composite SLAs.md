@@ -6,15 +6,13 @@ wts:
 # 22 - Calculate Composite SLAs
 
 
-In this walkthrough, we will determine services SLA uptime percentages and then calculate the application composite SLA uptime percentage.
-
-Estimated time: 15 minutes
+In this walkthrough, we will determine availability SLA of Azure services and then calculate application composite SLA-based expected availability.
 
 Our example application consists of these Azure services. We will not go in to deep architectural configuration and considerations, the intention here is to give an high level example.
 
 + **App service**: To host the application.
 + **Azure AD B2C**: To authenticate user logins and manage profiles.
-+ **Application Gateway**: To manage application access, scaling and scaling. 
++ **Application Gateway**: To manage application access, and scaling. 
 + **Azure SQL Database**: To store application data. 
 
 # Task 1: Determine the SLA uptime percentage values for our application
@@ -25,11 +23,11 @@ Our example application consists of these Azure services. We will not go in to d
 
 3. Return to the SLA webpage and locate the **Azure Active Directory B2C** service and determine the SLA uptime value, **99.9%**. 
 
-4. Locate the **Azure Application Gateway** SLA uptime value, **99.95%**. 
+4. Locate the **Application Gateway** SLA uptime value, **99.95%**. 
 
-5. The Azure SQL database uses Premium tiers not configured for Zone Redundant Deployments. Locate the **Azure SQL Database** SLA uptime value, **99.99%**. 
+5. The Azure SQL database uses Premium tiers but is not configured for Zone Redundant Deployments. Locate the **Azure SQL Database** SLA uptime value, **99.99%**. 
 
-    **Note**: There are different uptime values for different configurations and deployments of Azure SQL Database. It is important you are clear on your required uptime values, when planning and costing your deployment and configuration. Small changes in uptime can have impact on service costs as well as potentially increase complexity in configuration. Some other services that may be of interest to look at for examples on the Azure SLA summary web page would include **Virtual Machines**, **Storage Accounts** and **Cosmos DB**.
+    **Note**: There are different uptime values for different configurations and deployments of Azure SQL Database. It is important you are clear on your required uptime values, when planning and costing your deployment and configuration. Small changes in uptime can have impact on service costs as well as potentially increase complexity in configuration. Some other services that may be of interest on the Azure SLA summary web page would include **Virtual Machines**, **Storage Accounts** and **Cosmos DB**.
 
 # Task 2: Calculate the Application Composite SLA percentage uptime
 
@@ -41,8 +39,6 @@ Our example application consists of these Azure services. We will not go in to d
 
     **99.95%** X **99.9%** X **99.95%** X **99.99%** = **99.79%**
 
+    This is the SLA-based expected availability of our application with the current services and architecture.
 
-    This is the percentage uptime that our application will be able to achieve with the current services and architecture.
-
-Congratulations! You have determined the SLA uptime percentages for each of the services in our sample application and then calculated the composite SLA uptime percentage for the application.
-
+Congratulations! You have determined the SLA-based uptime for each of the services in our sample application and then calculated the composite SLA-based expected availability for the application.
