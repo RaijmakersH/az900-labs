@@ -45,7 +45,7 @@ In this task, we will add a password to the key vault.
     | Setting | Value | 
     | --- | --- |
     | Upload options | **Manual** |
-    | Name | **ExamplePassword* |
+    | Name | **ExamplePassword** |
     | Value | **hVFkk96** |
     | | |
 
