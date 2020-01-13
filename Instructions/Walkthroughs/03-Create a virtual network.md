@@ -106,7 +106,7 @@ In this task, we will allow ICMP connections and test whether the virtual machin
    ping vm2
    ```
    
-   ![Screenshot of PowerShell command prompt with the command ping vm2 after been run and the output indicating the command wasn't successful.](../images/0302.png)
+   ![Screenshot of PowerShell command prompt with the command ping vm2 after its completion and the output indicating the command wasn't successful.](../images/0302.png)
 
     **Note**: You will now open an RDP session to vm2 and allow incoming ICMP connections
 
@@ -117,7 +117,7 @@ In this task, we will allow ICMP connections and test whether the virtual machin
    ```PowerShell
    New-NetFirewallRule –DisplayName “Allow ICMPv4-In” –Protocol ICMPv4
    ```
-    ![Screenshot of PowerShell command prompt with the command New-NetFirewallRule DisplayName Allow ICMPv4-In –Protocol ICMPv4 after been run and the output indicating the command was successful.](../images/0303.png)
+   ![Screenshot of PowerShell command prompt with the command New-NetFirewallRule DisplayName Allow ICMPv4-In –Protocol ICMPv4 after its completion and the output indicating the command was successful.](../images/0303.png)
 
    **Note**: You will now switch to the RDP session to vm1 and try the ping again
 
