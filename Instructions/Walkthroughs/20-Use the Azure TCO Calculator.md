@@ -14,7 +14,7 @@ In this walkthrough, you will use the Total Cost of Ownership (TCO) Calculator t
 
 In this task, we will add infrastructure information to the calculator. 
 
-1. In a browser, navigate to the ]Total Cost of Ownership (TCO) Calculator](https://azure.microsoft.com/en-us/pricing/tco/calculator/) page.
+1. In a browser, navigate to the [Total Cost of Ownership (TCO) Calculator](https://azure.microsoft.com/en-us/pricing/tco/calculator/) page.
 
 2. To add details of your on-premises server infrastructure, click **+ Add server workload** in the **Define your workloads** pane.
 
