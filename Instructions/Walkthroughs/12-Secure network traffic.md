@@ -24,20 +24,20 @@ In this task, we will create a Windows Server 2019 Datacenter virtual machine.
     | Virtual machine name | **SimpleWinVM** |
     | Location | **(US) East US**|
     | Image | **Windows Server 2019 Datacenter**|
-    | Size | Standard D2s v3|
+    | Size | **Standard D2s v3**|
     | Administrator account username | **azureuser** |
     | Administrator account password | **Pa$$w0rd1234**|
     | Inbound port rules | **None**|
     | | |
 
-4. Switch to the Network tab, and configure the following setting:
+4. Switch to the **Networking** tab, and configure the following setting:
 
     | Settings | Values |
     | -- | -- |
     | NIC network security group | **None**|
     | | |
 
-5. Switch to the Management tab, and in its **Monitoring** section, select the following setting:
+5. Switch to the **Management** tab, and in its **Monitoring** section, select the following setting:
 
     | Settings | Values |
     | -- | -- |
@@ -99,7 +99,7 @@ In this task, we will allow RDP traffc to the virtual machine by configuring an 
     | Setting | Value |
     | -- | -- |
     | Source | **Any**|
-    | Source port ranges | * |
+    | Source port ranges | **\*** |
     | Destination | **Any** |
     | Destination port ranges | **3389** |
     | Protocol | **TCP** |
@@ -118,7 +118,7 @@ In this task, we will create a NSG outbound port rule that will deny Internet ac
 
 2. After the machine starts, open an **Internet Explorer** browser. 
 
-3. Verify that you can access https://www.bing.com and then close Internet Explorer. You will need to work through the IE enhanced security pop-ups. 
+3. Verify that you can access **https://www.bing.com** and then close Internet Explorer. You will need to work through the IE enhanced security pop-ups. 
 
     **Note**: We will now configure a rule to deny outbound internet access. 
 
@@ -133,11 +133,11 @@ In this task, we will create a NSG outbound port rule that will deny Internet ac
     | Setting | Value |
     | -- | -- |
     | Source | **Any**|
-    | Source port ranges | * |
+    | Source port ranges | **\*** |
     | Destination | **Service Tag** |
     | Destination service tag | **Internet** |
-    | Destination port ranges | * |
-    | Protocol | *TCP** |
+    | Destination port ranges | **\*** |
+    | Protocol | **TCP** |
     | Action | **Deny** |
     | Priority | **4000** |
     | Name | **DenyInternet** |
@@ -145,6 +145,6 @@ In this task, we will create a NSG outbound port rule that will deny Internet ac
 
 8. Return to your RDP session. 
 
-9. Browse to https://www.microsoft.com. The page should not display. You may need to work through additional IE enhanced security pop-ups.  
+9. Browse to **https://www.microsoft.com**. The page should not display. You may need to work through additional IE enhanced security pop-ups.  
 
 **Note**: To avoid additional costs, you can remove this resource group. Search for resource groups, click your resource group, and then click **Delete resource group**. Verify the name of the resource group and then click **Delete**. Monitor the **Notifications** to see how the delete is proceeding.
