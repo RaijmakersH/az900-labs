@@ -113,9 +113,9 @@ In this task, we will practice executing CLI commands from the Cloud Shell.
 
 # Task 4: Review Azure Advisor Recommendations
 
-In this task, we will review Azure Advisor recommendations. 
+In this task, we will review Azure Advisor recommendations.
 
-    **Note:** If you have completed the previous lab (Create a VM with PowerShell), then you have already performed this task. 
+   **Note:** If you have completed the previous lab (Create a VM with PowerShell), then you have already performed this task. 
 
 1. From the **All services** blade, search for and select **Advisor**. 
 
