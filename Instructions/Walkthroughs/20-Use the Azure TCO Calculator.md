@@ -29,7 +29,7 @@ In this task, we will add infrastructure information to the calculator.
     | Core(s) | **8**|
     | RAM (GB) | **16** |
     | Optimize by | **CPU** |
-    | Windows Server 2008/2008 R2 | *Off** |
+    | Windows Server 2008/2008 R2 | **Off** |
     | | |
 
 3. Select **+ Add server workload** to make a row for a new server workloads definition. 
@@ -45,7 +45,7 @@ In this task, we will add infrastructure information to the calculator.
     | Core(s) | **8**|
     | RAM (GB) | **16** |
     | Optimize by | **CPU** |
-    | Windows Server 2008/2008 R2 | *Off** |
+    | Windows Server 2008/2008 R2 | **Off** |
     | | |
 
 4. In the **Storage** pane, click **Add storage**.
