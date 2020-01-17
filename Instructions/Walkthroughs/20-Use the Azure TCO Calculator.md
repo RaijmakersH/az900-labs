@@ -14,7 +14,7 @@ In this walkthrough, you will use the Total Cost of Ownership (TCO) Calculator t
 
 In this task, we will add infrastructure information to the calculator. 
 
-1. In a browser, navigate to the ]Total Cost of Ownership (TCO) Calculator](https://azure.microsoft.com/en-us/pricing/tco/calculator/) page.
+1. In a browser, navigate to the [Total Cost of Ownership (TCO) Calculator](https://azure.microsoft.com/en-us/pricing/tco/calculator/) page.
 
 2. To add details of your on-premises server infrastructure, click **+ Add server workload** in the **Define your workloads** pane.
 
@@ -29,7 +29,7 @@ In this task, we will add infrastructure information to the calculator.
     | Core(s) | **8**|
     | RAM (GB) | **16** |
     | Optimize by | **CPU** |
-    | Windows Server 2008/2008 R2 | *Off** |
+    | Windows Server 2008/2008 R2 | **Off** |
     | | |
 
 3. Select **+ Add server workload** to make a row for a new server workloads definition. 
@@ -45,7 +45,7 @@ In this task, we will add infrastructure information to the calculator.
     | Core(s) | **8**|
     | RAM (GB) | **16** |
     | Optimize by | **CPU** |
-    | Windows Server 2008/2008 R2 | *Off** |
+    | Windows Server 2008/2008 R2 | **Off** |
     | | |
 
 4. In the **Storage** pane, click **Add storage**.
