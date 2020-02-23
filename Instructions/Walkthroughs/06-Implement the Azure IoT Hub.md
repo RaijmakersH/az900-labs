@@ -25,7 +25,7 @@ In this task, we will create an IoT hub.
     | IoT Hub Name | **my-hub-groupxxxx** |
     | | |	
 
-4. Move to the **Size and scale** tab, use the dropdown list to set the **Pricing and scale tier** to **F1 - Free tier**. Notice you will have a fixed number of messages per day. 
+4. Move to the **Size and scale** tab, use the dropdown list to set the **Pricing and scale tier** to **S1: Standard tier**. 
 
 5. Click the **Review + create** button.
 
