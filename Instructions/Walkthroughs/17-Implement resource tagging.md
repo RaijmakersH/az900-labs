@@ -23,7 +23,7 @@ In this task, we will configure the **Require a tag on resources** policy and as
 
    ![Screenshot of Available Definitions pane with Require a tag on resources selected.](../images/1701.png)
 
-6. On the **Assign policy** blade, in the **Parameters** tab, type in **Company** for the tag name. Cick **Review + create**, and then **Create**.
+6. On the **Assign policy** blade, in the **Parameters** tab, type in **Company** for the tag name. Click **Review + create**, and then **Create**.
 
     **Note:** This is a simple example to demonstrate tagging. 
 
@@ -51,7 +51,7 @@ In this task, we will create storage accounts to test the required tagging.
 
 3. Click **Review + create**. 
 
-**Note:** We are testing to see what happens when the tag is not supplied. 
+    **Note:** We are testing to see what happens when the tag is not supplied. 
 
 4. You will receive a Validation failed message. Click the **Click here to view details** message. On the **Errors** blade, on the **Summary** tab note the error message stating that resource was disallowed by Policy.
 
