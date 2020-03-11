@@ -9,7 +9,7 @@ In this walkthrough, we will create a policy assignment that requires tagging, c
 
 # Task 1: Create a Policy assignment
 
-In this task, we will configure the **Require specified tag on resources** policy and assign it to our subscription. 
+In this task, we will configure the **Require a tag on resources** policy and assign it to our subscription. 
 
 1. Sign in to the [Azure portal](https://portal.azure.com).
 
@@ -19,9 +19,9 @@ In this task, we will configure the **Require specified tag on resources** polic
 
 4. Notice the **Scope** for our policy will be subscription wide. 
 
-5. Select the **Policy definition** ellipsis button (end of the textbox on the right). **Search** for policy definitions including the value **tag**, in the result set, click on the  **Require specified tag on resources** definition, then click **Select**.
+5. Select the **Policy definition** ellipsis button (end of the textbox on the right). **Search** for policy definitions including the value **tag**, in the result set, click on the  **Require a tag on resources** definition, then click **Select**.
 
-   ![Screenshot of Available Definitions pane with Require specified tag selected.](../images/1701.png)
+   ![Screenshot of Available Definitions pane with Require a tag on resources selected.](../images/1701.png)
 
 6. On the **Assign policy** blade, in the **Parameters** tab, type in **Company** for the tag name. Cick **Review + create**, and then **Create**.
 
@@ -29,7 +29,7 @@ In this task, we will configure the **Require specified tag on resources** polic
 
     ![Screenshot of Assign policy pane with the Tag name filled out.](../images/1702.png)
 
-7. The **Require specified tag on resources** policy assignment is now in place. When a resource is created, it must include a tag with the Company key.
+7. The **Require a tag on resources** policy assignment is now in place. When a resource is created, it must include a tag with the Company key.
 
    ![Screenshot of Policy - Assignments pane with the allowed locations assignment highlighted.](../images/1703.png)
 
@@ -85,11 +85,11 @@ In this task, we will create storage accounts to test the required tagging.
 
 # Task 4: Delete the policy assignment
 
-In this task, we will remove the **Require specific tag on resources** policy so it does not affect our future work. 
+In this task, we will remove the **Require a tag on resources** policy so it does not affect our future work. 
 
 1. In the portal, from the **All services** blade, search for and select **Policy**.
 
-2. Click the **Require specified tag on resources** policy entry.
+2. Click the **Require a tag on resources** policy entry.
 
 3. Click **Delete Assignment** in the top menu.
 
