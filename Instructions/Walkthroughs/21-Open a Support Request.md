@@ -25,7 +25,8 @@ In this walkthrough, we will view available support plan options and then practi
     | Service | **All services**, **Virtual Machine running Linux** |
     | Resource | **General question** |
     | Summary | **Disk access is very slow for large files** |
-    | Problem type | **VM performance**, **Disk throughput is lower than expected** |
+    | Problem type | **VM performance** |
+    | Problem subtype | **Disk throughput is lower than expected** |    
     | | |
 
 5. Click **Next: Solutions >>** and read through the recommended solutions.
