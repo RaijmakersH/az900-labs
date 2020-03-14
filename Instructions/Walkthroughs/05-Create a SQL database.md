@@ -42,7 +42,7 @@ In this task, we will create a SQL database based on the AdventureWorksLT sample
     | Setting | Value | 
     | --- | --- |
     | Connectivity method | **Public endpoint** |    
-    | Allow Azure services to access server | **Yes** |
+    | Allow Azure services and resources to access this server | **Yes** |
     | Add current client IP address | **No** |
     | | |
     
