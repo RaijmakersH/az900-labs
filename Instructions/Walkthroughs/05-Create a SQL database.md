@@ -33,21 +33,31 @@ In this task, we will create a SQL database based on the AdventureWorksLT sample
     | Server admin login | **sqluser** |
     | Password | **Pa$$w0rd1234** |
     | Location | **(US) East US** |
-    | Allow Azure services to access server | **Check the box** |
     | | |
 
    ![Screenshot of the Server pane and the New Server pane with fields filled in as per the table and the Select button highlighted.](../images/0501.png)
 
-4. Move to the **Additional settings** tab. We will be using the AdventureWorksLT sample database.
+4. Move to the **Networking** tab and configure the following settings (leave others with their defaults) 
+
+    | Setting | Value | 
+    | --- | --- |
+    | Connectivity method | **Public endpoint** |    
+    | Allow Azure services to access server | **Yes** |
+    | Add current client IP address | **No** |
+    | | |
+    
+   ![Screenshot of the Networking tab of the Create SQL Database blade with settings selected as per the following table and the Review + create button highlighted.](../images/0501b.png)
+
+5. Move to the **Additional settings** tab. We will be using the AdventureWorksLT sample database.
 
     | Setting | Value | 
     | --- | --- |
     | Use existing data | **Sample** | 
     | | |
 
-5. Click **Review + create** and then click **Create** to deploy and provision the resource group, server, and database. It can take approx. 2 to 5 minutes to deploy.
+6. Click **Review + create** and then click **Create** to deploy and provision the resource group, server, and database. It can take approx. 2 to 5 minutes to deploy.
 
-6. Monitor your deployment. 
+7. Monitor your deployment. 
 
 # Task 2: Test the database.
 
