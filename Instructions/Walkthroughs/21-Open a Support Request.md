@@ -43,7 +43,8 @@ In this walkthrough, we will view available support plan options and then practi
     | Issue Type| **Billing** |
     | Subscription | **Choose your subscription** |
     | Summary | **Monthly charge is not correct** |
-    | Select problem type | **Pricing**, **Help me understand when I will be charged** |
+    | Problem type | **Pricing** |
+    | Problem subtype | **Help me understand when I will be charged** |    
     | | |
 
 2. Click **Next: Solutions** and read through the recommended solutions.
