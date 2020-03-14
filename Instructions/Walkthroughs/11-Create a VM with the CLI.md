@@ -53,18 +53,20 @@ In this task, we will install the Azure CLI on your local machine.
     az group list --output table
     ```
 
-6. Create a new virtual machine. Make sure that each line except for the last one is followed by the backslash (`\`) character. If you type the whole command on the same line, do not use any backslash characters. 
+6. Create a new virtual machine. Make sure that each line except for the last one is followed by the caret (`^`) character. If you type the whole command on the same line, do not use any backslash characters. 
 
     ```cli
-    az vm create \
-    --name myVMCLI \
-    --resource-group myRGCLI \
-    --image UbuntuLTS \
-    --location EastUS \
-    --admin-username azureuser \
+    az vm create ^
+    --name myVMCLI ^
+    --resource-group myRGCLI ^
+    --image UbuntuLTS ^
+    --location EastUS ^
+    --admin-username azureuser ^
     --admin-password Pa$$w0rd1234
     ```
 
+    **Note**: If you are using a Linux or macOS computer (or running the command via CloudShell), replace the caret (`^`) character with backslash (`\`)
+    
     **Note**: The command will take 2 to 3 minutes to complete. The command will create a virtual machine and various resources associated with it such as storage, networking and security resources. Do not continue to the next step until the virtual machine deployment is complete. 
 
 7. When the command finishes running, in the browser window, sign in to the [Azure portal](https://portal.azure.com).
