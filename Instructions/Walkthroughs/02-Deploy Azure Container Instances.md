@@ -24,9 +24,11 @@ In this task, we will create a new container instance for the web application.
 	| Resource group | **myRGContainer** (create new) |
 	| Container name| **mycontainer**|
 	| Region | **(US) East US** |
-	| Image Source| **Quickstart images**|
+	| Image source| **Docker Hub or other registry**|
+	| Image type| **Public**|
 	| Image| **microsoft/aci-helloworld**|
-	| OS Type| **Linux** |
+	| OS type| **Linux** |
+	| Size| ***Leave at the default***|
 	|||
 
 
