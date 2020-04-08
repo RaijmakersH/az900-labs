@@ -112,7 +112,7 @@ In this task, we will review Azure Advisor recommendations.
 
 5. Notice that you can create alerts. 
 
-6. If you have time, continue to experiment with Azure PowerShell. 
+6. If you have time, continue to experiment with Azure CLI. 
 
 Congratulations! You have configured Cloud Shell, created a virtual machine using Azure CLI, practiced with Azure CLI commands, and viewed Advisor recommendations.
 
