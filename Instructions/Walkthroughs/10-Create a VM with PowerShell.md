@@ -54,35 +54,35 @@ In this task, we will use PowerShell to create a resource group and a virtual ma
     -PublicIpAddressName "myPublicIpPS" `
     ```
 
-5. Sign in to the [Azure portal](https://portal.azure.com).
+5. Close the PowerShell session Cloud Shell pane.
 
-6. Search for **Virtual machines** and verify the **myVMPS** is running. This may take a few minutes.
+6. In the Azure portal, search for **Virtual machines** and verify the **myVMPS** is running. This may take a few minutes.
 
     ![Screenshot of the virtual machines page with myVMPS in a running state.](../images/1001.png)
 
 7. Access the new virtual machine and review the Overview and Networking settings to verify your information was correctly deployed. 
 
-8. Leave the PowerShell session open.
-
 # Task 3: Execute commands in the Cloud Shell
 
 In this task, we will practice executing PowerShell commands from the Cloud Shell. 
 
-1. Ensure **PowerShell** is selected in the upper-left drop-down menu of the Cloud Shell pane.
+1. From the Azure portal, open the **Azure Cloud Shell** by clicking on the icon in the top right of the Azure Portal.
 
-2. Retrieve information about your virtual machine including name, resource group, location, and status. Notice the PowerState is **running**.
+2. Ensure **PowerShell** is selected in the upper-left drop-down menu of the Cloud Shell pane.
+
+3. Retrieve information about your virtual machine including name, resource group, location, and status. Notice the PowerState is **running**.
 
     ```PowerShell
     Get-AzVM -name myVMPS -status | Format-Table -autosize
     ```
 
-3. Stop the virtual machine. When prompted confirm (Yes) to the action. 
+4. Stop the virtual machine. When prompted confirm (Yes) to the action. 
 
     ```PowerShell
     Stop-AzVM -ResourceGroupName myRGPS -Name myVMPS
     ```
 
-4. Verify your virtual machine state. The PowerState should now be **deallocated**. You can also verify the virtual machine status in the portal. 
+5. Verify your virtual machine state. The PowerState should now be **deallocated**. You can also verify the virtual machine status in the portal. 
 
     ```PowerShell
     Get-AzVM -name myVMPS -status | Format-Table -autosize
