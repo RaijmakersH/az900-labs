@@ -17,7 +17,7 @@ In this task, we will configure Cloud Shell.
 
     ![Screenshot of Azure Portal Azure Cloud Shell icon.](../images/1002.png)
 
-3. If you have previously used the Cloud Shell skip ahead to Step 6. 
+3. If you have previously used the Cloud Shell, proceed to the next task. 
 
 4. When prompted to select either **Bash** or **PowerShell**, select **PowerShell**. 
 
