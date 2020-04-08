@@ -5,47 +5,31 @@ wts:
 ---
 # 10 - Create a VM with PowerShell
 
-In this walk-through, we will install Azure PowerShell module, use it to create a resource group and virtual machine, configure and use the Cloud Shell, and review Azure Advisor recommendations. 
+In this walk-through, we will configure the Cloud Shell, use Azure PowerShell module to create a resource group and virtual machine, and review Azure Advisor recommendations. 
 
-# Task 1: Configure PowerShell locally
+# Task 1: Configure the Cloud Shell
 
-In this task, we will configure Azure PowerShell to run from your local machine. 
+In this task, we will configure Cloud Shell. 
 
-1. On your local machine, select the **Start** icon from the task bar. Type **PowerShell** and locate the **Windows PowerShell** entry. Right-click the entry and choose **Run as administrator**. Answer **Yes**, if prompted, to confirm. 
+1. Sign in to the [Azure portal](https://portal.azure.com).
 
-    **Note:** For Linux and macOS you can launch PowerShell Core with elevated privileges using the following command.
+2. From the Azure portal, open the **Azure Cloud Shell** by clicking on the icon in the top right of the Azure Portal.
 
-    ```bash
-    sudo pwsh
-    ```
+    ![Screenshot of Azure Portal Azure Cloud Shell icon.](../images/1002.png)
 
-2. At the PowerShell prompt, install the Azure PowerShell module. If prompted, answer **Yes to All** to trust the repository. It may take a couple of minutes to complete the install.
+3. If you have previously used the Cloud Shell skip ahead to Step 6. 
 
-    ```PowerShell
-    Install-Module Az -AllowClobber
-    ```
+4. When prompted to select either **Bash** or **PowerShell**, select **PowerShell**. 
 
-    **Note**: If prompted, Windows users should agree to install the *NuGet* provider, and agree to install modules from the *PowerShell Gallery* (PSGallery). If you receive script execution failures, run `Set-ExecutionPolicy RemoteSigned` in an elevated PowerShell session. 
-
-3. Get the latest Az module updates. 
-
-    ```PowerShell
-    Update-Module -Name Az
-    ```
-
-    **Note:** If prompted, answer **Yes to All** to trust updates to the Az module. If you already have the latest version of the Az module installed (as in this case), the prompt will be returned automatically.
+5. When prompted, click **Create storage**, and wait for the Azure Cloud Shell to initialize. 
 
 # Task 2: Create a resource group and virtual machine
 
 In this task, we will use PowerShell to create a resource group and a virtual machine.  
 
-1. From your local machine, connect to Azure and when prompted provide your Azure login credentials. Review the subscription and account information that is returned. 
+1. Ensure **PowerShell** is selected in the upper-left drop-down menu of the Cloud Shell pane.
 
-    ```PowerShell
-    Connect-AzAccount
-    ```
-
-2. Create a new resource group. 
+2. In the PowerShell session, within the Cloud Shell pane, create a new resource group. 
 
     ```PowerShell
     New-AzResourceGroup -Name myRGPS -Location EastUS
@@ -78,37 +62,27 @@ In this task, we will use PowerShell to create a resource group and a virtual ma
 
 7. Access the new virtual machine and review the Overview and Networking settings to verify your information was correctly deployed. 
 
-8. Close your local PowerShell session. 
+8. Leave the PowerShell session open.
 
 # Task 3: Execute commands in the Cloud Shell
 
 In this task, we will practice executing PowerShell commands from the Cloud Shell. 
 
-1. From the portal, open the **Azure Cloud Shell** by clicking on the icon in the top right of the Azure Portal.
+1. Ensure **PowerShell** is selected in the upper-left drop-down menu of the Cloud Shell pane.
 
-    ![Screenshot of Azure Portal Azure Cloud Shell icon.](../images/1002.png)
-
-2. If you have previously used the Cloud Shell skip ahead to Step 5. 
-
-3. When prompted to select either **Bash** or **PowerShell**, select **PowerShell**. 
-
-4. When prompted, click **Create storage**, and wait for the Azure Cloud Shell to initialize. 
-
-5. Ensure **PowerShell** is selected in the upper-left drop-down menu of the Cloud Shell pane.
-
-6. Retrieve information about your virtual machine including name, resource group, location, and status. Notice the PowerState is **running**.
+2. Retrieve information about your virtual machine including name, resource group, location, and status. Notice the PowerState is **running**.
 
     ```PowerShell
     Get-AzVM -name myVMPS -status | Format-Table -autosize
     ```
 
-7. Stop the virtual machine. When prompted confirm (Yes) to the action. 
+3. Stop the virtual machine. When prompted confirm (Yes) to the action. 
 
     ```PowerShell
     Stop-AzVM -ResourceGroupName myRGPS -Name myVMPS
     ```
 
-8. Verify your virtual machine state. The PowerState should now be **deallocated**. You can also verify the virtual machine status in the portal. 
+4. Verify your virtual machine state. The PowerState should now be **deallocated**. You can also verify the virtual machine status in the portal. 
 
     ```PowerShell
     Get-AzVM -name myVMPS -status | Format-Table -autosize
@@ -138,6 +112,6 @@ In this task, we will review Azure Advisor recommendations for our virtual machi
 
 6. If you have time, continue to experiment with Azure PowerShell. 
 
-Congratulations! You have installed PowerShell on your local machine, created a virtual machine using PowerShell, practiced with PowerShell commands, and viewed Advisor recommendations.
+Congratulations! You have configured Cloud Shell, created a virtual machine using PowerShell, practiced with PowerShell commands, and viewed Advisor recommendations.
 
 **Note**: To avoid additional costs, you can remove this resource group. Search for resource groups, click your resource group, and then click **Delete resource group**. Verify the name of the resource group and then click **Delete**. Monitor the **Notifications** to see how the delete is proceeding.
