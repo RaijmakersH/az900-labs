@@ -52,8 +52,12 @@ In this task, we will create a SQL database based on the AdventureWorksLT sample
 
     | Setting | Value | 
     | --- | --- |
-    | Use existing data | **Sample** | 
+    | Use existing data | **Sample** |
+    | Collation | ***use default*** |
+    | Enable advanced data security | **Not now** |
     | | |
+
+    ![Screenshot of the Additional settings tab of the Create SQL Database blade with settings selected as per the following table and the Review + create button highlighted.](../images/0501c.png)
 
 6. Click **Review + create** and then click **Create** to deploy and provision the resource group, server, and database. It can take approx. 2 to 5 minutes to deploy.
 
