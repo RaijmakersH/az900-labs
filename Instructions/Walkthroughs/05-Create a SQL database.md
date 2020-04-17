@@ -12,7 +12,7 @@ In this walkthrough, we will create a SQL database in Azure and then query the d
 
 In this task, we will create a SQL database based on the AdventureWorksLT sample database. 
 
-1. Sign in to the Azure portal at <a href="https://portal.azure.com" target="_blank"><span style="color: #0066cc;" color="#0066cc">https://portal.azure.com</span></a>
+1. Sign in to the Azure portal at [**https://portal.azure.com**](https://portal.azure.com).
 
 2. From the **All services** blade, search for and select **SQL databases**, and then click **+ Add**. 
 
