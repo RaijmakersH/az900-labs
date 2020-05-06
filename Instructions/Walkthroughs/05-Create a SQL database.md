@@ -80,11 +80,11 @@ In this task, we will configure the SQL server and run a SQL query.
 
     ![Screenshot of the Query Editor login page with IP address error.](../images/0503.png)
 
-5. From the **All services** blade, search for **SQL servers**, and select your SQL server. 
+5. From the **db1** blade, click **Overview**. 
 
     ![Screenshot of the SQL server page.](../images/0504.png)
 
-6. From the SQL server **Overview** blade, click **Show firewall settings**.
+6. From the SQL server **Overview** blade, click **Set server firewall**.
 
 7. Click **Add client IP** (top menu bar) to add the IP address referenced in the error. Be sure to **Save** your changes. 
 
