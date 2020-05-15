@@ -71,11 +71,9 @@ In this task, we will use the Webhook + API function to display a message when t
 
     ![Screenshot of a highlighted function URL and an appended example user name in the address bar of a web browser. The hello message and user name are also highlighted to illustrate the output of the function in the main browser window.](../images/0707.png)
 
-1. When your function runs, trace information is written to log files in Azure. To view the logs in Azure portal, return to the **HttpTrigger1 | Code + Test** blade, click **Monitor** and then click **Logs**.
+1. When your function runs, every invocation is traced. To view the traces in Azure portal, return to the **HttpTrigger1 | Code + Test** blade and click **Monitor**.
 
     ![Screenshot of a trace information log resulting from running the function inside the function editor in Azure portal.](../images/0709.png) 
-
-    **Note**: If no log information was collected, retun to the browser tab where you pasted the function app URL, refresh the page and then return to the Logs view.
 
 Congratulations! You have created a Function App to display a Hello message when there is an HTTP request. 
 
