@@ -69,7 +69,7 @@ In this task, we will use the Webhook + API function to display a message when t
 
     ![Screenshot of the please provide a name message.](../images/0706.png)
 
-1. Append **\&name=*yourname*** to the end of the URL.
+1. Append **&name=*yourname*** to the end of the URL.
 
     **Note**: Replace ***yourname*** with your first name. For example, if your name is Cindy, the final URL will resemble the following `https://azfuncxxx.azurewebsites.net/api/HttpTrigger1?code=X9xx9999xXXXXX9x9xxxXX==&name=cindy`
 
