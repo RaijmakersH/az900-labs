@@ -45,13 +45,17 @@ In this task, we will use the Webhook + API function to display a message when t
 
     ![Screenshot of the choose a development environment step in the azure functions for dot net getting started pane inside Azure portal. The display elements for creating a new in-portal function are highlighted. The highlighted elements are expand the function app, add new function, in-portal, and the continue button.](../images/0702.png)
 
-1. On the **New Function** blade, click **HTTP trigger** and, on the **New Function** blade, click **Create Function**. 
+1. On the **Templates** tab of the **New Function** blade, click **HTTP trigger**. 
+
+    ![Screenshot of the create a function step in the azure functions for dot net getting started pane inside Azure portal. The HTTP trigger card is highlighted to illustrate the display elements used to add a new webhook to an Azure function.](../images/0702a.png)
+
+1. On the **Details** tab of the **New Function** blade, accept the default **New Function** name and **Authorization level**, and then click **Create Function**. 
 
     ![Screenshot of the create a function step in the azure functions for dot net getting started pane inside Azure portal. The webhook + api button and create button are highlighted to illustrate the display elements used to add a new webhook to an Azure function.](../images/0703.png)
 
 1. On the **HttpTrigger1** blade, in the **Developer** section, click **Code + Test**. 
 
-1. On the **HttpTrigger1 | Code + Test** blade, review the auto-generated code and note that the code is designed to run an HTTP request and log information. Also, notice the function returns a Hello message with a name. 
+1. On the **HttpTrigger1 \| Code + Test** blade, review the auto-generated code and note that the code is designed to run an HTTP request and log information. Also, notice the function returns a Hello message with a name. 
 
     ![Screenshot of the function code. The Hello message is hightlighted.](../images/0704.png)
 
@@ -65,13 +69,13 @@ In this task, we will use the Webhook + API function to display a message when t
 
     ![Screenshot of the please provide a name message.](../images/0706.png)
 
-1. Append **&name=yourname** to the end of the URL.
+1. Append **\&name=*yourname*** to the end of the URL.
 
-    **Note**: Replace **yourname** with your first name. For example, if your name is Cindy, the final URL will resemble the following `https://azfuncxxx.azurewebsites.net/api/HttpTrigger1?code=X9xx9999xXXXXX9x9xxxXX==&name=cindy`
+    **Note**: Replace ***yourname*** with your first name. For example, if your name is Cindy, the final URL will resemble the following `https://azfuncxxx.azurewebsites.net/api/HttpTrigger1?code=X9xx9999xXXXXX9x9xxxXX==&name=cindy`
 
     ![Screenshot of a highlighted function URL and an appended example user name in the address bar of a web browser. The hello message and user name are also highlighted to illustrate the output of the function in the main browser window.](../images/0707.png)
 
-1. When your function runs, every invocation is traced. To view the traces in Azure portal, return to the **HttpTrigger1 | Code + Test** blade and click **Monitor**.
+1. When your function runs, every invocation is traced. To view the traces in Azure portal, return to the **HttpTrigger1 \| Code + Test** blade and click **Monitor**.
 
     ![Screenshot of a trace information log resulting from running the function inside the function editor in Azure portal.](../images/0709.png) 
 
