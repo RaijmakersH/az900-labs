@@ -75,7 +75,7 @@ In this task, we will use the Webhook + API function to display a message when t
 
     ![Screenshot of a highlighted function URL and an appended example user name in the address bar of a web browser. The hello message and user name are also highlighted to illustrate the output of the function in the main browser window.](../images/0707.png)
 
-1. When your function runs, every invocation is traced. To view the traces in Azure portal, return to the **HttpTrigger1 | Code + Test** blade and click **Monitor**.
+1. When your function runs, every invocation is traced. To view the traces in Azure portal, return to the **HttpTrigger1 \| Code + Test** blade and click **Monitor**.
 
     ![Screenshot of a trace information log resulting from running the function inside the function editor in Azure portal.](../images/0709.png) 
 
