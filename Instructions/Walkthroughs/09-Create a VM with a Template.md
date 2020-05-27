@@ -25,11 +25,11 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
 
 5. If prompted, sign in to the Azure subscription you want to use in this lab.
 
-6. Click **Edit template**. The Resource Manager template format uses the JSON format. Review the variables and locate the virtual machine name. Change the name to **myVMTemplate**. **Save** your changes.
+6. Click **Edit template**. The Resource Manager template format uses the JSON format. Review the variables and locate the virtual machine name. Change the name to **myVMTemplate**. **Save** your changes. You are returned to the **Custom deployment** blade in the Azure portal.
 
     ![Screenshot of the template with the VM name change highlilghted.](../images/0901.png)
 
-7. Configure the template parameters (replace **xxxx** in the DNS label prefix with letters and digits such that the label is globally unique). Leave the defaults for everything else. 
+7. On the **Custom deployment** blade configure the template parameters (replace ***xxxx*** in the DNS label prefix with letters and digits such that the label is globally unique). Leave the defaults for everything else. 
 
     | Setting| Value|
     |----|----|
@@ -38,7 +38,7 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
     | Location | **(US) East US** |
     | Admin username | **azureuser** |
     | Admin password | **Pa$$w0rd1234** |
-    | DNS label prefix | **myvmtemplatexxxx** |
+    | DNS label prefix | **myvmtemplate*xxxx*** |
     | Windows OS version | **2019-Datacenter** |
     | | |
 
