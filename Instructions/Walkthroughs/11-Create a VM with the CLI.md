@@ -29,6 +29,8 @@ In this task, we will use Azure CLI to create a resource group and a virtual mac
 
 1. Ensure **Bash** is selected in the upper-left drop-down menu of the Cloud Shell pane (and if not, select it).
 
+    ![Screenshot of Azure Portal Azure Cloud Shell with the Bash dropdown highlighted.](../images/1002a.png)
+
 2. In the Bash session, within the Cloud Shell pane, create a new resource group. 
 
     ```cli
