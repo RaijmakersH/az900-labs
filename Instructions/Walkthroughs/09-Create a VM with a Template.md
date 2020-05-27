@@ -29,7 +29,7 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
 
     ![Screenshot of the template with the VM name change highlilghted.](../images/0901.png)
 
-7. On the **Custom deployment** blade configure the template parameters (replace ***xxxx*** in the DNS label prefix with letters and digits such that the label is globally unique). Leave the defaults for everything else. 
+7. On the **Custom deployment** blade configure the parameters required by the template (replace ***xxxx*** in the DNS label prefix with letters and digits such that the label is globally unique). Leave the defaults for everything else. 
 
     | Setting| Value|
     |----|----|
