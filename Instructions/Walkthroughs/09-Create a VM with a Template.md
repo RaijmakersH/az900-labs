@@ -42,7 +42,7 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
     | Windows OS version | **2019-Datacenter** |
     | | |
 
-8. Check the box **I agree to the terms and conditions stated above** and then click **Purchase**.
+8. Click **Review + Create**.
 
     **Note**: There is no cost associated with this template.
 
