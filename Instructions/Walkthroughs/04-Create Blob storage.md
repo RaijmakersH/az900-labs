@@ -76,7 +76,7 @@ In this task, we will create a Blob container and upload a blob file.
 
 3. On the storage account blade, scroll down to the **Monitoring** section and click **Insights**. Notice there is information on Failures, Performance, Availability, and Capacity. Your information will be different.
 
-    ![Screenshot of the storage account Insights page.](../images/0403.png)
+    ![Screenshot of the storage account Insights page.](../images/0403.PNG)
 
 Congratulations! You have created a storage account, then worked with storage blobs.
 
