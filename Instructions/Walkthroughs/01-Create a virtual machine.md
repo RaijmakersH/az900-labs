@@ -25,14 +25,14 @@ In this task, we will create a Windows Server 2019 Datacenter - Gen1 virtual mac
     | Resource group | **myRGVM** (create new) |
     | Virtual machine name | **myVm** |
     | Location | **(US) East US**|
-    | Image | **Windows Server 2019 Datacenter**|
+    | Image | **Windows Server 2019 Datacenter - Gen1**|
     | Size | Standard D2s v3|
     | Administrator account username | **azureuser** |
     | Administrator account password | **Pa$$w0rd1234**|
     | Inbound port rules - Allow select ports | **RDP (3389)** and **HTTP (80)**|
     | | |
 
-4. Switch to the Networking tab, and look for the **Select inboud ports**:
+4. Switch to the Networking tab, and look for the **Select inbound ports**:
 
     | Settings | Values |
     | -- | -- |
