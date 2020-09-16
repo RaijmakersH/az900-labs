@@ -11,11 +11,11 @@ In this walkthrough, we will create a virtual machine in the Azure portal, conne
 
 # Task 1: Create the virtual machine
 
-In this task, we will create a Windows Server 2019 Datacenter virtual machine. 
+In this task, we will create a Windows Server 2019 Datacenter - Gen1 virtual machine. 
 
-1. Sign in to the [Azure portal](https://portal.azure.com).
+1. Sign in to the [Azure portal (https://portal.azure.com)](https://portal.azure.com?azure-portal=true).
 
-2. From the **All services** blade, search for and select **Virtual machines**, then click **+ Add**, and finally click **+ Virtual Machine**.
+2. From the **All services** blade, search for and select **Virtual machines**, and then click **+ Add** and choose **+Virtual machine**.
 
 3. On the **Basics** tab, fill in the following information (leave the defaults for everything else):
 
@@ -32,18 +32,25 @@ In this task, we will create a Windows Server 2019 Datacenter virtual machine.
     | Inbound port rules - Allow select ports | **RDP (3389)** and **HTTP (80)**|
     | | |
 
-4. Switch to the Management tab, and in its **Monitoring** section, select the following setting:
+4. Switch to the Networking tab, and look for the **Select inboud ports**:
 
     | Settings | Values |
     | -- | -- |
-    | Boot diagnostics | **Off**|
+    | Select inbound ports | **HTTP (80), RDP (3389)**|
     | | |
 
-5. Leave the remaining defaults and then click the **Review + create** button at the bottom of the page.
+5. Switch to the Management tab, and in its **Monitoring** section, select the following setting:
 
-6. Once Validation is passed click the **Create** button. It can take anywhere from five to seven minutes to deploy the virtual machine.
+    | Settings | Values |
+    | -- | -- |
+    | Boot diagnostics | **Disable**|
+    | | |
 
-7. You will receive updates on the deployment page and via the **Notifications** area (the bell icon in the top menu).
+6. Leave the remaining defaults and then click the **Review + create** button at the bottom of the page.
+
+7. Once Validation is passed click the **Create** button. It can take anywhere from five to seven minutes to deploy the virtual machine.
+
+8. You will receive updates on the deployment page and via the **Notifications** area (the bell icon in the top menu).
 
 # Task 2: Connect to the virtual machine
 
@@ -53,7 +60,7 @@ In this task, we will connect to our new virtual machine using RDP.
 
     **Note**: You could also use the **Go to resource** link on the deployment page or the link to the resource in the **Notification** area.
 
-2. On the virtual machine **Overview** blade, click the **Connect** button.
+2. On the virtual machine **Overview** blade, click the **Connect** button and choose **RDP**.
 
     ![Screenshot of the virtual machine properties with the Connect button highlighted.](../images/0101.png)
 
