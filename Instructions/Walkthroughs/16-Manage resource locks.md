@@ -72,7 +72,7 @@ In this task, we will test if the resource lock protects a storage account in th
 
 4. Once validated, click **Create**. Wait for the notification that the account was successfully created. 
 
-5.  Wait for the notification that the stroage account was successfully created. 
+5.  Wait for the notification that the storage account was successfully created. 
 
 6. Access your new storage account and from the **Overview** pane, click **Delete**. You receive an error message stating the resource or its parent has a delete lock. 
 

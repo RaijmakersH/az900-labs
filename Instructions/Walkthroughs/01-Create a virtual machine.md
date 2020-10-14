@@ -51,6 +51,7 @@ In this task, we will create a Windows Server 2019 Datacenter - Gen1 virtual mac
 7. Once Validation is passed click the **Create** button. It can take anywhere from five to seven minutes to deploy the virtual machine.
 
 8. You will receive updates on the deployment page and via the **Notifications** area (the bell icon in the top menu).
+* Verify Port 80 was opened 
 
 # Task 2: Connect to the virtual machine
 
