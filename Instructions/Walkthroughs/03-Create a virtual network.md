@@ -27,7 +27,8 @@ In this task, we will create a virtual network.
     | Subnet - Name | **default** |
     | Subnet Address range | **10.1.0.0/24** |
 
-    ![Screenshot of the Create virtual network blade with the default fields.](../images/0301.png)
+    ![Screenshot of the "Basic" step of Create virtual network blade with the default fields.](../images/0301a.png)
+    ![Screenshot of the "IP Addresses" step of Create virtual network blade with the default fields.](../images/0301b.png)
 
 5. Click the **Review + create** button. Ensure the validation passes.
 
