@@ -70,7 +70,7 @@ In this task, we will create a Blob container and upload a blob file.
 
 # Task 3: Monitor the storage account
 
-1. If neeeded, return to the storage account blade and click **Diagnose and solve problems**. 
+1. If needed, return to the storage account blade and click **Diagnose and solve problems**. 
 
 2. Explore some of the most common storage problems. Notice there are multiple troubleshooter.
 
