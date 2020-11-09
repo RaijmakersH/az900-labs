@@ -41,7 +41,7 @@ In this task, we will create a Windows Server 2019 Datacenter virtual machine.
 
     | Settings | Values |
     | -- | -- |
-    | Boot diagnostics | **Off**|
+    | Boot diagnostics | **Disable**|
     | | |
 
 6. Leave the remaining defaults and then click the **Review + create** button at the bottom of the page.
