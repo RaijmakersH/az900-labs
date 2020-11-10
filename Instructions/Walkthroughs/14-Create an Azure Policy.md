@@ -1,7 +1,7 @@
 ---
 wts:
     title: '17 - Create an Azure Policy'
-    module: 'Module 5: Describe identity, governance, privacy, and compliance features'
+    module: 'Module 05: Describe identity, governance, privacy, and compliance features'
 ---
 # 17 - Create an Azure Policy
 
