@@ -1,9 +1,9 @@
 ---
 wts:
-    title: '14 - Create an Azure Policy'
-    module: 'Module 03 - Security, Privacy, Compliance and Trust'
+    title: '17 - Create an Azure Policy'
+    module: 'Module 5: Describe identity, governance, privacy, and compliance features'
 ---
-# 14 - Create an Azure Policy
+# 17 - Create an Azure Policy
 
 In this walkthrough, we will create an Azure Policy to restrict deployment of Azure resources to a specific location.
 
