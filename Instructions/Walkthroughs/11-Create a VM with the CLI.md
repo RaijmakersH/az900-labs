@@ -1,7 +1,7 @@
 ---
 wts:
     title: '11 - Create a VM with the CLI'
-    module: 'Module 3: Describe core solutions and management tools'
+    module: 'Module 03: Describe core solutions and management tools'
 ---
 # 11 - Create a VM with the CLI
 
