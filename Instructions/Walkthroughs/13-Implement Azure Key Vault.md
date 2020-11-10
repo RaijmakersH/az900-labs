@@ -1,7 +1,7 @@
 ---
 wts:
     title: '12 - Implement Azure Key Vault'
-    module: 'Module 4: Describe general security and network security features'
+    module: 'Module 04: Describe general security and network security features'
 ---
 # 12 - Implement Azure Key Vault
 
