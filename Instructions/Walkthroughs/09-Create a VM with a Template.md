@@ -1,7 +1,7 @@
 ---
 wts:
     title: '09 - Create a VM with a Template'
-    module: 'Module 3: Describe core solutions and management tools'
+    module: 'Module 03: Describe core solutions and management tools'
 ---
 # 09 - Create a VM with a Template
 
