@@ -1,9 +1,9 @@
 ---
 wts:
-    title: '04 - Create blob storage'
-    module: 'Module 02 - Core Azure Services'
+    title: '05 - Create blob storage'
+    module: 'Module 02 - Core Azure Services (Workloads)'
 ---
-# 04 - Create blob storage
+# 05 - Create blob storage
 
 In this walkthrough, we will create a storage account, then work with blob storage files.
 
