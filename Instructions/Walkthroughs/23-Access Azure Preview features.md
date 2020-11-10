@@ -1,7 +1,7 @@
 ---
 wts:
     title: '23 - Access Azure Preview features'
-    module: 'Module 04 - Azure Pricing and Support'
+    module: 'Not currently utilized'
 ---
 
 # 23 - Access Azure Preview features
