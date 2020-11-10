@@ -1,7 +1,7 @@
 ---
 wts:
     title: '13 - Secure network traffic'
-    module: 'Module 4: Describe general security and network security features'
+    module: 'Module 04: Describe general security and network security features'
 ---
 # 13 - Secure network traffic
 
