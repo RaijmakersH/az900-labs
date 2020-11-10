@@ -1,9 +1,9 @@
 ---
 wts:
-    title: '15 - Manage access with RBAC'
-    module: 'Module 03 - Security, Privacy, Compliance and Trust'
+    title: '14 - Manage access with RBAC'
+    module: 'Module 05: Describe identity, governance, privacy, and compliance features'
 ---
-# 15 - Manage access with RBAC
+# 14 - Manage access with RBAC
 
 In this walkthrough, we will assign roles and view activity logs. 
 

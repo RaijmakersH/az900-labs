@@ -1,9 +1,9 @@
 ---
 wts:
-    title: '21 - Open a Support Request'
+    title: '22 - Open a Support Request'
     module: 'Module 04 - Azure Pricing and Support'
 ---
-# 21 - Open a Support Request
+# 22 - Open a Support Request
 
 
 In this walkthrough, we will view available support plan options and then practice creating and monitoring a new support request.

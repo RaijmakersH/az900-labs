@@ -1,9 +1,9 @@
 ---
 wts:
-    title: '16 - Manage resource locks'
-    module: 'Module 03 - Security, Privacy, Compliance and Trust'
+    title: '15 - Manage resource locks'
+    module: 'Module 05: Describe identity, governance, privacy, and compliance features'
 ---
-# 16 - Manage resource locks
+# 15 - Manage resource locks
 
 In this walkthrough, we will create a resource group, add a lock to resource group and test deletion, test deleting a resource in the resource group, and remove the resource lock. 
 

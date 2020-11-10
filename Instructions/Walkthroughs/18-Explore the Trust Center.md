@@ -1,7 +1,7 @@
 ---
 wts:
     title: '18 - Explore the Trust Center'
-    module: 'Module 03-Security, Privacy, Compliance and Trust'
+    module: 'Module 05: Describe identity, governance, privacy, and compliance features'
 ---
 # 18 - Explore the Trust Center
 
