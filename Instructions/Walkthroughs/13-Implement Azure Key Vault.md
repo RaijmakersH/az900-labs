@@ -1,7 +1,7 @@
 ---
 wts:
     title: '13 - Implement Azure Key Vault'
-    module: 'Module 03 - Security, Privacy, Compliance and Trust'
+    module: 'Module 4: Describe general security and network security features'
 ---
 # 13 - Implement Azure Key Vault
 
