@@ -1,7 +1,7 @@
 ---
 wts:
     title: '20 - Use the Azure TCO Calculator'
-    module: 'Module 04 - Azure Pricing and Support'
+    module: 'Module 06: Describe Azure cost management and service level agreements'
 ---
 # 20 - Use the Azure TCO Calculator
 

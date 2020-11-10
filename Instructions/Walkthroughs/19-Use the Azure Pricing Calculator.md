@@ -1,7 +1,7 @@
 ---
 wts:
     title: '19 - Use the Azure Pricing Calculator'
-    module: 'Module 04 - Azure Pricing and Support'
+    module: 'Module 06: Describe Azure cost management and service level agreements'
 ---
 # 19 - Use the Pricing Calculator
 
