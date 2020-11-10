@@ -1,7 +1,7 @@
 ---
 wts:
     title: '07 - Implement an Azure IoT Hub'
-    module: 'Module 3: Describe core solutions and management tools'
+    module: 'Module 03: Describe core solutions and management tools'
 ---
 # 07 - Implement an Azure IoT Hub
 
