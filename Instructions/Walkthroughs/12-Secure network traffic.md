@@ -1,9 +1,9 @@
 ---
 wts:
-    title: '12 - Secure network traffic'
-    module: 'Module 03 - Security, Privacy, Compliance and Trust'
+    title: '13 - Secure network traffic'
+    module: 'Module 04: Describe general security and network security features'
 ---
-# 12 - Secure network traffic
+# 13 - Secure network traffic
 
 In this walk-through, we will configure a network security group.
 
@@ -41,7 +41,7 @@ In this task, we will create a Windows Server 2019 Datacenter virtual machine.
 
     | Settings | Values |
     | -- | -- |
-    | Boot diagnostics | **Off**|
+    | Boot diagnostics | **Disable**|
     | | |
 
 6. Leave the remaining defaults and then click the **Review + create** button at the bottom of the page.

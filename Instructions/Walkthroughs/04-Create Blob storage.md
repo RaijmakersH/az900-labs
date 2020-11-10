@@ -1,9 +1,9 @@
 ---
 wts:
-    title: '04 - Create blob storage'
-    module: 'Module 02 - Core Azure Services'
+    title: '05 - Create blob storage'
+    module: 'Module 02 - Core Azure Services (Workloads)'
 ---
-# 04 - Create blob storage
+# 05 - Create blob storage
 
 In this walkthrough, we will create a storage account, then work with blob storage files.
 
@@ -70,7 +70,7 @@ In this task, we will create a Blob container and upload a blob file.
 
 # Task 3: Monitor the storage account
 
-1. If neeeded, return to the storage account blade and click **Diagnose and solve problems**. 
+1. If needed, return to the storage account blade and click **Diagnose and solve problems**. 
 
 2. Explore some of the most common storage problems. Notice there are multiple troubleshooter.
 

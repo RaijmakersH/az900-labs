@@ -1,7 +1,7 @@
 ---
 wts:
     title: '09 - Create a VM with a Template'
-    module: 'Module 02 - Core Azure Services'
+    module: 'Module 03: Describe core solutions and management tools'
 ---
 # 09 - Create a VM with a Template
 
@@ -17,7 +17,7 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
 
     **Note**: Are there are any templates that are of interest to you?
 
-3. Search for or directly access the [Deploy a simple Windows VM](https://azure.microsoft.com/resources/templates/101-vm-simple-windows?azure-portal=true) template.
+3. Search for or directly access the [Deploy a Virtual Machine ](https://azure.microsoft.com/resources/templates/101-vm-simple-windows?azure-portal=true) template.
 
     **Note**: The **Deploy to Azure** button enables you to deploy the template via the Azure portal. During such deployment, you will be prompted only for small set of configuration parameters. 
 
@@ -25,7 +25,7 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
 
 5. If prompted, sign in to the Azure subscription you want to use in this lab.
 
-6. Click **Edit template**. The Resource Manager template format uses the JSON format. Review the variables and locate the virtual machine name. Change the name to **myVMTemplate**. **Save** your changes. You are returned to the **Custom deployment** blade in the Azure portal.
+6. Click **Edit template**. The Resource Manager template format uses the JSON format. Review the parameters and variables.  Then locate the parameter for virtual machine name. Change the name to **myVMTemplate**. **Save** your changes. You are returned to the **Custom deployment** blade in the Azure portal.
 
     ![Screenshot of the template with the VM name change highlilghted.](../images/0901.png)
 
@@ -42,11 +42,11 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
     | Windows OS version | **2019-Datacenter** |
     | | |
 
-8. Click **Review + Create**.
+8. Check the box "I agree to the terms and conditions stated above and then click Purchase. 
+** Note: There is no cost associated with this template.
+9. Click **Review + Create**.
 
-    **Note**: There is no cost associated with this template.
-
-9. Monitor your deployment. 
+10. Monitor your deployment. 
 
 # Task 2: Verify and monitor your virtual machine deployment
 
@@ -66,7 +66,7 @@ In this task, we will verify the virtual machine deployed correctly.
 
     ![Screenshot of the virtual machine monitoring charts.](../images/0903.png)
 
-5. Click on any chart. Note that you can **Add metric** and change the chart type. As you have time, experiment. 
+5. Click on any chart. Note that you can **Add metric** and change the chart type. If you have time, experiment. 
 
 6. Return to the **Overview** blade.
 

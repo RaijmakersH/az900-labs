@@ -1,10 +1,10 @@
 ---
 wts:
-    title: '05 - Create a SQL database'
-    module: 'Module 02 - Core Azure Services'
+    title: '06 - Create a SQL database'
+    module: 'Module 02 - Core Azure Services (Workloads)'
 ---
 
-# 05 - Create a SQL database
+# 06 - Create a SQL database
 
 In this walkthrough, we will create a SQL database in Azure and then query the data in that database.
 
