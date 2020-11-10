@@ -1,7 +1,7 @@
 ---
 wts:
     title: '02 - Deploy Azure Container Instances'
-    module: 'Module 02 - Core Azure Services'
+    module: 'Module 02 - Core Azure Services (Workloads)'
 ---
 
 # 02 - Deploy Azure Container Instances
