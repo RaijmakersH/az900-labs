@@ -1,9 +1,9 @@
 ---
 wts:
-    title: '10 - Create a VM with a Template'
+    title: '09 - Create a VM with a Template'
     module: 'Module 3: Describe core solutions and management tools'
 ---
-# 10 - Create a VM with a Template
+# 09 - Create a VM with a Template
 
 In this walkthrough, we will deploy a virtual machine with a QuickStart template and examine monitoring capabilities.
 
