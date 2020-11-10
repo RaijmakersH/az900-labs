@@ -1,7 +1,7 @@
 ---
 wts:
     title: '08 - Implement Azure Functions'
-    module: 'Module 3: Describe core solutions and management tools'
+    module: 'Module 03: Describe core solutions and management tools'
 ---
 # 08 - Implement Azure Functions
 
