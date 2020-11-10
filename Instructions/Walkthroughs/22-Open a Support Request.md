@@ -1,7 +1,7 @@
 ---
 wts:
     title: '22 - Open a Support Request'
-    module: 'Module 04 - Azure Pricing and Support'
+    module: 'Not currently utilized'
 ---
 # 22 - Open a Support Request
 
