@@ -19,7 +19,7 @@ In this task, we will configure Cloud Shell.
 
 3. If you have previously used the Cloud Shell, proceed to the next task. 
 
-4. When prompted to select either **Bash** or **PowerShell**, select **PowerShell**. 
+4. When prompted to select either **Bash** or **PowerShell**, select **PowerShell**.
 
 5. When prompted, click **Create storage**, and wait for the Azure Cloud Shell to initialize. 
 

@@ -59,6 +59,8 @@ In this task, we will create storage accounts to test the required tagging.
 
     ![Screenshot of disallowed due to policy error.](../images/1704.png)
 
+    **Note - you need to wait 30 minutes for tagging to be complete.** 
+
 5. Close the **Error** pane and click **Previous** (bottom of the screen). Provide the tagging information. 
 
     | Setting | Value | 

@@ -41,9 +41,9 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
     | DNS label prefix | **myvmtemplate*xxxx*** |
     | Windows OS version | **2019-Datacenter** |
     | | |
+    
+    ** Note: There is no cost associated with this template.
 
-8. Check the box "I agree to the terms and conditions stated above and then click Purchase. 
-** Note: There is no cost associated with this template.
 9. Click **Review + Create**.
 
 10. Monitor your deployment. 
@@ -66,7 +66,7 @@ In this task, we will verify the virtual machine deployed correctly.
 
     ![Screenshot of the virtual machine monitoring charts.](../images/0903.png)
 
-5. Click on any chart. Note that you can **Add metric** and change the chart type. If you have time, experiment. 
+5. Click on any chart. Note that you can **Add metric** and change the chart type.
 
 6. Return to the **Overview** blade.
 
