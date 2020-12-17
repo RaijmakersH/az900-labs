@@ -9,7 +9,7 @@ In this walkthrough, we will create a virtual machine in the Azure portal, conne
 
 **Note**: Take time during this walk-through to click and read the Informational icons. 
 
-# Task 1: Create the virtual machine
+# Task 1: Create the virtual machine (10 min)
 
 In this task, we will create a Windows Server 2019 Datacenter - Gen1 virtual machine. 
 

@@ -1,6 +1,6 @@
 ---
 wts:
-    title: '06 - Create a SQL database'
+    title: '06 - Create a SQL database (5 min)'
     module: 'Module 02 - Core Azure Services (Workloads)'
 ---
 
@@ -8,7 +8,7 @@ wts:
 
 In this walkthrough, we will create a SQL database in Azure and then query the data in that database.
 
-# Task 1: Create the database
+# Task 1: Create the database (5 min)
 
 In this task, we will create a SQL database based on the AdventureWorksLT sample database. 
 

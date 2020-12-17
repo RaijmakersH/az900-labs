@@ -1,13 +1,13 @@
 ---
 wts:
-    title: '02 - Create a Web App'
+    title: '02 - Create a Web App (10 min)'
     module: 'Module 02 - Core Azure Services (Workloads)'
 ---
 # 02 - Create a Web App
 
 In this walkthrough, we will create a new web app that runs a Docker container. The container displays a Welcome message. 
 
-# Task 1: Create a Web App
+# Task 1: Create a Web App (10 min)
 
 Azure App Service is actually a collection of four services, all of which are built to help you host and run web applications. The four services (Web Apps, Mobile Apps, API Apps, and Logic Apps) look different, but in the end they all operate in very similar ways. Web Apps are the most commonly used of the four services, and this is the service that we will be using in this lab.
 

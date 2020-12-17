@@ -1,13 +1,13 @@
 ---
 wts:
-    title: '13 - Secure network traffic'
+    title: '13 - Secure network traffic (10 min)'
     module: 'Module 04: Describe general security and network security features'
 ---
 # 13 - Secure network traffic
 
 In this walk-through, we will configure a network security group.
 
-# Task 1: Create a virtual machine
+# Task 1: Create a virtual machine (10 min)
 
 In this task, we will create a Windows Server 2019 Datacenter virtual machine. 
 

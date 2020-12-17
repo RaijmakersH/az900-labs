@@ -1,6 +1,6 @@
 ---
 wts:
-    title: '20 - Use the Azure TCO Calculator'
+    title: '20 - Use the Azure TCO Calculator (10 min)'
     module: 'Module 06: Describe Azure cost management and service level agreements'
 ---
 # 20 - Use the Azure TCO Calculator
@@ -10,7 +10,7 @@ In this walkthrough, you will use the Total Cost of Ownership (TCO) Calculator t
 
 **Note**: This walkthrough provides example definitions of on-premises infrastructure and workloads for a typical datacenter. To create a TCO Calculator report, use the example definitions or provide details of your *actual* on-premises infrastructure and workloads.
 
-# Task 1: Configure the TCO calculator
+# Task 1: Configure the TCO calculator (10 min)
 
 In this task, we will add infrastructure information to the calculator. 
 

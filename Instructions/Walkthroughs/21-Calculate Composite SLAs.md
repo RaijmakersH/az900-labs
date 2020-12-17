@@ -1,10 +1,9 @@
 ---
 wts:
-    title: '21 - Calculate Composite SLAs'
+    title: '21 - Calculate Composite SLAs (5 min)'
     module: 'Module 06: Describe Azure cost management and service level agreements'
 ---
 # 21 - Calculate Composite SLAs
-
 
 In this walkthrough, we will determine availability SLA of Azure services and then calculate application composite SLA-based expected availability.
 
@@ -15,7 +14,7 @@ Our example application consists of these Azure services. We will not go in to d
 + **Application Gateway**: To manage application access, and scaling. 
 + **Azure SQL Database**: To store application data. 
 
-# Task 1: Determine the SLA uptime percentage values for our application
+# Task 1: Determine the SLA uptime percentage values for our application (5 min)
 
 1. In a browser, go to the [SLA summary for Azure services](https://azure.microsoft.com/en-us/support/legal/sla/summary/) page.
 

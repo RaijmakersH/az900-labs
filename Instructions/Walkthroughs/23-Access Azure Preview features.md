@@ -1,14 +1,14 @@
 ---
 wts:
-    title: '23 - Access Azure Preview features'
-    module: 'Not currently utilized'
+    title: '23 - Access Azure Preview features (5 min)'
+    module: 'Not currently utilized in current exam'
 ---
 
 # 23 - Access Azure Preview features
 
 In this walkthrough, we will access and identify Azure preview services and features, and view information about the latest Azure updates.
 
-# Task 1: Access preview services and features
+# Task 1: Access preview services and features (5 min)
 
 In this task, we will review Marketplace Preview features. 
 

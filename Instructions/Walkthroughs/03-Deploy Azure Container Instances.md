@@ -1,6 +1,6 @@
 ---
 wts:
-    title: '03 - Deploy Azure Container Instances'
+    title: '03 - Deploy Azure Container Instances (10 min)'
     module: 'Module 02 - Core Azure Services (Workloads)'
 ---
 
@@ -8,7 +8,7 @@ wts:
 
 In this walkthrough we create, configure, and deploy a Docker container by using Azure Container Instances (ACI) in the Azure Portal. The container is a Welcome to ACI web application that displays a static HTML page. 
 
-# Task 1: Create a container instance
+# Task 1: Create a container instance (10 min)
 
 In this task, we will create a new container instance for the web application. 
 

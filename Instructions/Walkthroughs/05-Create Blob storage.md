@@ -1,13 +1,13 @@
 ---
 wts:
-    title: '05 - Create blob storage'
+    title: '05 - Create blob storage (5 min)'
     module: 'Module 02 - Core Azure Services (Workloads)'
 ---
 # 05 - Create blob storage
 
 In this walkthrough, we will create a storage account, then work with blob storage files.
 
-# Task 1: Create a storage account
+# Task 1: Create a storage account (5 min)
 
 In this task, we will create a new storage account. 
 

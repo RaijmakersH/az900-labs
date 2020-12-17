@@ -1,13 +1,13 @@
 ---
 wts:
-    title: '16 - Implement resource tagging'
+    title: '16 - Implement resource tagging (5 min)'
     module: 'Module 05: Describe identity, governance, privacy, and compliance features'
 ---
 # 16 - Implement resource tagging
 
 In this walkthrough, we will create a policy assignment that requires tagging, created a storage account and test the tagging, view resources with a specified tag, and remove the tagging policy.
 
-# Task 1: Create a Policy assignment
+# Task 1: Create a Policy assignment (5 min)
 
 In this task, we will configure the **Require a tag on resources** policy and assign it to our subscription. 
 

@@ -1,13 +1,13 @@
 ---
 wts:
-    title: '18 - Explore the Trust Center'
+    title: '18 - Explore the Trust Center (5 min)'
     module: 'Module 05: Describe identity, governance, privacy, and compliance features'
 ---
 # 18 - Explore the Trust Center
 
 In this walkthrough, we will access the Trust Center, Service Trust Portal (STP), and Compliance Manager.
 
-# Task 1: Access the Trust Center
+# Task 1: Access the Trust Center (5 min)
 
 1. In a browser, access the [Microsoft Trust Center compliance offerings](https://docs.microsoft.com/en-us/microsoft-365/compliance/offering-home) page.
 

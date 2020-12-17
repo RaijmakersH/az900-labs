@@ -1,13 +1,13 @@
 ---
 wts:
-    title: '09 - Create a VM with a Template'
+    title: '09 - Create a VM with a Template (10 min)'
     module: 'Module 03: Describe core solutions and management tools'
 ---
 # 09 - Create a VM with a Template
 
 In this walkthrough, we will deploy a virtual machine with a QuickStart template and examine monitoring capabilities.
 
-# Task1: Explore the gallery and locate a template
+# Task 1: Explore the gallery and locate a template (10 min)
 
 In this task, we will browse the Azure QuickStart gallery and deploy a template that creates a virtual machine. 
 
