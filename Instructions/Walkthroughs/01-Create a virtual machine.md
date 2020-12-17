@@ -1,6 +1,6 @@
 ---
 wts:
-    title: '01 - Create a virtual machine in the portal'
+    title: '01 - Create a virtual machine in the portal (10 min)'
     module: 'Module 02 - Core Azure Services (Workloads)'
 ---
 # 01 - Create a virtual machine in the portal
