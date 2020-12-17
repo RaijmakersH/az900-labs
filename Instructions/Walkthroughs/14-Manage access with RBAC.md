@@ -37,7 +37,7 @@ In this task, we will assign the Virtual machine contributor role.
     | Setting | Value |
     | -- | -- |
     | Role | **Virtual machine contributor** |
-    | Assign access to | **Azure AD user, group, or service principal** |
+    | Assign access to | **user, group, or service principal** |
     | Select | your user account |
     | | |
 
