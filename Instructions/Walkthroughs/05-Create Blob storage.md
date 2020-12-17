@@ -26,8 +26,9 @@ In this task, we will create a new storage account.
     | Performance | **Standard** |
     | Account kind | **StorageV2 (general purpose v2)** |
     | Replication | **Locally redundant storage (LRS)** |
-    | Access tier (default) | **Hot** |
     | | |
+
+    **Note** - Remember to change the **xxxx** so that it makes a unique **Storage account name**
 
 5. Click **Review + Create** to review your storage account settings and allow Azure to validate the configuration. 
 

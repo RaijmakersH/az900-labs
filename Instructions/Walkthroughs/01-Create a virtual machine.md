@@ -39,6 +39,8 @@ In this task, we will create a Windows Server 2019 Datacenter - Gen1 virtual mac
     | Select inbound ports | **HTTP (80), RDP (3389)**|
     | | |
 
+    **Note** - Verify that both port 80 and 3389 are selected
+
 5. Switch to the Management tab, and in its **Monitoring** section, select the following setting:
 
     | Settings | Values |
@@ -51,7 +53,8 @@ In this task, we will create a Windows Server 2019 Datacenter - Gen1 virtual mac
 7. Once Validation is passed click the **Create** button. It can take anywhere from five to seven minutes to deploy the virtual machine.
 
 8. You will receive updates on the deployment page and via the **Notifications** area (the bell icon in the top menu).
-* Verify Port 80 was opened 
+
+* **Verify Port 80 and 3389 were opened**
 
 # Task 2: Connect to the virtual machine
 

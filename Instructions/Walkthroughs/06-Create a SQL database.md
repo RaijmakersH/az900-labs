@@ -62,7 +62,7 @@ In this task, we will create a SQL database based on the AdventureWorksLT sample
 
 6. Click **Review + create** and then click **Create** to deploy and provision the resource group, server, and database. It can take approx. 2 to 5 minutes to deploy.
 
-7. Monitor your deployment. 
+7. Go to the resource tab to locate the SQL database you created. You may need to refresh.
 
 # Task 2: Test the database.
 

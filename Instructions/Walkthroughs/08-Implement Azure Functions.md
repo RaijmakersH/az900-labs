@@ -24,8 +24,11 @@ In this task, we will create a Function app.
     | Function App name | **function-xxxx** |
     | Publish | **Code** |
     | Runtime stack | **.NET Core** |
+    | Version | **3.1** |
     | Region | **East US** |
-    | | |	
+    | | |
+
+    **Note** - Remember to change the **xxxx** so that it makes a unique **Function App name**
 
 1. Click **Review + Create** and, after successful validation, click **Create** to begin provisioning and deploying your new Azure Function App.
 

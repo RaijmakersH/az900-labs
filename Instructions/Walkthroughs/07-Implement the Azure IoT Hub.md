@@ -23,9 +23,11 @@ In this task, we will create an IoT hub.
     | Resource Group |  **myRGIoT** (create new)|
     | Region | **East US** |
     | IoT Hub Name | **my-hub-groupxxxx** |
-    | | |	
+    | | |
 
-4. Move to the **Size and scale** tab, use the dropdown list to set the **Pricing and scale tier** to **S1: Standard tier**. 
+    **Note** - Remember to change the **xxxx** so that it makes a unique **IoT Hub Name**.
+
+4. Go to the **Management** tab, and use the dropdown list to set the **Pricing and scale tier** to **S1: Standard tier**.
 
 5. Click the **Review + create** button.
 
