@@ -1,9 +1,5 @@
 # AZ-900T00 and AZ-900T01: Microsoft Azure Fundamentals
 
-> **There is a [Lab Recordings and Demos](https://github.com/MicrosoftLearning/Lab-Demo-Recordings) repo with links to videos of labs used in Microsoft Official Curriculum. The intent is to provide Microsoft Certified Trainers an easy way to access a non-audio version recording of hands-on labs used in the portfolio.**
-
-- **[Link to Walkthroughs (HTML format)](https://microsoftlearning.github.io/AZ-900T0x-MicrosoftAzureFundamentals/)**
-- **Are you a MCT?** - Have a look at our [GitHub User Guide for MCTs](https://microsoftlearning.github.io/MCT-User-Guide/)
 
 ## What are we doing?
 
