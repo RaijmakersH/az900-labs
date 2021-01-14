@@ -92,7 +92,7 @@ In this task, install the Web Server role on the server on the Virtual Machine y
 
     ![Screenshot of the virtual machine desktop with the start button clicked and PowerShell selected with run as an administrator highlighted.](../images/0105.png)
 
-2. Install the **Web-Server** feature in the virtual machine by running the following command in the PowerShell command prompt. You can copy and paste this command. Or ensure your cursor is in the Powershell window and click the **T** tool.
+2. Install the **Web-Server** feature in the virtual machine by running the following command in the PowerShell command prompt. You can copy and paste this command. Or ensure your cursor is in the Powershell window and click the **T** tool to enter the text below.
 
     ```PowerShell
     Install-WindowsFeature -name Web-Server -IncludeManagementTools
