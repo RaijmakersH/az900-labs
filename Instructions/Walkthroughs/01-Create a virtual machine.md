@@ -13,16 +13,18 @@ In this walkthrough, we will create a virtual machine in the Azure portal, conne
 
 In this task, we will create a Windows Server 2019 Datacenter - Gen1 virtual machine. 
 
-1. Sign in to the [Azure portal (https://portal.azure.com)](https://portal.azure.com?azure-portal=true).
+1. Click on the Bing Browser icon (located on the bottom right your Virtual Machine of the menu bar) to launch the browser. Sign in to the Azure portal by typing https://portal.azure.com in teh address bar.
 
-2. From the **All services** blade, search for and select **Virtual machines**, and then click **+ Add** and choose **+Virtual machine**.
+2. Log into Azure using the supplied Username and password (located in the Resources Tab). Clicking the **T** tile pastes the text for you, so ensure your cursor is in the correct spot. After entering the supplied password> Click Sign in.
 
-3. On the **Basics** tab, fill in the following information (leave the defaults for everything else):
+3. From the **All services** blade, search for and select **Virtual machines**, and then click **+ Add** and choose **+Virtual machine**.
+
+4. On the **Basics** tab, fill in the following information (leave the defaults for everything else):
 
     | Settings | Values |
     |  -- | -- |
-    | Subscription | **Choose your subscription**|
-    | Resource group | **myRGVM** (create new) |
+    | Subscription | (use default supplied)|
+    | Resource group | (use default supplied) |
     | Virtual machine name | **myVm** |
     | Location | **(US) East US**|
     | Image | **Windows Server 2019 Datacenter - Gen1**|
@@ -32,29 +34,25 @@ In this task, we will create a Windows Server 2019 Datacenter - Gen1 virtual mac
     | Inbound port rules - Allow select ports | **RDP (3389)** and **HTTP (80)**|
     | | |
 
-4. Switch to the Networking tab, and look for the **Select inbound ports**:
+5. Switch to the Networking tab, and look for the **Select inbound ports**:
 
     | Settings | Values |
     | -- | -- |
-    | Select inbound ports | **HTTP (80), RDP (3389)**|
+    | Ensure these ports are selected | **HTTP (80), RDP (3389)**|
     | | |
 
-    **Note** - Verify that both port 80 and 3389 are selected
-
-5. Switch to the Management tab, and in its **Monitoring** section, select the following setting:
+6. Switch to the Management tab, and in its **Monitoring** section, select the following setting:
 
     | Settings | Values |
     | -- | -- |
     | Boot diagnostics | **Disable**|
     | | |
 
-6. Leave the remaining defaults and then click the **Review + create** button at the bottom of the page.
+7. Leave the remaining defaults and then click the **Review + create** button at the bottom of the page.
 
-7. Once Validation is passed click the **Create** button. It can take anywhere from five to seven minutes to deploy the virtual machine.
+8. Once Validation is passed click the **Create** button. It can take anywhere from five to seven minutes to deploy the virtual machine.
 
-8. You will receive updates on the deployment page and via the **Notifications** area (the bell icon in the top menu).
-
-* **Verify Port 80 and 3389 were opened**
+9. You will receive updates on the deployment page and via the **Notifications** area (the bell icon in the top menu).
 
 # Task 2: Connect to the virtual machine
 
@@ -84,17 +82,17 @@ In this task, we will connect to our new virtual machine using RDP.
 
     ![Screenshot of the Certificate warning dialogue informing the user of an untrusted certificate, with the Yes button highlighted. ](../images/0104.png)
 
-Congratulations! You have deployed and connected to a Windows Server virtual machine in Azure
+The new Virtual Machine (myVM) will launch inside your Lab. Selecting an dragging the Center blue bar on the scren will allow you to see your Lab VM. Congratulations! You have deployed and connected to a Windows Server virtual machine in Azure
 
 # Task 3: Install the web server role and test
 
-In this task, install the Web Server role on the server and ensure the default IIS welcome page can be displayed.
+In this task, install the Web Server role on the server on the Virtual Machine you just created and ensure the default IIS welcome page can be displayed. 
 
-1. Open up a PowerShell command prompt on the virtual machine, by clicking the **Start** button, typing **PowerShell**, right clicking **Windows PowerShell**, and selecting **Run as administrator** in the right-click menu.
+1. In myVM, open up a PowerShell command prompt on the virtual machine, starting by locating the Start menu and clicking **Start**, type **PowerShell** in the search bar, right clicking **Windows PowerShell**, and selecting **Run as administrator** in the right-click menu.
 
     ![Screenshot of the virtual machine desktop with the start button clicked and PowerShell selected with run as an administrator highlighted.](../images/0105.png)
 
-2. Install the **Web-Server** feature in the virtual machine by running the following command in the PowerShell command prompt. You can copy and paste this command.
+2. Install the **Web-Server** feature in the virtual machine by running the following command in the PowerShell command prompt. You can copy and paste this command. Or ensure your cursor is in the Powershell window and click the **T** tool.
 
     ```PowerShell
     Install-WindowsFeature -name Web-Server -IncludeManagementTools
