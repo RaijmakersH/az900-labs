@@ -10,7 +10,7 @@ In this walkthrough we create, configure, and deploy a Docker container by using
 
 # Task 1: Create a container instance (10 min)
 
-In this task, we will create a new container instance for the web application. 
+In this task, we will create a new container instance for the web application.  
 
 1. Sign in to the [Azure portal](https://portal.azure.com).
 
