@@ -54,7 +54,6 @@ In this task, we will create two virtual machines in the virtual network.
    | Setting | Value | 
    | --- | --- |
    | Virtual network | **vnet1** |
-   |||
 
 4. Click **Review + create**. After the Validation passes, click **Create**. Deployment times can vary but it can generally take between three to six minutes to deploy.
 
@@ -68,7 +67,6 @@ In this task, we will create two virtual machines in the virtual network.
     | Virtual machine name |  **vm2** |
     | Virtual network | **vnet1** |
     | Public IP | (new) **vm2-ip** |
-    |||
 
 7. Wait for both virtual machines to deploy. 
 
