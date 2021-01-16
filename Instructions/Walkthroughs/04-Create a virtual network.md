@@ -47,7 +47,7 @@ In this task, we will create two virtual machines in the virtual network.
    | Password| **Pa$$w0rd1234** |
    | Public inbound ports| Select **Allow selected ports**  |
    | Selected inbound ports| **RDP (3389)** |
-   ||
+   
 
 3. Select the **Networking** tab. Make sure the virtual machine is placed in the vnet1 virtual network. Review the default settings, but do not make any other changes. 
 
