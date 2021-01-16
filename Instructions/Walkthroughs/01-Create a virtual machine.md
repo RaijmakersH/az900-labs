@@ -13,28 +13,28 @@ In this walkthrough, we will create a virtual machine in the Azure portal, conne
 
 In this task, we will create a Windows Server 2019 Datacenter - Gen1 virtual machine. 
 
-1. Click on the Bing Browser icon (located on the bottom right your Virtual Machine of the menu bar) to launch the browser. Sign in to the Azure portal by typing https://portal.azure.com in teh address bar.
+1. Click on the Bing Browser icon (located on the bottom right your Virtual Machine of the menu bar) to launch the browser. Sign in to the Azure portal by typing https://portal.azure.com in the address bar.
 
-2. Log into Azure using the supplied Username and password (located in the Resources Tab). Clicking the **T** tile pastes the text for you, so ensure your cursor is in the correct spot. After entering the supplied password> Click Sign in.
+2. Log into Azure using the supplied Username and password (located in the Resources Tab). Clicking the **T** tile pastes the text for you, please ensure your cursor is in the correct input spot. After entering the supplied password, click the Sign in button.
 
-3. From the **All services** blade, search for and select **Virtual machines**, and then click **+ Add** and choose **+Virtual machine**.
+3. From the **All services** blade, search for and select **Virtual machines**, and then click **+ Add** and choose **+Virtual machine** from the drop down.
 
 4. On the **Basics** tab, fill in the following information (leave the defaults for everything else):
 
     | Settings | Values |
     |  -- | -- |
-    | Subscription | (use default supplied)|
-    | Resource group | (use default supplied) |
+    | Subscription | (keep default supplied)|
+    | Resource group | (use default from drop down) |
     | Virtual machine name | **myVm** |
-    | Location | **(US) East US**|
+    | Region | **(US) East US**|
     | Image | **Windows Server 2019 Datacenter - Gen1**|
     | Size | Standard D2s v3|
     | Administrator account username | **azureuser** |
     | Administrator account password | **Pa$$w0rd1234**|
     | Inbound port rules - Allow select ports | **RDP (3389)** and **HTTP (80)**|
-    | | |
+    | | 
 
-5. Switch to the Networking tab, and look for the **Select inbound ports**:
+5. Switch to the Networking tab, and look for **Select inbound ports**:
 
     | Settings | Values |
     | -- | -- |
@@ -60,7 +60,7 @@ In this task, we will connect to our new virtual machine using RDP.
 
 1. Search for **myVM** and select your new virtual machine.
 
-    **Note**: You could also use the **Go to resource** link on the deployment page or the link to the resource in the **Notification** area.
+    **Note**: You could also use the **Go to resource** link on the deployment page or the link to the resource in the **Notifications** area.
 
 2. On the virtual machine **Overview** blade, click the **Connect** button and choose **RDP**.
 
@@ -70,7 +70,7 @@ In this task, we will connect to our new virtual machine using RDP.
 
 2. In the **Connect to virtual machine** page, keep the default options to connect with the public IP address over port 3389 and click **Download RDP File**.
 
-3. **Open** the downloaded RDP file and click **Connect** when prompted. 
+3. **Open** the downloaded RDP file (located on the bottom left of your lab machine) and click **Connect** when prompted. 
 
     ![Screenshot of the virtual machine properties with the Connect button highlighted. ](../images/0102.png)
 
@@ -82,23 +82,23 @@ In this task, we will connect to our new virtual machine using RDP.
 
     ![Screenshot of the Certificate warning dialogue informing the user of an untrusted certificate, with the Yes button highlighted. ](../images/0104.png)
 
-The new Virtual Machine (myVM) will launch inside your Lab. Selecting an dragging the Center blue bar on the scren will allow you to see your Lab VM. Congratulations! You have deployed and connected to a Windows Server virtual machine in Azure
+The new Virtual Machine (myVM) will launch inside your Lab. Close the Server Manager and dashboard windows. You should see the blue background of your virtual machine. Congratulations! You have deployed and connected to a Windows Server virtual machine in Azure. 
 
 # Task 3: Install the web server role and test
 
 In this task, install the Web Server role on the server on the Virtual Machine you just created and ensure the default IIS welcome page can be displayed. 
 
-1. In myVM, open up a PowerShell command prompt on the virtual machine, starting by locating the Start menu and clicking **Start**, type **PowerShell** in the search bar, right clicking **Windows PowerShell**, and selecting **Run as administrator** in the right-click menu.
+1. In vour virtual machine, open up a PowerShell command prompt on the virtual machine, by locating the Start menu and clicking **Search**, type **PowerShell** in the search bar, right clicking **Windows PowerShell**, and selecting **Run as administrator** in the right-click menu.
 
     ![Screenshot of the virtual machine desktop with the start button clicked and PowerShell selected with run as an administrator highlighted.](../images/0105.png)
 
-2. Install the **Web-Server** feature in the virtual machine by running the following command in the PowerShell command prompt. You can copy and paste this command. Or ensure your cursor is in the Powershell window and click the **T** tool to enter the text below.
+2. You are now in PowerShell. Install the **Web-Server** feature in the virtual machine by running the following command in the PowerShell command prompt. You can copy and paste this command. Or ensure your cursor is in the Powershell window and click the **T** tool to enter the text below, then press enter to run the command.
 
     ```PowerShell
     Install-WindowsFeature -name Web-Server -IncludeManagementTools
     ```
   
-3. When completed there will be a prompt stating **Success** with a value **True**. You do not need to restart the virtual machine to complete the installation. Close the RDP connection to the VM.
+3. When completed there will be a prompt stating **Success** with a value **True**. You do not need to restart the virtual machine to complete the installation. Close the RDP connection to the VM by clicking the **x** at the right side of the virtual machine blue bar. 
 
     ![Screenshot of the windows PowerShell command prompt with the command Install-WindowsFeature -name Web-Server -IncludeManagementTools successfully completed and output stating it was successful.](../images/0106.png)
 
