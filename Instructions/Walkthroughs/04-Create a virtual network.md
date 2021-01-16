@@ -68,7 +68,7 @@ In this task, we will create two virtual machines in the virtual network.
     | Virtual network | **vnet1** |
     | Public IP | (new) **vm2-ip** |
 
-7. Wait for both virtual machines to deploy. 
+7. Wait for both virtual machines to deploy and status says *running*.
 
 # Task 3: Test the connection 
 
@@ -86,11 +86,11 @@ In this task, we will allow ICMP connections and test whether the virtual machin
 
 5. In the **Windows Security** window, type the username **azureuser** and password **Pa$$w0rd1234** and then click **OK**.
 
-6. You may receive a certificate warning during the sign-in process. Click **Yes** or to create the connection and connect to your deployed VM. You should connect successfully.
+6. You may receive a certificate warning during the sign-in process. Click **Yes** to create the connection and connect to your deployed VM. You should connect successfully.
 
-7. Open up a PowerShell command prompt on the virtual machine, by clicking the **Start** button, typing **PowerShell**, right clicking **Windows PowerShell** in the right-click menu, and clicking **Run as administrator**
+7. Open up PowerShell on the virtual machine, by clicking the **Start** button, and in Search type **PowerShell**, right clicking on **Windows PowerShell** to **Run as administrator**
 
-8. Try to ping vm2 by typing **ping vm2** (make sure vm2 is running). You will receive an error, saying request timed out.  The `ping` fails, because `ping` uses the **Internet Control Message Protocol (ICMP)**. By default, ICMP isn't allowed through the Windows firewall. 
+8. In Powershell, try to ping vm2 by typing **ping vm2**. You will receive an error saying request timed out.  The `ping` fails, because `ping` uses the **Internet Control Message Protocol (ICMP)**. By default, ICMP isn't allowed through the Windows firewall. 
 
    ```PowerShell
    ping vm2
