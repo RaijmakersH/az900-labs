@@ -28,26 +28,6 @@ In this task, we will create a virtual network.
 4. Click the **Review + create** button. Ensure the validation passes.
 
 
-
-REMOVE
-3. On the **Create virtual network** blade, fill in the following (leave the defaults for everything else):
-    
-    | Subnet - Name | **default** |
-        | Address space |**10.1.0.0/16** |
-    | Subnet Address range | **10.1.0.0/24** |
-
-    ![Screenshot of the "Basic" step of Create virtual network blade with the default fields.](../images/0301a.png)
-    ![Screenshot of the "IP Addresses" step of Create virtual network blade with the default fields.](../images/0301b.png)
-
-
-
-   Click the **Review + create** button. Ensure the validation passes. 
-
-6. Click the **Create** button to deploy the virtual network. 
-
-    **Note**: In your organization, how will you know which virtual networks and IP addressing you will need?
-    REMOVE
-
 # Task 2: Create two virtual machines
 
 In this task, we will create two virtual machines in the virtual network. 
