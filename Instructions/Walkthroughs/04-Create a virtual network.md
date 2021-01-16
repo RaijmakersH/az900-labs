@@ -102,7 +102,7 @@ In this task, we will allow ICMP connections and test whether the virtual machin
 
 9. Search for vm2 in under resources. In the Overview screen, connect to **vm2** using RDP. You can follow steps **2 to 7**.
 
-10. In Powershell, at the prompt enter the following command tehn press enter:
+10. In Powershell, at the prompt enter the following command then press enter:
 
    ```PowerShell
    New-NetFirewallRule –DisplayName “Allow ICMPv4-In” –Protocol ICMPv4
