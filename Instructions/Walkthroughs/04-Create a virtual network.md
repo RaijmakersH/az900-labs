@@ -13,44 +13,56 @@ In this task, we will create a virtual network.
 
 1. Sign in to the Azure portal at <a href="https://portal.azure.com" target="_blank"><span style="color: #0066cc;" color="#0066cc">https://portal.azure.com</span></a>
 
-2. From the **All services** blade, search for and select **Virtual networks**, and then click **+ Add**. 
+2. From the **All services** blade, search for and select **Virtual networks**, and then click **+ Create**. 
 
-3. On the **Create virtual network** blade, fill in the following (leave the defaults for everything else):
+3. On the **Basics** tab, fill in the following information (leave the defaults for everything else):
 
     | Setting | Value | 
     | --- | --- |
+    | Subscription | Leave default provided |
+    | Resource Group | Select default provided in drop down |
     | Name | **vnet1** |
-    | Address space |**10.1.0.0/16** |
-    | Subscription | **Select your subscription** |
-    | Resource group | **myRGVNet** (create new) |
-    | Location | **(US) East US** |
+    | Region | **(US) East US** |
+    
+   
+4. Click the **Review + create** button. Ensure the validation passes.
+
+
+
+REMOVE
+3. On the **Create virtual network** blade, fill in the following (leave the defaults for everything else):
+    
     | Subnet - Name | **default** |
+        | Address space |**10.1.0.0/16** |
     | Subnet Address range | **10.1.0.0/24** |
 
     ![Screenshot of the "Basic" step of Create virtual network blade with the default fields.](../images/0301a.png)
     ![Screenshot of the "IP Addresses" step of Create virtual network blade with the default fields.](../images/0301b.png)
 
-5. Click the **Review + create** button. Ensure the validation passes.
+
+
+   Click the **Review + create** button. Ensure the validation passes. 
 
 6. Click the **Create** button to deploy the virtual network. 
 
     **Note**: In your organization, how will you know which virtual networks and IP addressing you will need?
+    REMOVE
 
 # Task 2: Create two virtual machines
 
 In this task, we will create two virtual machines in the virtual network. 
 
-1. From the **All services** blade, search for **Virtual machines** and then click **+ Add**. 
+1. From the **All services** blade, search for **Virtual machines** and then click **+ Add**, from the drop down select **Virtual Machine**. 
 
 2. On the **Basics** tab, fill in the following information (leave the defaults for everything else):
 
    | Setting | Value | 
    | --- | --- |
-   | Subscription | **Choose your subscription**  |
-   | Resource group |  **myRGVNet** |
+   | Subscription | Use default provided |
+   | Resource group |  Select default from drop down |
    | Virtual machine name | **vm1**|
    | Region | **(US) East US** |
-   | Image | **Windows Server 2019 Datacenter** |
+   | Image | **Windows Server 2019 Datacenter Gen1** |
    | Username| **azureuser** |
    | Password| **Pa$$w0rd1234** |
    | Public inbound ports| Select **Allow selected ports**  |
@@ -100,29 +112,28 @@ In this task, we will allow ICMP connections and test whether the virtual machin
 
 7. Open up a PowerShell command prompt on the virtual machine, by clicking the **Start** button, typing **PowerShell**, right clicking **Windows PowerShell** in the right-click menu, and clicking **Run as administrator**
 
-8. Try to ping vm2 (make sure vm2 is running). You will receive an error, saying request timed out.  The `ping` fails, because `ping` uses the **Internet Control Message Protocol (ICMP)**. By default, ICMP isn't allowed through the Windows firewall.
-
+8. Try to ping vm2 by typing **ping vm2** (make sure vm2 is running). You will receive an error, saying request timed out.  The `ping` fails, because `ping` uses the **Internet Control Message Protocol (ICMP)**. By default, ICMP isn't allowed through the Windows firewall. 
 
    ```PowerShell
    ping vm2
    ```
-   
+
    ![Screenshot of PowerShell command prompt with the command ping vm2 after its completion and the output indicating the command wasn't successful.](../images/0302.png)
+   
+    **Note**: You will now open an RDP session to vm2 and allow incoming ICMP connections. Grab the Blue bar in the center of vm1 to move the virtual machine window, you need to access the Azure Portal.
 
-    **Note**: You will now open an RDP session to vm2 and allow incoming ICMP connections
+9. Search for vm2 in under resources. In the Overview screen, connect to **vm2** using RDP. You can follow steps **2 to 7**.
 
-9. Connect to **vm2** using RDP. You can follow steps **2 to 6**.
-
-10. Open a **PowerShell** prompt and allow ICMP. This command allows ICMP inbound connections through the Windows firewall.
+10. In Powershell, at the prompt enter the following command tehn press enter:
 
    ```PowerShell
    New-NetFirewallRule –DisplayName “Allow ICMPv4-In” –Protocol ICMPv4
    ```
    ![Screenshot of PowerShell command prompt with the command New-NetFirewallRule DisplayName Allow ICMPv4-In –Protocol ICMPv4 after its completion and the output indicating the command was successful.](../images/0303.png)
+   
+   This command allows ICMP inbound connections through the Windows firewall.
 
-   **Note**: You will now switch to the RDP session to vm1 and try the ping again
-
-11. Return to the RDP session to vm1 and try the ping again. You should now be successful. 
+11. Return to the RDP session for vm1 and try the ping again. You should now be successful. 
 
    ```PowerShell
    ping vm2
