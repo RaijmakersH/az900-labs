@@ -20,8 +20,8 @@ In this task, we will create a new container instance for the web application.
 
 	| Setting| Value|
 	|----|----|
-	| Subscription | **Choose your subscription** |
-	| Resource group | **myRGContainer** (create new) |
+	| Subscription | Use provided |
+	| Resource group | ***Select the default in drop down*** |
 	| Container name| **mycontainer**|
 	| Region | **(US) East US** |
 	| Image source| **Docker Hub or other registry**|
@@ -31,17 +31,14 @@ In this task, we will create a new container instance for the web application.
 	| Size| ***Leave at the default***|
 	|||
 
-4. Configure the Networking tab (replace **xxxx** with letters and digits such that the name is globally unique). Leave all other settings at their default values .
+4. Configure the Networking tab (replace **xxxxxx** with letters and digits such that the name is globally unique). Leave all other settings at their default values.
 
 	| Setting| Value|
 	|--|--|
 	| DNS name label| **mycontainerdnsxxxx** |
 	|||
 	
-	**Note**: Your container will be publicly reachable at dns-name-label.region.azurecontainer.io. If you receive a **DNS name label not available** error message following the deployment, specify a different DNS name label (don't use xxxx) and re-deploy. 
-
-
-	![Screenshot of the configuration pane of the create container instances blade, in Azure portal, with the DNS name label entered. ](../images/0201.png)
+	**Note**: Your container will be publicly reachable at dns-name-label.region.azurecontainer.io. If you receive a **DNS name label not available** error message following the deployment, specify a different DNS name label (don't use xxxxxx) and re-deploy. 
 
 5. Click **Review and Create** to start the automatic validation process.
 
