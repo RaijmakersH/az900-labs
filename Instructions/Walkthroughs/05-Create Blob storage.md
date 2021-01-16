@@ -59,7 +59,7 @@ In this task, we will create a Blob container and upload a blob file.
 
 5. Browse to a file on your local computer. 
 
-    **Note**: You can create an empty word file or use any existing file. Consider chooosing a file of a small size to minimize the upload time.
+    **Note**: You can create an empty word file or use any existing file. Consider choosing a file of a small size to minimize the upload time.
 
 6. Click the **Advanced** arrow, leave the default values but review the available options, and then click **Upload**.
 
