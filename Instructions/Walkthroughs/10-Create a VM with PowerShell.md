@@ -21,7 +21,12 @@ In this task, we will configure Cloud Shell.
 
 4. When prompted to select either **Bash** or **PowerShell**, select **PowerShell**.
 
-5. When prompted, click **Create storage**, and wait for the Azure Cloud Shell to initialize. 
+5. On the **You have no storage mounted** screen select **Show advanced settings** Fill in the information below
+ | Settings | Values |
+    |  -- | -- |
+    | Resource Group | Use existing |
+    | Storage account (create new) | **cloudshell15155995** |
+    | File share (create new) | **shellstorage** |
 
 # Task 2: Create a resource group and virtual machine
 
@@ -34,6 +39,7 @@ In this task, we will use PowerShell to create a resource group and a virtual ma
     ```PowerShell
     New-AzResourceGroup -Name myRGPS -Location EastUS
     ```
+Note: if resource group already exists, select **No** to update it.
 
 3. Verify your new resource group. 
 
@@ -77,13 +83,13 @@ In this task, we will practice executing PowerShell commands from the Cloud Shel
     Get-AzVM -name myVMPS -status | Format-Table -autosize
     ```
 
-4. Stop the virtual machine. When prompted confirm (Yes) to the action. 
+4. Stop the virtual machine. When prompted confirm (Yes) to the action. Wait for **Succeeded** status.
 
     ```PowerShell
     Stop-AzVM -ResourceGroupName myRGPS -Name myVMPS
     ```
 
-5. Verify your virtual machine state. The PowerState should now be **deallocated**. You can also verify the virtual machine status in the portal. 
+5. Verify your virtual machine state. The PowerState should now be **deallocated**. You can also verify the virtual machine status in the portal. Close Cloudshell.
 
     ```PowerShell
     Get-AzVM -name myVMPS -status | Format-Table -autosize
