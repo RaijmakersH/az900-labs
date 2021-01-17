@@ -49,7 +49,7 @@ In this task, we will use the Webhook + API function to display a message when t
 
 3. A **Add function** pop-out window will appear on the right. In the **Select a template** section click **HTTP trigger**. 
 
-    ![Screenshot of the create a function step in the azure functions for dot net getting started pane inside Azure portal. The HTTP trigger card is highlighted to illustrate the display elements used to add a new webhook to an Azure function.](../images/0702a.png)
+    ![Screenshot of the create a function step in the azure functions for dot net getting started pane inside Azure portal. The HTTP trigger card is highlighted to illustrate the display elements used to add a new webhook to an Azure function.](../images/0702ab.png)
 
 4. A Template Details section will appear. Click **Add** 
 
