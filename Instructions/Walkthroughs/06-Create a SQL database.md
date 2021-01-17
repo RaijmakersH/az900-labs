@@ -20,21 +20,15 @@ In this task, we will create a SQL database based on the AdventureWorksLT sample
 
     | Setting | Value | 
     | --- | --- |
-    | Subscription | **Choose your subscription** |
-    | Resource group | **myRGDb** (create new) |
+    | Subscription | Keep defult supplied |
+    | Resource group | Use default from dropdown |
     | Database name| **db1** | 
-    | | |
-
-3. Next to the **Server** drop down list, click **Create new** and enter this information (replace **xxxx** in the name of the server with letters and digits such that the name is globally unique). Click **OK** when finished.
-
-    | Setting | Value | 
-    | --- | --- |
+    | Server | Select **Create new** A new sidebar will open. Enter this information |
     | Server name | **sqlserverxxxx** (must be unique) | 
     | Server admin login | **sqluser** |
     | Password | **Pa$$w0rd1234** |
     | Location | **(US) East US** |
-    | Allow Azure services to access server| ***Select the checkbox*** |
-    | | |
+    | Click OK |
 
    ![Screenshot of the Server pane and the New Server pane with fields filled in as per the table and the Review + create and OK buttons highlighted.](../images/0501.png)
 
@@ -45,7 +39,6 @@ In this task, we will create a SQL database based on the AdventureWorksLT sample
     | Connectivity method | **Public endpoint** |    
     | Allow Azure services and resources to access this server | **Yes** |
     | Add current client IP address | **No** |
-    | | |
     
    ![Screenshot of the Networking tab of the Create SQL Database blade with settings selected as per the table and the Review + create button highlighted.](../images/0501b.png)
 
@@ -54,25 +47,22 @@ In this task, we will create a SQL database based on the AdventureWorksLT sample
     | Setting | Value | 
     | --- | --- |
     | Use existing data | **Sample** |
-    | Collation | ***use default*** |
-    | Enable advanced data security | **Not now** |
-    | | |
+    | Azure Defender for SQL| **Not now** |
 
     ![Screenshot of the Additional settings tab of the Create SQL Database blade with settings selected as per the table and the Review + create button highlighted.](../images/0501c.png)
 
 6. Click **Review + create** and then click **Create** to deploy and provision the resource group, server, and database. It can take approx. 2 to 5 minutes to deploy.
 
-7. Go to the resource tab to locate the SQL database you created. You may need to refresh.
 
 # Task 2: Test the database.
 
 In this task, we will configure the SQL server and run a SQL query. 
 
-1. From the **All services** blade, search and select **SQL databases** and ensure your new database was created. You may need to **Refresh** the page.
+1. From the **All services** blade, search and select **Databases**, then **SQL databases** ensure your new database was created. You may need to **Refresh** the page.
 
     ![Screenshot of the SQL database and server that have just been deployed.](../images/0502.png)
 
-2. Click the **db1** entry representing the SQL database you created, and then click **Query editor (preview)**.
+2. Click the **db1** entry representing the SQL database you created. On the db1 blade click **Query editor (preview)**.
 
 3. Login as **sqluser** with the password **Pa$$w0rd1234**.
 
@@ -84,15 +74,15 @@ In this task, we will configure the SQL server and run a SQL query.
 
     ![Screenshot of the SQL server page.](../images/0504.png)
 
-6. From the SQL server **Overview** blade, click **Set server firewall**.
-
-7. Click **Add client IP** (top menu bar) to add the IP address referenced in the error. Be sure to **Save** your changes. 
+6. From the db1 **Overview** blade, click **Set server firewall**.
+.
+7. Click **+ Add client IP** (top menu bar) to add the IP address referenced in the error. (it may have autofilled for you - if not paste it into the IP address fields). Be sure to **Save** your changes. 
 
     ![Screenshot of the SQL server firewall settings page with the new IP rule highlighted.](../images/0506.png)
 
-8. Return to your SQL database and the **Query Editor (Preview)** login page. Try to login again as **sqluser** with the password **Pa$$w0rd1234**. This time you should succeed. Note that it may take a couple of minutes for the new firewall rule to be deployed. 
+8. Return to your SQL database (slide the bottom toggle bar to the left) and at the **Query Editor (Preview)** login page. Try to login again as **sqluser** with the password **Pa$$w0rd1234**. This time you should succeed. Note that it may take a couple of minutes for the new firewall rule to be deployed. 
 
-9. Once you log in successfully the query pane appears, enter the following query into the editor pane.
+9. Once you log in successfully the query pane appears, enter the following query into the editor pane. (position you rcursor in the blank box besdie #1 , then Click tej **T** tool)
 
     ```SQL
     SELECT TOP 20 pc.Name as CategoryName, p.name as ProductName
