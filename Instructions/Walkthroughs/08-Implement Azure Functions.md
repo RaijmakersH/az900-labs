@@ -79,6 +79,6 @@ In this task, we will use the Webhook + API function to display a message when t
 
     ![Screenshot of a trace information log resulting from running the function inside the function editor in Azure portal.](../images/0709.png) 
 
-Congratulations! You have created a Function App to display a Hello message when there is an HTTP request. 
+Congratulations! You have created a Function App to display a Hello message when there is an HTTP request.  
 
 **Note**: To avoid additional costs, you can remove this resource group. Search for resource groups, click your resource group, and then click **Delete resource group**. Verify the name of the resource group and then click **Delete**. Monitor the **Notifications** to see how the delete is proceeding.
