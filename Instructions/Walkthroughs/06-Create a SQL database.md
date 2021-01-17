@@ -80,9 +80,9 @@ In this task, we will configure the SQL server and run a SQL query.
 
     ![Screenshot of the SQL server firewall settings page with the new IP rule highlighted.](../images/0506.png)
 
-8. Return to your SQL database (slide the bottom toggle bar to the left) and at the **Query Editor (Preview)** login page. Try to login again as **sqluser** with the password **Pa$$w0rd1234**. This time you should succeed. Note that it may take a couple of minutes for the new firewall rule to be deployed. 
+8. Return to your SQL database (slide the bottom toggle bar to the left) and click on **Query Editor (Preview)**. Try to login again as **sqluser** with the password **Pa$$w0rd1234**. This time you should succeed. Note that it may take a couple of minutes for the new firewall rule to be deployed. 
 
-9. Once you log in successfully the query pane appears, enter the following query into the editor pane. (position you rcursor in the blank box besdie #1 , then Click tej **T** tool)
+9. Once you log in successfully the query pane appears, enter the following query into the editor pane. (position your cursor in the blank box beside #1 , then Click the **T** tool)
 
     ```SQL
     SELECT TOP 20 pc.Name as CategoryName, p.name as ProductName
