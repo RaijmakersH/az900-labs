@@ -53,7 +53,7 @@ In this task, we will use the Webhook + API function to display a message when t
 
 4. On the **HttpTrigger1** blade, in the **Developer** section, click **Code + Test**. 
 
-5. On the **HttpTrigger1 \| Code + Test** blade, review the auto-generated code and note that the code is designed to run an HTTP request and log information. Also, notice the function returns a Hello message with a name. 
+5. On the **Code + Test** blade, review the auto-generated code and note that the code is designed to run an HTTP request and log information. Also, notice the function returns a Hello message with a name. 
 
     ![Screenshot of the function code. The Hello message is hightlighted.](../images/0704.png)
 
