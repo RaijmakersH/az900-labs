@@ -62,7 +62,7 @@ In this task, we will test our device using the Raspberry Pi Simulator.
 
 2. In the code area, right side, locate the line with 'const connectionString ='. Replace it with the connection string you copied from the Azure portal. Note that the connection sting includes the DeviceId (**myRaspberryPi**) and SharedAccessKey entries.
 
-	![Screenshot of the coding area within the Raspberry Pi simulator.](../images/0604.png)
+	![Screenshot of the coding area within the Raspberry Pi simulator.](../images/0604a.png)
 
 3. Click **Run** (below the code area) to run the application. The console output should show the sensor data and messages that are sent from the Raspberry Pi simulator to your Azure IoT Hub. Data and messages are sent each time the Raspberry Pi simulator LED flashes. 
 
