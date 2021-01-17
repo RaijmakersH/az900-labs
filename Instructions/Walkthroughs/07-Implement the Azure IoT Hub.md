@@ -19,13 +19,12 @@ In this task, we will create an IoT hub.
 
     | Settings | Value |
     |--|--|
-    | Subscription | **Choose your subscription** |
-    | Resource Group |  **myRGIoT** (create new)|
+    | Subscription | Keep default supplied. |
+    | Resource Group | Use default supplied in drop down|
     | Region | **East US** |
-    | IoT Hub Name | **my-hub-groupxxxx** |
-    | | |
+    | IoT Hub Name | **my-hub-groupxxxxx** |
 
-    **Note** - Remember to change the **xxxx** so that it makes a unique **IoT Hub Name**.
+    **Note** - Remember to change the **xxxxx** so that it makes a unique **IoT Hub Name**.
 
 4. Go to the **Management** tab, and use the dropdown list to set the **Pricing and scale tier** to **S1: Standard tier**.
 
@@ -59,23 +58,21 @@ In this task, we will add an IoT device to the IoT hub.
 
 In this task, we will test our device using the Raspberry Pi Simulator. 
 
-1. Open a new tab in the web browser and browse to the [online Raspberry Pi simulator](https://azure-samples.github.io/raspberry-pi-web-simulator/#Getstarted). 
+1. Open a new tab in the web browser and type this shortcut link https://aka.ms/RaspPi. It will take you to a Raspberry Pi Simulator site. If you have time, read about the Raspberry Pi simulator. When done select "**X**" to close the pop-up window.
 
-2. Read about the Raspberry Pi simulator. If there is an overview pop-up select "**X**" to close the window.
-
-3. In the code area, right side, locate the line with 'const connectionString ='. Replace it with the connection string you copied from the Azure portal. Note that the connection sting includes the DeviceId (**myRaspberryPi**) and SharedAccessKey entries.
+2. In the code area, right side, locate the line with 'const connectionString ='. Replace it with the connection string you copied from the Azure portal. Note that the connection sting includes the DeviceId (**myRaspberryPi**) and SharedAccessKey entries.
 
 	![Screenshot of the coding area within the Raspberry Pi simulator.](../images/0604.png)
 
-4. Click **Run** (below the code area) to run the application. The console output should show the sensor data and messages that are sent from the Raspberry Pi simulator to your Azure IoT Hub. Data and messages are sent each time the Raspberry Pi simulator LED flashes. 
+3. Click **Run** (below the code area) to run the application. The console output should show the sensor data and messages that are sent from the Raspberry Pi simulator to your Azure IoT Hub. Data and messages are sent each time the Raspberry Pi simulator LED flashes. 
 
 	![Screenshot of the Raspberry Pi simulator console.  The console output shows sensor data and messages sent from the Raspberry Pi simulator to Azure IoT Hub.](../images/0605.png)
 
 5. Click **Stop** to stop sending data.
 
-6. Return to the Azure portal and your IoT Hub.
+6. Return to the Azure portal.
 
-7. Switch the IoT Hub **Overview** blade and scroll down to the **IoT Hub Usage** information.
+7. Switch the IoT Hub **Overview** blade and scroll down to the **IoT Hub Usage** information to view usage. Change your timeframe in the **show data for last** to see data in teh last hour.
 
 	![Screenshot of metrics within the IoT hub usage area of Azure portal.](../images/0606.png)
 
