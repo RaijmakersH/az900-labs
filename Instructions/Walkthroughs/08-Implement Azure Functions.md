@@ -13,28 +13,27 @@ In this task, we will create a Function app.
 
 1. Sign in to the [Azure portal](https://portal.azure.com).
 
-1. In the **Search resources, services, and docs** text box at the top of the portal, search for and select **Function App** and then, from the **Function App** blade, click **+ Add**.
+2. In the **Search resources, services, and docs** bar at the top of the portal, search for and select **Function App** and then, from the **Function App** blade, click **+ Add**.
 
-1. On the **Basic** tab of the **Function App** blade, specify the following settings (replace **xxxx** in the name of the function with letters and digits such that the name is globally unique and leave all other settings with their default values): 
+3. On the **Basic** tab of the **Function App** blade, specify the following settings (replace **xxxx** in the name of the function with letters and digits such that the name is globally unique and leave all other settings with their default values): 
 
     | Settings | Value |
     | -- | --|
-    | Subscription | the name of your Azure subscription |
-    | Resource group | the name of a new resource group **myRGFunction** |
+    | Subscription | Keep default supplied |
+    | Resource group | Use default from the drop down |
     | Function App name | **function-xxxx** |
     | Publish | **Code** |
     | Runtime stack | **.NET Core** |
     | Version | **3.1** |
     | Region | **East US** |
-    | | |
 
     **Note** - Remember to change the **xxxx** so that it makes a unique **Function App name**
 
-1. Click **Review + Create** and, after successful validation, click **Create** to begin provisioning and deploying your new Azure Function App.
+4. Click **Review + Create** and, after successful validation, click **Create** to begin provisioning and deploying your new Azure Function App.
 
-1. Wait for the notification that the resource has been created.
+5. Wait for the notification that the resource has been created.
 
-1. Navigate back to the **Function App** blade, click **Refresh** and verify that the newly created function app has the **Running** status. 
+6. Navigate back to the **Function App** blade, click **Refresh** and verify that the newly created function app has the **Running** status. 
 
     ![Screenshot of the Function App page with the new Function app.](../images/0701.png)
 
@@ -44,19 +43,17 @@ In this task, we will use the Webhook + API function to display a message when t
 
 1. On the **Function App** blade, click the newly created function app. 
 
-1. On the function app blade, in the **Functions** section, click **Functions** and then click **+ Add**.
+2. On the function app blade, in the **Functions** section, click **Functions** and then click **+ Add**.
 
     ![Screenshot of the choose a development environment step in the azure functions for dot net getting started pane inside Azure portal. The display elements for creating a new in-portal function are highlighted. The highlighted elements are expand the function app, add new function, in-portal, and the continue button.](../images/0702.png)
 
-1. On the **Templates** tab of the **New Function** blade, click **HTTP trigger**. 
+3. A **Add function** pop-out window will appear on the right. In the **Select a template** section click **HTTP trigger**. 
 
     ![Screenshot of the create a function step in the azure functions for dot net getting started pane inside Azure portal. The HTTP trigger card is highlighted to illustrate the display elements used to add a new webhook to an Azure function.](../images/0702a.png)
 
-1. On the **Details** tab of the **New Function** blade, accept the default **New Function** name and **Authorization level**, and then click **Create Function**. 
+4. A Template Details section will appear. Click **Add** 
 
-    ![Screenshot of the create a function step in the azure functions for dot net getting started pane inside Azure portal. The webhook + api button and create button are highlighted to illustrate the display elements used to add a new webhook to an Azure function.](../images/0703.png)
-
-1. On the **HttpTrigger1** blade, in the **Developer** section, click **Code + Test**. 
+5. On the **HttpTrigger1** blade, in the **Developer** section, click **Code + Test**. 
 
 1. On the **HttpTrigger1 \| Code + Test** blade, review the auto-generated code and note that the code is designed to run an HTTP request and log information. Also, notice the function returns a Hello message with a name. 
 
