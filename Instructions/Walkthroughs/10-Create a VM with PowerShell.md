@@ -39,7 +39,7 @@ In this task, we will use PowerShell to create a resource group and a virtual ma
     ```PowerShell
     New-AzResourceGroup -Name myRGPS -Location EastUS
     ```
-Note: if resource group already exists, select **No** to update it.
+Note: if resource group already exists, do not update it, select **No**.
 
 3. Verify your new resource group. 
 
