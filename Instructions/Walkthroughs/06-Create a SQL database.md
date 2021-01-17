@@ -23,7 +23,7 @@ In this task, we will create a SQL database based on the AdventureWorksLT sample
     | Subscription | Keep defult supplied |
     | Resource group | Use default from dropdown |
     | Database name| **db1** | 
-    | Server | Select **Create new** A new sidebar will open. Enter this information |
+    | Server | Select **Create new** A new sidebar will open to the right. |
     | Server name | **sqlserverxxxx** (must be unique) | 
     | Server admin login | **sqluser** |
     | Password | **Pa$$w0rd1234** |
