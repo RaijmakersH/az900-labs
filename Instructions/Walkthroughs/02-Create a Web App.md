@@ -30,7 +30,7 @@ In this task, you will create an Azure App Service Web App.
     
     **Note** - Remember to change the **xxxx** so that it makes a unique **Name**
 
-4. Click **Next > Docker** and configure the container information. 
+4. Click **Next > Docker** and configure the container information.  
 
     **Note:** This is same container that was used in the Container Instances walkthrough to display a hello world message. 
 
