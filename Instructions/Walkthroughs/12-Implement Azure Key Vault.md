@@ -17,12 +17,12 @@ In this walkthrough, we will create an Azure Key vault and then create a passwor
 
     | Setting | Value | 
     | --- | --- |
-    | Subscription | **Use your subscription** |
-    | Resource group | **myRGKV** (create new) |
+    | Subscription | Use default supplied |
+    | Resource group | Select default from drop down |
     | Key vault name | **keyvaulttestxxx** |
     | Location | **East US** |
     | Pricing tier | **Standard** |
-    | | |
+    **Note** replace **xxxx** to find a unique name.
 
 4. Click **Review + create**, and then click **Create**. 
 
@@ -47,7 +47,6 @@ In this task, we will add a password to the key vault.
     | Upload options | **Manual** |
     | Name | **ExamplePassword** |
     | Value | **hVFkk96** |
-    | | |
 
 3. Click **Create**.
 
