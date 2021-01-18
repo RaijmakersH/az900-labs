@@ -19,25 +19,22 @@ In this task, we will configure the allowed location policy and assign it to our
 
 4. Click **Assign Policy** at the top of the **Policy - Assignments** page.
 
-5. On the **Assign Policy** page, select the Scope selector by clicking the ellipsis.
+5. On the **Assign Policy** page, keep the default Scope.
 
-    ![Screenshot of the scope selector ellipses.](../images/1401.png)
-
-6. Ensure your subscription is selected. Your subscription name might be different. Notice you can optionally scope the policy to a resource group. Leave the defaults and click **Select**. 
+      | Setting | Value | 
+    | --- | --- |
+    | Scope| Use default selected|
+    | Policy definition | click elipses then search **Allowed Locations** then **Select** |
+    | Assignment Name | **Allowed Locations** |
+    
+    ![Screenshot of the Scope pane with field values filled in and the Select button highlighted. ](../images/1402.png)
+6. On the **Parameters** tab, select **Japan West**. Click **Review + create**, and then **Create**.
 
     **Note**: A scope determines what resources or grouping of resources the policy assignment applies to. In our case we could assign this policy to a specific resource group, however we chose to assign the policy at subscription level. Be aware that resources can be excluded based on the scope configuration. Exclusions are optional.
-
-    ![Screenshot of the Scope pane with field values filled in and the Select button highlighted. ](../images/1402.png)
-
-7. Select the **Policy definition** ellipsis button. In the **Search** box type **location** and click on the **Allowed locations** definition, then click **Select**.
 
     **Note**: This **Allowed Locations** policy definition will specify a location into which all resources must be deployed. If a different location is chosen, deployment will not be allowed. For more information view the [Azure Policy Samples](https://docs.microsoft.com/en-us/azure/governance/policy/samples/index) page.
 
    ![Screenshot of Available Definitions pane with various fields highlighted and the Audit VMs that do not use managed disks option selected.](../images/1403.png)
-
-8.  In the **Assign policy** pane, switch to the **Parameters** tab, click on the arrow at the end of the **Allowed locations** box and from the subsequent list choose **Japan West**. Leave all other values as they are and click **Review + create**, and then **Create**.
-
-    ![Screenshot of Assign policy pane with various fields filled in along with the location Japan West populated and the assign button highlighted.](../images/1404.png)
 
 9. The **Allowed locations** policy assignment is now listed on the **Policy - Assignments** pane and it is now in place, enforcing the policy at the scope level we specified (subscription level).
 
@@ -45,13 +42,13 @@ In this task, we will configure the allowed location policy and assign it to our
 
 In this task, we will test the Allowed location policy. 
 
-1. In the Azure Portal, from the **All services** blade, search for and select **Storage accounts**, and then click **+ Add**.
+1. In the Azure Portal, from the **All services** blade, search for and select **Storage accounts**, and then click **+ Creat**.
 
 2. Configure the storage account (replace **xxxx** in the name of the storage account with letters and digits such that the name is globally unique). Leave the defaults for everything else. 
 
     | Setting | Value | 
     | --- | --- |
-    | Subscription | **Use your subscription** |
+    | Subscription | Use the default supplied |
     | Resource group | **myRGPolicy** (create new) |
     | Storage account name | **storageaccountxxxx** |
     | Location | **(US) East US** |
@@ -72,12 +69,12 @@ We will delete the policy assignment to ensure we are not blocked on any future 
     **Note**: On the **Policy** blade, you can view the compliance state of the various policies you have assigned.
 
     **Note**: The Allowed location policy may show non-compliant resources. If so, these are resources created prior to the policy assignment.
+ 
+2. Click **Allowed Locations** It will open an Allowed locations Policy Compliance window.
 
-2. Click **Delete Assignment** in the top menu.
+3. Click **Delete Assignment** in the top menu. Confirm you wish to delete the policy assignment by clicking **Yes**
 
    ![Screenshot of the Delete Assignment menu item.](../images/1407.png)
-
-3. Confirm you wish to delete the policy assignment in the **Delete assignment** dialogue by clicking **Yes**
 
 4. Try to create another storage account to ensure the policy is no longer in effect.
 
