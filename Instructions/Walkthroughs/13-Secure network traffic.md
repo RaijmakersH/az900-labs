@@ -55,7 +55,7 @@ In this task, we will create a Windows Server 2019 Datacenter virtual machine.
 
 # Task 2: Create a network security group
 
-In this task, we will create a network security group and associate it with the network interface.
+In this task, we will create a network security group and associate it with the network interface. 
 
 1. From the **All services** blade, search for and select **Network security groups** and then click **+ Add**
 
