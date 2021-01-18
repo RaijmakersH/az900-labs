@@ -19,30 +19,27 @@ In this task, we will create a Windows Server 2019 Datacenter virtual machine.
 
     | Settings | Values |
     |  -- | -- |
-    | Subscription | **Choose your subscription**|
-    | Resource group | **myRGSecure** (create new) |
+    | Subscription | Use defult provided |
+    | Resource group | Use default from drop down |
     | Virtual machine name | **SimpleWinVM** |
-    | Location | **(US) East US**|
+    | Region | **(US) East US**|
     | Image | **Windows Server 2019 Datacenter**|
     | Size | **Standard D2s v3**|
     | Administrator account username | **azureuser** |
     | Administrator account password | **Pa$$w0rd1234**|
     | Inbound port rules | **None**|
-    | | |
 
 4. Switch to the **Networking** tab, and configure the following setting:
 
     | Settings | Values |
     | -- | -- |
     | NIC network security group | **None**|
-    | | |
 
 5. Switch to the **Management** tab, and in its **Monitoring** section, select the following setting:
 
     | Settings | Values |
     | -- | -- |
     | Boot diagnostics | **Disable**|
-    | | |
 
 6. Leave the remaining defaults and then click the **Review + create** button at the bottom of the page.
 
@@ -66,11 +63,10 @@ In this task, we will create a network security group and associate it with the 
 
     | Setting | Value |
     | -- | -- |
-    | Subscription | **Choose your subscription** |
-    | Resource group | **myRGSecure** |
+    | Subscription | Use default subscription |
+    | Resource group | Select default from drop down |
     | Name | **myNSGSecure** |
     | Region | **(US) East US**  |
-    | | |
 
 3. Click **Review + create** and then after the validation click **Create**.
 
@@ -90,6 +86,7 @@ In this task, we will allow RDP traffc to the virtual machine by configuring an 
 
 3. Attempt to connect to the virutal machine using RDP. By default the network security group does not allow RDP. Close the error window. 
 
+
     ![Screenshot of the error message that the virtual machine connection has failed.](../images/1201.png)
 
 4. On the virtual machine blade, scroll down to the **Settings** section, click on **Networking**, and notice the inbound rules for the **myNSGSecure (attached to network interface: myVMNic)** network security group deny all inbound traffic except traffic within the virtual network and load balancer probes.
@@ -106,7 +103,6 @@ In this task, we will allow RDP traffc to the virtual machine by configuring an 
     | Action | **Allow** |
     | Priority | **300** |
     | Name | **AllowRDP** |
-    | | |
 
 6. Wait for the rule to be provisioned and then try again to RDP into the virtual machine. This time you should be successful. Remember the user is **azureuser** and the password is **Pa$$w0rd1234**.
 
@@ -141,7 +137,6 @@ In this task, we will create a NSG outbound port rule that will deny Internet ac
     | Action | **Deny** |
     | Priority | **4000** |
     | Name | **DenyInternet** |
-    | | |
 
 8. Return to your RDP session. 
 
