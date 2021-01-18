@@ -52,7 +52,6 @@ In this task, we will test the Allowed location policy.
     | Resource group | **myRGPolicy** (create new) |
     | Storage account name | **storageaccountxxxx** |
     | Location | **(US) East US** |
-    | | |
 
 3. Click **Review + create** and then click **Create**. 
 
