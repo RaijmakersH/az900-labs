@@ -52,7 +52,7 @@ In this task, we will add a password to the key vault.
 
 4. Once the secret has been successfully created, click on the **ExamplePassword**, and note it has a status of **Enabled**
 
-5. Select the secret you just created, note the the **Secret Identifier**. This is the url value that you can now use with applications. It provides a centrally managed and securely stored password.
+5. Select the secret you just created, note the the **Secret Identifier**. This is the url value that you can now use with applications. It provides a centrally managed and securely stored password. 
 
 6. Click the button **Show Secret Value**, to display the password you specified earlier.
 
