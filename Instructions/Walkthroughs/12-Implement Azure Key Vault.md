@@ -56,7 +56,6 @@ In this task, we will add a password to the key vault.
 
 6. Click the button **Show Secret Value**, to display the password you specified earlier.
 
-7. Click on the key vault Overview tab and take note of the DNS name. Applications that use your vault through the REST API will need this URI.
 
 Congratulations! You have created an Azure Key vault and then created a password secret in that key vault, providing a securely stored, centrally managed password for use with applications.
 
