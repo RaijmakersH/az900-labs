@@ -19,7 +19,7 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
 
   **Note**: The **Deploy to Azure** button enables you to deploy the template via the Azure portal. During such deployment, you will be prompted only for small set of configuration parameters. 
 
-5. When prompted, sign into your lab Azure subscription. (Log in details are in the Resources Tab).
+5. When prompted, sign into your lab Azure subscription. (Log in details are in the Resources Tab). 
 
 6. On the **Custom Deployment** blade, click **Edit template**. The Resource Manager template format uses the JSON format. Review the parameters and variables.  Then locate the parameter for virtual machine name. Change the name to **myVMTemplate**. **Save** your changes. You are returned to the **Custom deployment** blade in the Azure portal.
 
