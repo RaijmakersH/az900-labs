@@ -11,9 +11,7 @@ In this walkthrough, we will deploy a virtual machine with a QuickStart template
 
 In this task, we will browse the Azure QuickStart gallery and deploy a template that creates a virtual machine. 
 
-1. In a browser, go to https://aka.ms/QuickstartTemplates. This link will take you to the QuickStart Template gallery. In the gallery you will find a number of popular and recently updated templates. These templates automate deployment of Azure resources, including installation of popular software packages.
-
-2. Browse through the many different types of templates that are available. 
+1. Within the lab environment, open a new browser window, and enter T https://azure.microsoft.com/en-us/resources/templates/?azure-portal=true. In the gallery you will find a number of popular and recently updated templates. These templates automate deployment of Azure resources, including installation of popular software packages. Browse through the many different types of templates that are available.
 
 3. Select the **Deploy a simple Windows VM**
 
@@ -21,7 +19,7 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
 
   **Note**: The **Deploy to Azure** button enables you to deploy the template via the Azure portal. During such deployment, you will be prompted only for small set of configuration parameters. 
 
-5. If prompted, sign in to the Azure subscription you want to use in this lab.
+5. When prompted, sign into your lab Azure subscription. (Log in details are in the Resources Tab).
 
 6. On the **Custom Deployment** blade, click **Edit template**. The Resource Manager template format uses the JSON format. Review the parameters and variables.  Then locate the parameter for virtual machine name. Change the name to **myVMTemplate**. **Save** your changes. You are returned to the **Custom deployment** blade in the Azure portal.
 
@@ -33,7 +31,7 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
     |----|----|
     | Subscription | Keep default supplied|
     | Resource group | Use default from drop down |
-    | Location | **(US) East US** |
+    | Region | Default auto populates |
     | Admin username | **azureuser** |
     | Admin password | **Pa$$w0rd1234** |
     | DNS label prefix | **myvmtemplate*xxxx*** |
@@ -54,7 +52,7 @@ In this task, we will verify the virtual machine deployed correctly.
 
     ![Screenshot of the virtual machines page. The new VM is shown and running.](../images/0902.png)
 
-3. Select your virtual machine and on the **Overview** pane scroll down to view monitoring data.
+3. Select your virtual machine and on the **Overview** pane, select the **Monitoring** tab, scroll down to view monitoring data.
 
     **Note**: The monitoring timeframe can be adjusted from one hour to 30 days.
 
@@ -70,5 +68,7 @@ In this task, we will verify the virtual machine deployed correctly.
 8. Click **Add filter**, and experiment with searching for different event types and operations. 
 
     ![Screenshot of the Add filters page with Event type selected.](../images/0904.png)
+
+Congratulations! You have successfully created a resource from a template and deployed that template to Azure.
 
 **Note**: To avoid additional costs, you can remove this resource group. Search for resource groups, click your resource group, and then click **Delete resource group**. Verify the name of the resource group and then click **Delete**. Monitor the **Notifications** to see how the delete is proceeding.
