@@ -25,7 +25,7 @@ In this task, we will configure the **Require a tag on resources** policy and as
 
 6. On the **Assign policy** blade, in the **Parameters** tab, type in **Company** for the tag name. Click **Review + create**, and then **Create**.
 
-    **Note:** This is a simple example to demonstrate tagging. Please note that the assignment takes around 30 minutes to take effect. 
+    **Note:** This is a simple example to demonstrate tagging. 
 
     ![Screenshot of Assign policy pane with the Tag name filled out.](../images/1702.png)
 
