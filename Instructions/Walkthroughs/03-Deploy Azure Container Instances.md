@@ -14,14 +14,14 @@ In this task, we will create a new container instance for the web application.
 
 1. Sign in to the [Azure portal](https://portal.azure.com).
 
-2. From the **All services** blade, search for and select **Container instances** and then click **+ Add**. 
+2. From the **All services** blade, search for and select **Container instances** and then click **+ New**. 
 
 3. Provide the following Basic details for the new container instance  (leave the defaults for everything else)): 
 
 	| Setting| Value|
 	|----|----|
-	| Subscription | Use provided |
-	| Resource group | ***Select the default in drop down*** |
+	| Subscription | ***Use default supplied*** |
+	| Resource group | ***Use default in drop down*** |
 	| Container name| **mycontainer**|
 	| Region | **(US) East US** |
 	| Image source| **Docker Hub or other registry**|
@@ -29,16 +29,16 @@ In this task, we will create a new container instance for the web application.
 	| Image| **microsoft/aci-helloworld**|
 	| OS type| **Linux** |
 	| Size| ***Leave at the default***|
-	|||
 
-4. Configure the Networking tab (replace **xxxxxx** with letters and digits such that the name is globally unique). Leave all other settings at their default values.
+
+4. Configure the Networking tab (replace **xxxxx** with letters and digits such that the name is globally unique). Leave all other settings at their default values.
 
 	| Setting| Value|
 	|--|--|
-	| DNS name label| **mycontainerdnsxxxx** |
-	|||
+	| DNS name label| **mycontainerdnsxxxxx** |
+
 	
-	**Note**: Your container will be publicly reachable at dns-name-label.region.azurecontainer.io. If you receive a **DNS name label not available** error message following the deployment, specify a different DNS name label (don't use xxxxxx) and re-deploy. 
+	**Note**: Your container will be publicly reachable at dns-name-label.region.azurecontainer.io. If you receive a **DNS name label not available** error message following the deployment, specify a different DNS name label (replacing the xxxxx) and re-deploy. 
 
 5. Click **Review and Create** to start the automatic validation process.
 
@@ -60,7 +60,7 @@ In this task, we verify that the container instance is running by ensuring that 
 
 	![Screenshot of the overview pane for the newly created container in Azure portal, with the FQDN highlighted. ](../images/0202.png)
 
-2. Copy the container's FQDN into the URL text box web browser and press **Enter**. The Welcome page should display. 
+2. Copy the container's FQDN into a new web browser tab and press **Enter**. The Welcome page should display. 
 
 	![Screenshot of the ACI welcome message shown in a web browser.](../images/0203.png)
 
