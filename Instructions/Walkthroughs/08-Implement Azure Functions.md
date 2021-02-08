@@ -23,7 +23,7 @@ In this task, we will create a Function app.
     | Resource group | Use default from the drop down |
     | Function App name | **function-xxxx** |
     | Publish | **Code** |
-    | Runtime stack | **.NET Core** |
+    | Runtime stack | **.NET** |
     | Version | **3.1** |
     | Region | **East US** |
 
@@ -33,7 +33,7 @@ In this task, we will create a Function app.
 
 5. Wait for the notification that the resource has been created.
 
-6. Navigate back to the **Function App** blade, click **Refresh** and verify that the newly created function app has the **Running** status. 
+6. When the deployment has completed, click Go to resource from the deployment blade. Alternatively, navigate back to the **Function App** blade, click **Refresh** and verify that the newly created function app has the **Running** status. 
 
     ![Screenshot of the Function App page with the new Function app.](../images/0701.png)
 
