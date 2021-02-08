@@ -64,7 +64,7 @@ In this task, we will test if the resource lock protects a storage account in th
     | Performance | **Standard** |
     | Account kind | **StorageV2 (general purpose v2)** |
     | Replication | **Locally redundant storage (LRS)** |
-    | Blob Access tier (default) | **Hot** (on Advanced tab)|
+
 
 3. Click **Review + Create** to review your storage account settings and allow Azure to validate the configuration. 
 
