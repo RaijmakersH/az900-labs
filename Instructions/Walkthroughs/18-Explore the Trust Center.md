@@ -13,14 +13,14 @@ In this walkthrough, we will access Compliance Offerings, the Service Trust Port
 
 2. On the Compliance page, notice the offerings are grouped into **Global**, **US Government**, **Industry**, and **Regional**.
 
-3. In the **Global** group, click **ISO 27001**. Scroll through the information provided. Scrolling down onthe page will take you to a section **Complaince offerings specifically for Azure**
+3. In the **Global** group, click **ISO 27001**. Scroll through the information provided. Scrolling down on the page will take you to a section **Compliance offerings specifically for Azure**
 
     **Note:** The ISO 27001 Information Security Management Standards page is typical of the type of complaince information we provide.
 
 
 # Task 2: Access the Service Trust Portal (STP)
 
-1. Open a new browser window. In the address bar, replace the deafult text with T https://servicetrust.microsoft.com/.
+1. Open a new browser window. In the address bar, replace the default text with T https://servicetrust.microsoft.com/.
 
 2. Notice the **Audited Controls** section. In this section are independent audit reports for different Microsoft's Cloud services. If you want to try the Compliance Manager you will need to login.
 
