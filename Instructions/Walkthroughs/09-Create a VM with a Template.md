@@ -35,7 +35,7 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
     | Admin username | **azureuser** |
     | Admin password | **Pa$$w0rd1234** |
     | DNS label prefix | **myvmtemplate*xxxx*** |
-    | Windows OS version | **2019-Datacenter** |
+    | OS version | **2019-Datacenter** |
 
 
 9. Click **Review + Create**.
