@@ -19,7 +19,7 @@ In this task, we will configure the **Require a tag on resources** policy and as
 
 4. Notice the **Scope** for our policy will be subscription wide. 
 
-5. Select the **Policy definition** ellipsis button (right side of textbox). **Search** for policy definitions including the value **tag**, in the result set, click on the  **Require a tag and it's value on resources** definition, then click **Select**.
+5. Select the **Policy definition** ellipsis button (right side of textbox). **Search** for policy definitions including the value **tag**, in the result set, click on the  **Require a tag and its value on resources** definition, then click **Select**.
 
    ![Screenshot of Available Definitions pane with Require a tag on resources selected.](../images/1701.png)
 
@@ -28,7 +28,7 @@ In this task, we will configure the **Require a tag on resources** policy and as
     ![Screenshot of Assign policy pane with the Tag name filled out.](../images/1702.png)
 
 7. The **Require a tag on resources** policy assignment is now in place. When a resource is created, it must include a tag with the Company key.
-   **Note - you need to wait up to 30 minutes for teh Policy to be applied.** 
+   **Note - you need to wait up to 30 minutes for the Policy to be applied.** 
 
    ![Screenshot of Policy - Assignments pane with the allowed locations assignment highlighted.](../images/1703.png)
 
