@@ -58,7 +58,7 @@ In this task, we will create a SQL database based on the AdventureWorksLT sample
 
 In this task, we will configure the SQL server and run a SQL query. 
 
-1. From the **All Resources** blade, search and select **Databases**, then **SQL databases** ensure your new database was created. You may need to **Refresh** the page.
+1. When the deployment has completed, click Go to resource from the deployment blade. Alternatively, from the **All Resources** blade, search and select **Databases**, then **SQL databases** ensure your new database was created. You may need to **Refresh** the page.
 
     ![Screenshot of the SQL database and server that have just been deployed.](../images/0502.png)
 
