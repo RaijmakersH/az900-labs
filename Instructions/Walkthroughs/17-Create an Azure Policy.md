@@ -13,7 +13,7 @@ In this task, we will configure the allowed location policy and assign it to our
 
 1. Sign in to the [Azure portal](https://portal.azure.com).
 
-2. From the **All services** blade, search for and select **Policy**, under the **Authoring** section click **Definitions**.  Take a moment to review the list of built-in policy definitions. For example, in the **Category** drop-down select only **Compute**. Notice the **Allowed virtual machine SKUs** definition enables you to specify a set of virtual machine SKUs that your organization can deploy.
+2. From the **All services** blade, search for and select **Policy**, under the **Authoring** section click **Definitions**.  Take a moment to review the list of built-in policy definitions. For example, in the **Category** drop-down select only **Compute**. Notice the **Allowed virtual machine size SKUs** definition enables you to specify a set of virtual machine SKUs that your organization can deploy.
 
 3. Return to the **Policy** page, under the **Authoring** section click **Assignments**. An assignment is a policy that has been assigned to take place within a specific scope. For example, a definition could be assigned to the subscription scope. 
 
@@ -42,7 +42,7 @@ In this task, we will configure the allowed location policy and assign it to our
 
 In this task, we will test the Allowed location policy. 
 
-1. In the Azure Portal, from the **All services** blade, search for and select **Storage accounts**, and then click **+ Creat**.
+1. In the Azure Portal, from the **All services** blade, search for and select **Storage accounts**, and then click **+ Create**.
 
 2. Configure the storage account (replace **xxxx** in the name of the storage account with letters and digits such that the name is globally unique). Leave the defaults for everything else. 
 
