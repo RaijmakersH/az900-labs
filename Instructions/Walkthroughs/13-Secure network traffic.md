@@ -74,17 +74,17 @@ In this task, we will create a network security group and associate it with the 
 
 5. Under **Settings** click **Network interfaces** and then **+ Associate**.
 
-6. Select the network interace you identified in the previous task. 
+6. Select the network interface you identified in the previous task. 
 
 # Task 3: Configure an inbound security port rule to allow RDP
 
-In this task, we will allow RDP traffc to the virtual machine by configuring an inbound security port rule. 
+In this task, we will allow RDP traffic to the virtual machine by configuring an inbound security port rule. 
 
 1. In the Azure portal, navigate to the blade of the **SimpleWinVM** virtual machine. 
 
 2. On the **Overview** pane, click **Connect**.
 
-3. Attempt to connect to the virutal machine using RDP. By default the network security group does not allow RDP. Close the error window. 
+3. Attempt to connect to the virtual machine using RDP. By default the network security group does not allow RDP. Close the error window. 
 
 
     ![Screenshot of the error message that the virtual machine connection has failed.](../images/1201.png)
