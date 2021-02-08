@@ -19,11 +19,11 @@ In this task, we will create a Windows Server 2019 Datacenter virtual machine.
 
     | Settings | Values |
     |  -- | -- |
-    | Subscription | Use defult provided |
+    | Subscription | Use default provided |
     | Resource group | Use default from drop down |
     | Virtual machine name | **SimpleWinVM** |
     | Region | **(US) East US**|
-    | Image | **Windows Server 2019 Datacenter**|
+    | Image | **Windows Server 2019 Datacenter Gen 1**|
     | Size | **Standard D2s v3**|
     | Administrator account username | **azureuser** |
     | Administrator account password | **Pa$$w0rd1234**|
