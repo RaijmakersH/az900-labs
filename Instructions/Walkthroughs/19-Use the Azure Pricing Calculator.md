@@ -7,7 +7,7 @@ wts:
 
 In this walkthrough, we will use the Azure Pricing Calculator to generate a cost estimate for an Azure virtual machine and related network resources.
 
-# Task 1: Configure the pricing calculator (10 min)
+# Task 1: Configure the pricing calculator
 
 In this task, we will estimate cost of a sample infrastructure by using the Azure Pricing Calculator. 
 
