@@ -21,14 +21,14 @@ In this task, you will create an Azure App Service Web App.
 
     | Setting | Value |
     | -- | -- |
-    | Subscription | Keep default supplied |
-    | Resource Group | Use default from drop down |
+    | Subscription | **Keep default supplied** |
+    | Resource Group | **Use default from drop down**|
     | Name | **myDockerWebAppxxxx** |
     | Publish | **Docker Container** |
     | Operating System | **Linux** |
     | Region | **East US** |
     
-    **Note** - Remember to change the **xxxx** so that it makes a unique **Name**
+    **Note** - Remember to change the **xxxx** so that your Web App name is unique.
 
 4. Click **Next > Docker** and configure the container information.  
 
