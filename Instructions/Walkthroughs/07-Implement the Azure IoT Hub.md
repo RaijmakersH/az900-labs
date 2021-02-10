@@ -26,7 +26,7 @@ In this task, we will create an IoT hub.
 
     **Note** - Remember to change the **xxxxx** so that it makes a unique **IoT Hub Name**.
 
-4. Go to the **Management** tab, and use the dropdown list to set the **Pricing and scale tier** to **S1: Standard tier**.
+4. Go to the **Management** tab, and use the dropdown to set the **Pricing and scale tier** to **S1: Standard tier**.
 
 5. Click the **Review + create** button.
 
