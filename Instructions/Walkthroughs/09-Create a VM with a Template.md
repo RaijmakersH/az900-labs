@@ -7,7 +7,7 @@ wts:
 
 In this walkthrough, we will deploy a virtual machine with a QuickStart template and examine monitoring capabilities.
 
-# Task 1: Explore the gallery and locate a template (10 min)
+# Task 1: Explore the gallery and locate a template 
 
 In this task, we will browse the Azure QuickStart gallery and deploy a template that creates a virtual machine. 
 
@@ -31,10 +31,10 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
     |----|----|
     | Subscription | Keep default supplied|
     | Resource group | Use default from drop down |
-    | Region | Default auto populates |
+    | Region | Keep default |
     | Admin username | **azureuser** |
     | Admin password | **Pa$$w0rd1234** |
-    | DNS label prefix | **myvmtemplate*xxxx*** |
+    | DNS label prefix | **myvmtemplatexxxx** |
     | OS version | **2019-Datacenter** |
 
 
