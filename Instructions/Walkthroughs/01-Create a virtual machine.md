@@ -11,7 +11,7 @@ In this walkthrough, we will create a virtual machine in the Azure portal, conne
 
 # Task 1: Create the virtual machine (10 min)
 
-1. Launch the Edge Browser icon (located on the bottom right your Virtual Machine of the menu bar) and sign in to the Azure portal by typing https://portal.azure.com in the address bar.
+1. Use the Edge Browser(located on the bottom right your Virtual Machine of the menu bar) to bring up a browser window and log into the Azure portal by typing https://portal.azure.com in the address bar.
 
 2. Log into Azure using the supplied Username and password (located in the Resources Tab). 
 
@@ -26,7 +26,7 @@ In this walkthrough, we will create a virtual machine in the Azure portal, conne
     | Virtual machine name | **myVM** |
     | Region | **(US) East US**|
     | Image | **Windows Server 2019 Datacenter - Gen1**|
-    | Size | Standard D2s v3|
+    | Size | **Standard D2s v3**|
     | Administrator account username | **azureuser** |
     | Administrator account password | **Pa$$w0rd1234**|
     | Inbound port rules - | **Allow select ports **|
@@ -44,7 +44,7 @@ In this walkthrough, we will create a virtual machine in the Azure portal, conne
     | -- | -- |
     | Boot diagnostics | **Disable**|
 
-7. Leave the remaining defaults and then click the **Review + create** button at the bottom of the page.
+7. Leave the remaining values on the defaults and then click the **Review + create** button at the bottom of the page.
 
 8. Once Validation is passed click the **Create** button. It can take anywhere from five to seven minutes to deploy the virtual machine.
 
@@ -78,7 +78,7 @@ In this task, we will connect to our new virtual machine using RDP.
 
     ![Screenshot of the Certificate warning dialogue informing the user of an untrusted certificate, with the Yes button highlighted. ](../images/0104.png)
 
-The new Virtual Machine (myVM) will launch inside your Lab. Close the Server Manager and dashboard windows that pop up. You should see the blue background of your virtual machine. Congratulations! You have deployed and connected to a Windows Server virtual machine in Azure. 
+A new Virtual Machine (myVM) will launch inside your Lab. Close the Server Manager and dashboard windows that pop up. You should see the blue background of your virtual machine. Congratulations! You have deployed and connected to a Windows Server virtual machine in Azure. 
 
 # Task 3: Install the web server role and test
 
@@ -94,7 +94,7 @@ In this task, install the Web Server role on the server on the Virtual Machine y
     Install-WindowsFeature -name Web-Server -IncludeManagementTools
     ```
   
-3. When completed there will be a prompt stating **Success** with a value **True**. You do not need to restart the virtual machine to complete the installation. Close the RDP connection to the VM by clicking the **x** at the right side of the virtual machine blue bar. 
+3. When completed, a prompt will state **Success** with a value **True**. You do not need to restart the virtual machine to complete the installation. Close the RDP connection to the VM by clicking the **x** at the right side of the virtual machine blue bar. 
 
     ![Screenshot of the windows PowerShell command prompt with the command Install-WindowsFeature -name Web-Server -IncludeManagementTools successfully completed and output stating it was successful.](../images/0106.png)
 
