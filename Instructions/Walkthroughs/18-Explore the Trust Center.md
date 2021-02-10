@@ -7,9 +7,9 @@ wts:
 
 In this walkthrough, we will access Compliance Offerings, the Service Trust Portal (STP), and Compliance Manager. 
 
-# Task 1: Access Microsoft Compliance Offerings (5 min)
+# Task 1: Access Microsoft Compliance Offerings
 
-1. Open a new browser window. In the address bar, replace the default text with T https://servicetrust.microsoft.com/Documents/TrustDocuments.
+1. Open a new browser window. In the address bar, replace the default text with T https://docs.microsoft.com/en-us/compliance/regulatory/offering-home
 
 2. On the Compliance page, notice the offerings are grouped into **Global**, **US Government**, **Industry**, and **Regional**.
 
@@ -22,7 +22,7 @@ In this walkthrough, we will access Compliance Offerings, the Service Trust Port
 
 1. Open a new browser window. In the address bar, replace the default text with T https://servicetrust.microsoft.com/.
 
-2. Notice the **Audited Controls** section. In this section are independent audit reports for different Microsoft's Cloud services. If you want to try the Compliance Manager you will need to login.
+2. Notice the **Audit Reports** section. In this section are independent audit reports for different Microsoft's Cloud services. If you want to try the Compliance Manager you will need to login.
 
 3. It may take a couple of minutes for all the audits to load. You will need to login to your Microsoft account to view specific reports.
 
@@ -33,6 +33,6 @@ The Compliance Manager makes it easy to perform risk assessments of Microsoft's 
 
 1. If your browser window is stillopen from Task 2, proceed to Step 2. Otherwise, open a new browser window, and paste T https://servicetrust.microsoft.com/Documents/TrustDocuments.  
 
-2. Visit the Compliance Guides on the tab to the right of **Audited Controls**. Take a look around.
+2. Visit the Compliance Guides on the tab to the right of **Audit Reports**. Take a look around.
 
 Congratulations! In this walkthrough, you accessed the Trust Center, Service Trust Portal (STP), and Compliance Manager.
