@@ -7,7 +7,7 @@ wts:
 
 In this walk-through, we will configure the Cloud Shell, use Azure PowerShell module to create a resource group and virtual machine, and review Azure Advisor recommendations. 
 
-# Task 1: Configure the Cloud Shell (10 min)
+# Task 1: Configure the Cloud Shell 
 
 In this task, we will configure Cloud Shell. 
 
@@ -24,7 +24,7 @@ In this task, we will configure Cloud Shell.
 5. On the **You have no storage mounted** screen select **Show advanced settings** Fill in the information below
  | Settings | Values |
     |  -- | -- |
-    | Resource Group | Use existing |
+    | Resource Group | Use default supplied |
     | Storage account (create new) | **cloudshell15155995** |
     | File share (create new) | **shellstorage** |
 
