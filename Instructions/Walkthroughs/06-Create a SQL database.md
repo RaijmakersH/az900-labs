@@ -20,8 +20,8 @@ In this task, we will create a SQL database based on the AdventureWorksLT sample
 
     | Setting | Value | 
     | --- | --- |
-    | Subscription | **Use default supplied** |
-    | Resource group | **Use default in drop down** |
+    | Subscription | Use default supplied |
+    | Resource group | Use default in drop down |
     | Database name| **db1** | 
     | Server | Select **Create new** A new sidebar will open to the right. |
     | Server name | **sqlserverxxxx** (must be unique) | 
