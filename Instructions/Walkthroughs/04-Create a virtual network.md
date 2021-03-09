@@ -13,17 +13,17 @@ In this task, we will create a virtual network.
 
 1. Sign in to the Azure portal at <a href="https://portal.azure.com" target="_blank"><span style="color: #0066cc;" color="#0066cc">https://portal.azure.com</span></a>
 
-2. From the **All services** blade, search for and select **Virtual networks**, and then click **+ Add**. 
+2. From the **All services** blade, search for and select **Virtual networks**, and then click **+ Add, + Create, or + New**. 
 
 3. On the **Create virtual network** blade, fill in the following (leave the defaults for everything else):
 
     | Setting | Value | 
     | --- | --- |
-    | Name | **vnet1** |
-    | Address space |**10.1.0.0/16** |
     | Subscription | **Select your subscription** |
     | Resource group | **myRGVNet** (create new) |
+    | Name | **vnet1** |
     | Location | **(US) East US** |
+    | Address space |**10.1.0.0/16** |
     | Subnet - Name | **default** |
     | Subnet Address range | **10.1.0.0/24** |
 
@@ -40,7 +40,7 @@ In this task, we will create a virtual network.
 
 In this task, we will create two virtual machines in the virtual network. 
 
-1. From the **All services** blade, search for **Virtual machines** and then click **+ Add**. 
+1. From the **All services** blade, search for **Virtual machines** and then click **+ Add** and choose **+ Virtual machine**. 
 
 2. On the **Basics** tab, fill in the following information (leave the defaults for everything else):
 
