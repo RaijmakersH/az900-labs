@@ -48,7 +48,7 @@ In this task, we will use the Webhook + API function to display a message when t
 
     ![Screenshot of the choose a development environment step in the azure functions for dot net getting started pane inside Azure portal. The display elements for creating a new in-portal function are highlighted. The highlighted elements are expand the function app, add new function, in-portal, and the continue button.](../images/0702.png)
 
-1. On the **Select a template** section of the **Add function** blade, click **HTTP trigger**, under the **Template details** section accept the defaults, then click **Add**.
+1. In the **Select a template** section of the **Add function** blade, click **HTTP trigger**, under the **Template details** section accept the defaults, then click **Add**.
 
 1. On the **HttpTrigger1** blade, in the **Developer** section, click **Code + Test**. 
 
