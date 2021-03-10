@@ -44,9 +44,9 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
     
     ** Note: There is no cost associated with this template.
 
-9. Click **Review + Create**.
+8. Click **Review + Create**.
 
-10. Monitor your deployment. 
+9. Once Validation is passed click the **Create** button. It can take anywhere from five to seven minutes to deploy the virtual machine. 
 
 # Task 2: Verify and monitor your virtual machine deployment
 
