@@ -13,7 +13,7 @@ In this task, we will create a resource group for this exercise.
 
 1. Sign in to the [Azure portal](https://portal.azure.com).
 
-2. From the **All services** blade, search for and select **Resource groups**, then select **+ Add**.
+2. From the **All services** blade, search for and select **Resource groups**, then select **+ Add, + Create, or + New**.
 
 3. Create a new resource group. When you are done click **Review + create** and then **Create**. 
 
@@ -52,7 +52,7 @@ In this task, we will add a resource lock to the resource group and test deletin
 
 In this task, we will test if the resource lock protects a storage account in the resource group. 
 
-1. From the **All services** blade, search for and select **Storage accounts**, and then click **+ Add**. 
+1. From the **All services** blade, search for and select **Storage accounts**, and then click **+ Add, + Create, or + New**. 
 
 2. On the **Basics** tab of the **Create storage account** blade, fill in the following information (replace **xxxx** in the name of the storage account with letters and digits such that the name is globally unique). Leave the defaults for everything else.
 
