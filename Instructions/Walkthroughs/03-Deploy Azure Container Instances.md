@@ -64,7 +64,6 @@ In this task, we verify that the container instance is running by ensuring that 
 
 	![Screenshot of the ACI welcome message shown in a web browser.](../images/0203.png)
 
-**Note**: You could also use the container IP address in your browser. 
 
 Congratulations! You have used Azure Portal to successfully deploy an application to a container in Azure Container Instance.
 
