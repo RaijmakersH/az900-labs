@@ -15,7 +15,7 @@ In this task, you will create an Azure App Service Web App.
 
 1. Sign-in to the [Azure portal](http://portal.azure.com/). 
 
-2. From the **All services** blade, search for and select **App Services**, and click **+ Create**
+2. From the **All services** blade, search for and select **App Services**, and click **+ Add, + Create, + New**
 
 3. On the **Basics** tab of the **Web App** blade, specify the following settings (replace **xxxx** in the name of the web app with letters and digits such that the name is globally unique). Leave the defaults for everything else, including the App Service Plan. 
 
