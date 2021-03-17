@@ -14,7 +14,7 @@ In this task, we will create a new container instance for the web application.
 
 1. Sign in to the [Azure portal](https://portal.azure.com).
 
-2. From the **All services** blade, search for and select **Container instances** and then click **+ New**. 
+2. From the **All services** blade, search for and select **Container instances** and then click **+ Add, + Create, + New**. 
 
 3. Provide the following Basic details for the new container instance  (leave the defaults for everything else)): 
 
@@ -46,7 +46,6 @@ In this task, we will create a new container instance for the web application.
 
 7. Monitor the deployment page and the **Notifications** page. 
 
-8. While you wait you may be interested in viewing the [sample code behind this simple application](https://github.com/Azure-Samples/aci-helloworld). Browse the \app folder. 
 
 # Task 2: Verify deployment of the container instance
 
