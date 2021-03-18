@@ -5,7 +5,7 @@ wts:
 ---
 # 14 - Manage access with RBAC
 
-In this walkthrough, we will assign roles and view activity logs. 
+In this walkthrough, we will assign permission roles to resources and view logs.
 
 # Task 1: View and assign roles (5 min)
 
@@ -13,16 +13,16 @@ In this task, we will assign the Virtual machine contributor role.
 
 1. Sign in to the [Azure portal](https://portal.azure.com).
 
-2. From the **All services** blade, search for and select **Resource groups**, then click **+ Create**.
+2. From the **All services** blade, search for and select **Resource groups**, then click **+Add +New +Create **.
 
 3. Create a new resource group. Click **Create** when you are finished. 
 
     | Setting | Value |
     | -- | -- |
-    | Subscription | Use default provided |
+    | Subscription | **Use default provided**myRGRBAC |
     | Resource group | **myRGRBAC** |
     | Region | **(US) East US** |
-    | | |
+   
 
 4. Create **Review + create** and then click **Create**.
 
@@ -38,8 +38,8 @@ In this task, we will assign the Virtual machine contributor role.
     | -- | -- |
     | Role | **Virtual machine contributor** |
     | Assign access to | **user, group, or service principal** |
-    | Select | your user account |
-    | | |
+    | Select | **your user account** |
+ 
 
     **Note:** The Virtual machine contributor role lets you manage virtual machines, but not access their operating system or manage the virtual network and storage account they are connected to.
 
