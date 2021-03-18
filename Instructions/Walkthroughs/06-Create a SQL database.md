@@ -14,16 +14,16 @@ In this task, we will create a SQL database based on the AdventureWorksLT sample
 
 1. Sign in to the Azure portal at [**https://portal.azure.com**](https://portal.azure.com).
 
-2. From the **All services** blade, search for and select **SQL databases**, and then click **+ Add**. 
+2. From the **All services** blade, search for and select **SQL databases**, and then click ** + Add, + Create, + New**. 
 
 3. On the **Basics** tab, fill in this information.  
 
     | Setting | Value | 
     | --- | --- |
-    | Subscription | Use default supplied |
-    | Resource group | Use default in drop down |
+    | Subscription | **Use default supplied** |
+    | Resource group | **Use default in drop down** |
     | Database name| **db1** | 
-    | Server | Select **Create new** A new sidebar will open to the right. |
+    | Server | Select **Create new** (A new sidebar will open on the right)|
     | Server name | **sqlserverxxxx** (must be unique) | 
     | Server admin login | **sqluser** |
     | Password | **Pa$$w0rd1234** |
@@ -32,7 +32,7 @@ In this task, we will create a SQL database based on the AdventureWorksLT sample
 
    ![Screenshot of the Server pane and the New Server pane with fields filled in as per the table and the Review + create and OK buttons highlighted.](../images/0501.png)
 
-4. Move to the **Networking** tab and configure the following settings (leave others with their defaults) 
+4. On the  **Networking** tab and configure the following settings (leave others with their defaults) 
 
     | Setting | Value | 
     | --- | --- |
