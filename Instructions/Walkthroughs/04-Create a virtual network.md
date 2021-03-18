@@ -100,7 +100,7 @@ In this task, we will allow log into one VM and ping the other.
 
 7. Open up a PowerShell command prompt on the virtual machine, by clicking the **Start** button, typing **PowerShell**, right clicking **Windows PowerShell** in the right-click menu, and clicking **Run as administrator**
 
-8. Try to ping vm2, you will see it can. 
+8. Try to ping vm2, you will notice that you can.
 
    ```PowerShell
    ping vm2
