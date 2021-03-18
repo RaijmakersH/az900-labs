@@ -3,35 +3,13 @@ wts:
     title: '15 - Manage resource locks (5 min)'
     module: 'Module 05: Describe identity, governance, privacy, and compliance features'
 ---
-# 15 - Manage resource locks
+# 15 - Adding a Lock to a Resource Group
 
-In this walkthrough, we will create a resource group, add a delete lock to the resource group and test deleting the resource group. Locks can be applied in a subscription to resource groups, or individual resources to prevent accidental deletion or modification of critical resources. 
+In this walkthrough, we will add a delete lock to the resource group and test deleting the resource group. Locks can be applied in a subscription to resource groups, or individual resources to prevent accidental deletion or modification of critical resources. Locks can be applied to a subscription, resource group, or individual resource to prevent accidental deletion or modification of critical resources. 
 
-# Task 1: Create a resource group (5 min)
+2. In the **Search** bar at the top of the portal, search for **Resource groups**. Click on the resource group listed on that page.
 
-In this task, we will create a resource group for this exercise. 
-
-1. Sign in to the [Azure portal](https://portal.azure.com).
-
-2. From the **All services** blade, search for and select **Resource groups**, then select **+ Create**.
-
-3. Create a new resource group. When you are done click **Review + create** and then **Create**. 
-
-    | Setting | Value |
-    | -- | -- |
-    | Subscription | Use default provided |
-    | Name | **myRGLocks** |
-    | Region | **(US) East US** |
-
-# Task 2:  Add a Lock to the resource group and test deletion
-
-In this task, we will add a resource lock to the resource group and test deleting the resource group. 
-
-1. In the Azure portal, navigate to the newly created resource group **myRGLocks**.
-
-2. You can apply a lock to a subscription, resource group, or individual resource to prevent accidental deletion or modification of critical resources. 
-
-3. In the **Settings** section, click **Locks**, and then click **+ Add**. 
+3. In the **Settings** section, click **Locks**, and then click **+Add +New +Create **. 
 
     ![Screenshot of the myRGLocks resource group with the Locks pane displaying.](../images/1601.png)
 
@@ -53,12 +31,12 @@ In this task, we will test if the resource lock protects a storage account in th
 
 1. From the **All services** blade, search for and select **Storage accounts**, and then click **+ Add**. 
 
-2. On the **Storage Accounts** page **+ Create** blade, fill in the following information (replace **xxxx** in the name of the storage account with letters and digits such that the name is globally unique). Leave the defaults for everything else.
+2. On the **Storage Accounts** page **+Add +New +Create ** blade, fill in the following information (replace **xxxx** in the name of the storage account with letters and digits such that the name is globally unique). Leave the defaults for everything else.
 
     | Setting | Value | 
     | --- | --- |
-    | Subscription | use default provided |
-    | Resource group | select default provided from drop down |
+    | Subscription | **Use default provided** |
+    | Resource group | **Select default provided from drop down** |
     | Storage account name | **storageaccountxxxx** |
     | Location | **(US) East US**  |
     | Performance | **Standard** |
