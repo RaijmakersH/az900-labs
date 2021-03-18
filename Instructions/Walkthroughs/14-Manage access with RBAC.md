@@ -13,7 +13,7 @@ In this task, we will assign the Virtual machine contributor role.
 
 1. Sign in to the [Azure portal](https://portal.azure.com).
 
-2. From the **All services** blade, search for and select **Resource groups**, then click **+ Add**.
+2. From the **All services** blade, search for and select **Resource groups**, then click **+ Add, + Create, or + New**.
 
 3. Create a new resource group. Click **Create** when you are finished. 
 

@@ -14,7 +14,7 @@ In this task, we will create a SQL database based on the AdventureWorksLT sample
 
 1. Sign in to the Azure portal at [**https://portal.azure.com**](https://portal.azure.com).
 
-2. From the **All services** blade, search for and select **SQL databases**, and then click **+ Add**. 
+2. From the **All services** blade, search for and select **SQL databases**, and then click **+ Add, + Create, or + New**. 
 
 3. On the **Basics** tab, fill in this information.  
 
@@ -55,7 +55,7 @@ In this task, we will create a SQL database based on the AdventureWorksLT sample
     | --- | --- |
     | Use existing data | **Sample** |
     | Collation | ***use default*** |
-    | Enable advanced data security | **Not now** |
+    | Enable Azure Defender for SQL | **Not now** |
     | | |
 
     ![Screenshot of the Additional settings tab of the Create SQL Database blade with settings selected as per the table and the Review + create button highlighted.](../images/0501c.png)

@@ -37,7 +37,7 @@ In this task, we will configure the **Require a tag on resources** policy and as
 
 In this task, we will create storage accounts to test the required tagging. 
 
-1. In the Azure Portal, from the **All services** blade, search for and select **Storage accounts**, and then click **+ Add**.
+1. In the Azure Portal, from the **All services** blade, search for and select **Storage accounts**, and then click **+ Add, + Create, or + New**.
 
 2. On the **Basics** tab of the **Create storage account** blade, fill in the following information (replace **xxxx** in the name of the storage account with letters and digits such that the name is globally unique). Leave the defaults for everything else.
 
