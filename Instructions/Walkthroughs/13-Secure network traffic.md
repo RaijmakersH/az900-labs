@@ -13,14 +13,14 @@ In this task, we will create a Windows Server 2019 Datacenter virtual machine.
 
 1. Sign in to the [Azure portal](https://portal.azure.com).
 
-2. From the **All services** blade, search for and select **Virtual machines**, and then click **+ Add**.
+2. From the **All services** blade, search for and select **Virtual machines**, and then click **+ Add, + Create, + New** Virtual Machine.
 
 3. On the **Basics** tab, fill in the following information (leave the defaults for everything else):
 
     | Settings | Values |
     |  -- | -- |
-    | Subscription | Use default provided |
-    | Resource group | Use default from drop down |
+    | Subscription | **Use default provided** |
+    | Resource group | **Use default from drop down** |
     | Virtual machine name | **SimpleWinVM** |
     | Region | **(US) East US**|
     | Image | **Windows Server 2019 Datacenter Gen 1**|
@@ -57,14 +57,14 @@ In this task, we will create a Windows Server 2019 Datacenter virtual machine.
 
 In this task, we will create a network security group and associate it with the network interface. 
 
-1. From the **All services** blade, search for and select **Network security groups** and then click **+ Add**
+1. From the **All services** blade, search for and select **Network security groups** and then click **+ Add, + Create, + New**
 
 2. On the **Basics** tab of the **Create network security group** blade, specify the following settings.
 
     | Setting | Value |
     | -- | -- |
-    | Subscription | Use default subscription |
-    | Resource group | Select default from drop down |
+    | Subscription | **Use default subscription** |
+    | Resource group | **Select default from drop down** |
     | Name | **myNSGSecure** |
     | Region | **(US) East US**  |
 
@@ -84,12 +84,12 @@ In this task, we will allow RDP traffic to the virtual machine by configuring an
 
 2. On the **Overview** pane, click **Connect**.
 
-3. Attempt to connect to the virtual machine using RDP. By default the network security group does not allow RDP. Close the error window. 
+3. Attempt to connect to the virtual machine by selecting RDP and downloading an running the RDP file. By default the network security group does not allow RDP. Close the error window. 
 
 
     ![Screenshot of the error message that the virtual machine connection has failed.](../images/1201.png)
 
-4. On the virtual machine blade, scroll down to the **Settings** section, click on **Networking**, and notice the inbound rules for the **myNSGSecure (attached to network interface: myVMNic)** network security group deny all inbound traffic except traffic within the virtual network and load balancer probes.
+4. On the virtual machine blade, scroll down to the **Settings** section, click on **Networking**, and notice the inbound rules for the **myNSGSecure (attached to network interface: myVMNic)** network security group denies all inbound traffic except traffic within the virtual network and load balancer probes.
 
 5. On the **Inbound port rules** tab, click **Add inbound port rule** . Click **Add** when you are done. 
 
@@ -104,7 +104,7 @@ In this task, we will allow RDP traffic to the virtual machine by configuring an
     | Priority | **300** |
     | Name | **AllowRDP** |
 
-6. Wait for the rule to be provisioned and then try again to RDP into the virtual machine. This time you should be successful. Remember the user is **azureuser** and the password is **Pa$$w0rd1234**.
+6. Select **Add** and wait for the rule to be provisioned and then try again to RDP into the virtual machine by going back to **Connect** This time you should be successful. Remember the user is **azureuser** and the password is **Pa$$w0rd1234**.
 
 # Task 4: Configure an outbound security port rule to deny Internet access
 
@@ -118,7 +118,7 @@ In this task, we will create a NSG outbound port rule that will deny Internet ac
 
     **Note**: We will now configure a rule to deny outbound internet access. 
 
-4. In the Azure portal, navigate back to the blade of the **SimpleWinVM** virtual machine. 
+4. Back in the Azure portal, navigate back to the blade of the **SimpleWinVM** virtual machine. 
 
 5. Under **Settings**, click **Networking**, and then **Outbound port rules**.
 
@@ -138,7 +138,7 @@ In this task, we will create a NSG outbound port rule that will deny Internet ac
     | Priority | **4000** |
     | Name | **DenyInternet** |
 
-8. Return to your RDP session. 
+8. Click **Add** Return to the VM you RDP's. 
 
 9. Browse to **https://www.microsoft.com**. The page should not display. You may need to work through additional IE enhanced security pop-ups.  
 
