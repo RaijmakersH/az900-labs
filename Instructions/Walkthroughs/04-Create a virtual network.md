@@ -13,7 +13,7 @@ In this task, we will create a virtual network.
 
 1. Sign in to the Azure portal at <a href="https://portal.azure.com" target="_blank"><span style="color: #0066cc;" color="#0066cc">https://portal.azure.com</span></a>
 
-2. From the **All services** blade, search for and select **Virtual networks**, and then click **+ Add**. 
+2. From the **All services** blade, search for and select **Virtual networks**, and then click **+ Add, + Create, + New**. 
 
 3. On the **Basics** tab, fill in the following information (leave the defaults for everything else):
 
@@ -32,7 +32,7 @@ In this task, we will create a virtual network.
 
 In this task, we will create two virtual machines in the virtual network. 
 
-1. From the **All services** blade, search for **Virtual machines** and then click **+ Add**, from the drop down select **Virtual Machine**. 
+1. From the **All services** blade, search for **Virtual machines** and then click **+ Add, + Create, + New**, from the drop down select **Virtual Machine**. 
 
 2. On the **Basics** tab, fill in the following information (leave the defaults for everything else):
 
@@ -49,13 +49,13 @@ In this task, we will create two virtual machines in the virtual network.
    | Selected inbound ports| **RDP (3389)** |
    
 
-3. Select the **Networking** tab. Make sure the virtual machine is placed in the vnet1 virtual network. Review the default settings, but do not make any other changes. 
+3. Select the **Networking** tab. Make sure the virtual machine is placed in the **vnet1** virtual network. Review the default settings, but do not make any other changes. 
 
 4. Click **Review + create**. After the Validation passes, click **Create**. Deployment times can vary but it can generally take between three to six minutes to deploy.
 
 5. Monitor your deployment, but continue on to the next step. 
 
-6. Create a second virtual machine by repeating steps **2 to 4** above. Make sure you use a different virtual machine name, that the virtual machine is within the same virtual network, and is using a new public IP address:
+6. Create a second virtual machine by repeating steps **2 to 4** above. Make sure you use a different virtual machine name, that the virtual machine is in the same virtual network, and is using a new public IP address:
 
     | Setting | Value |
     | --- | --- |
@@ -68,7 +68,7 @@ In this task, we will create two virtual machines in the virtual network.
 
 # Task 3: Test the connection 
 
-In this task, we will allow ICMP connections and test whether the virtual machines can communicate (ping) each other. 
+In this task, we will try to test whether the virtual machines can communicate (ping) each other. If not we will install a rule to allow an ICMP connection. Usually ICMP coonnections are automatically blocked.
 
 1. From the **All resources** blade, search for **vm1**, open its **Overview** blade, and make sure its **Status** is **Running**. You may need to **Refresh** the page.
 
@@ -78,13 +78,13 @@ In this task, we will allow ICMP connections and test whether the virtual machin
 
 3. On the **Connect with RDP** blade, keep the default options to connect by IP address over port 3389 and click **Download RDP File**.
 
-4. Open the downloaded RDP file (located at the bottom lefto f you VM) and click **Connect** when prompted. 
+4. Open the downloaded RDP file (located at the bottom left of you VM) and click **Connect** when prompted. 
 
 5. In the **Windows Security** window, type the username **azureuser** and password **Pa$$w0rd1234** and then click **OK**.
 
-6. You may receive a certificate warning during the sign-in process. Click **Yes** to create the connection and connect to your deployed VM. You should connect successfully. Close the Windows Server and Dashboard windows that pop up. You should see a Blue Windows background.
+6. You may receive a certificate warning during the sign-in process. Click **Yes** to create the connection and connect to your deployed VM. You should connect successfully. Close the Windows Server and Dashboard windows that pop up. You should see a Blue Windows background. YOu are now in your virtual machine.
 
-7. Open up PowerShell on the virtual machine, by clicking the **Start** button, and in Search type **PowerShell**, right clicking on **Windows PowerShell** to **Run as administrator**
+7. Open up PowerShell on the virtual machine by clicking the **Start** button, and in Search type **PowerShell**, right click on **Windows PowerShell** to **Run as administrator**
 
 8. In Powershell, try to ping vm2 by typing:
 
@@ -92,29 +92,9 @@ In this task, we will allow ICMP connections and test whether the virtual machin
    ping vm2
    ```
 
-   ![Screenshot of PowerShell command prompt with the command ping vm2 after its completion and the output indicating the command wasn't successful.](../images/0302.png)
-   
-   You will receive an error saying request timed out.  The `ping` fails, because `ping` uses the **Internet Control Message Protocol (ICMP)**. By default, ICMP isn't allowed through the Windows firewall. 
-   
-    You will now open an RDP session to vm2 and allow incoming ICMP connections. Grab the Blue bar in the center of vm1 to move the virtual machine window, you need to access the Azure Portal.
+ 9. You should now be successful. You can ping VM2 from VM1.
 
-9. In the Portal, search for vm2 in under resources. In the Overview screen, connect to **vm2** using RDP. You can follow steps **2 to 7**.
 
-10. In Powershell, at the prompt enter the following command then press enter:
-
-   ```PowerShell
-   New-NetFirewallRule –DisplayName “Allow ICMPv4-In” –Protocol ICMPv4
-   ```
-   ![Screenshot of PowerShell command prompt with the command New-NetFirewallRule DisplayName Allow ICMPv4-In –Protocol ICMPv4 after its completion and the output indicating the command was successful.](../images/0303.png)
-   
-   You should see a status of Enabled: True. (This command allows ICMP inbound connections through Windows firewall).
-
-11. Return to the RDP session for vm1 and try the ping again. You should now be successful. 
-
-   ```PowerShell
-   ping vm2
-   ```
-
-**Congratulations!** You have configured and deployed two virtual machines in a virtual network. You have also configured the Windows firewall so one of the virtual machines (vm2) allows incoming ping requests. 
+**Congratulations!** You have configured and deployed two virtual machines in a virtual network, and then you were able to coonnect them.
 
 **Note**: To avoid additional costs, you can remove this resource group. Search for resource groups, click your resource group, and then click **Delete resource group**. Verify the name of the resource group and then click **Delete**. Monitor the **Notifications** to see how the delete is proceeding.
