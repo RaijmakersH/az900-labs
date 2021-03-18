@@ -19,11 +19,11 @@ In this task, we will configure the **Require a tag on resources** policy and as
 
 4. Notice the **Scope** for our policy will be subscription wide. 
 
-5. Select the **Policy definition** ellipsis button (right side of textbox). **Search** for policy definitions including the value **tag**, in the result set, click on the  **Require a tag and its value on resources** definition, then click **Select**.
+5. Under **Basics** Select the **Policy definition** ellipsis button (right side of textbox). In the **Search** box, enter the value **tag**. A list of related Policies with the word **tag** will appear. Scroll down till you find the **Require a tag on resources** definition, click on it and click **Select**.
 
    ![Screenshot of Available Definitions pane with Require a tag on resources selected.](../images/1701.png)
-
-6. On the **Assign policy** blade, in the **Parameters** tab, type in **Company** for the tag name. And **Contoso** for the Value. Click **Review + create**, and then **Create**.
+   
+6.  On the **Parameters** tab, type in **Company** for the tag name. And **Contoso** for the Value. Click **Review + create**, and then **Create**.
 
     ![Screenshot of Assign policy pane with the Tag name filled out.](../images/1702.png)
 
@@ -36,20 +36,20 @@ In this task, we will configure the **Require a tag on resources** policy and as
 
 In this task, we will create storage accounts to test the required tagging. 
 
-1. In the Azure Portal, from the **All services** blade, search for and select **Storage accounts**, and then click **+ New**.
+1. In the Azure Portal, from the **All services** blade, search for and select **Storage accounts**, and then click **+Add +New +Create**.
 
 2. On the **Basics** tab of the **Create storage account** blade, fill in the following information (replace **xxxx** in the name of the storage account with letters and digits such that the name is globally unique). Leave the defaults for everything else.
 
     | Setting | Value | 
     | --- | --- |
-    | Subscription | Use default provided. |
-    | Resource group | **myRGTags** (new) |
+    | Subscription | **Use default provided** |
+    | Resource group | **myRGTags** (create new) |
     | Storage account name | **storageaccountxxxx** |
     | Location | **(US) East US** |
 
 3. Click **Review + create**. 
 
-    **Note:** We are testing to see what happens when the tag is not supplied. 
+    **Note:** We are testing to see what happens when the tag is not supplied. Please note, it can take up to 30 minutes for Policies to take effect.
 
 4. You will receive a Validation failed message. Click the **Click here to view details** message. On the **Errors** blade, on the **Summary** tab note the error message stating that resource was disallowed by Policy.
 
