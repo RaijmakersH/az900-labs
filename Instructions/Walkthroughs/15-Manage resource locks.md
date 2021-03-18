@@ -5,9 +5,9 @@ wts:
 ---
 # 15 - Adding a Lock to a Resource Group
 
-In this walkthrough, we will add a delete lock to the resource group and test deleting the resource group. Locks can be applied in a subscription to resource groups, or individual resources to prevent accidental deletion or modification of critical resources. Locks can be applied to a subscription, resource group, or individual resource to prevent accidental deletion or modification of critical resources. 
+In this walkthrough, we will add a lock to the resource group and test deleting the resource group. Locks can be applied in a subscription to resource groups, or individual resources to prevent accidental deletion or modification of critical resources. 
 
-2. In the **Search** bar at the top of the portal, search for **Resource groups**. Click on the resource group listed on that page.
+2. In the **Search** bar at the top of the portal, search for **Resource groups**. Click on the resource group **myRGLocks-XXXXXXXX**.
 
 3. In the **Settings** section, click **Locks**, and then click **+Add +New +Create **. 
 
@@ -29,7 +29,7 @@ In this walkthrough, we will add a delete lock to the resource group and test de
 
 In this task, we will test if the resource lock protects a storage account in the resource group. 
 
-1. From the **All services** blade, search for and select **Storage accounts**, and then click **+ Add**. 
+1. From the **All services** blade, search for and select **Storage accounts**, and then click **+Add, +Create, or +New***. 
 
 2. On the **Storage Accounts** page **+Add +New +Create ** blade, fill in the following information (replace **xxxx** in the name of the storage account with letters and digits such that the name is globally unique). Leave the defaults for everything else.
 
@@ -60,13 +60,13 @@ In this task, we will test if the resource lock protects a storage account in th
 
 In this task, we will remove the resource lock and test. 
 
-1. Return to the **myRGLocks** resource group blade and, in the **Settings** section, click **Locks**.
+1. Return to the **myRGLocks-XXXXXXXX** resource group blade and, in the **Settings** section, click **Locks**.
     
-2. Click **Delete** link to the right of the **RGLock** entry.
+2. Click **Delete** link to the far right of the **myRGLocks-XXXXXXXX** entry, to the right of **Edit**.
 
     ![Screenshot of the Lock with the Delete link highlighted.](../images/1604.png)
 
-3. Return to the storage account blade and confirm you can now delete the resource.
+3. Return to the storage account blade and confirm you can now delete the resource. You will need to type it teh storage account name to confirm.
 
 Congratulations! You created a resource group, added a lock to resource group and tested deletion of a resource in the resource group, removed the resource lock and then deleted the resource. 
 
