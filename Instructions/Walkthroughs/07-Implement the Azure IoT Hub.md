@@ -13,14 +13,14 @@ In this task, we will create an IoT hub.
 
 1. Sign in to the [Azure portal](https://portal.azure.com).
 
-2. From the **All services** blade, search for and select **IoT Hub** and then click **+ Add**.
+2. From the **All services** blade, search for and select **IoT Hub** and then click **+ Add, + Create, + New**.
 
 3. On the **Basics** tab of the **IoT hub** blade, fill in the fields with the following details (replace **xxxx** in the name of the storage account with letters and digits such that the name is globally unique):
 
     | Settings | Value |
     |--|--|
-    | Subscription | Keep default supplied. |
-    | Resource Group | Use default supplied in drop down|
+    | Subscription | **Keep default supplied** |
+    | Resource Group | **Use default supplied in drop down** |
     | Region | **East US** |
     | IoT Hub Name | **my-hub-groupxxxxx** |
 
@@ -42,7 +42,7 @@ In this task, we will add an IoT device to the IoT hub.
 
 	![Screenshot of the deployment in progress and deployment succeeded notifications in Azure portal.](../images/0601.png)
 
-2. To add a new IoT device, scroll down to the **Explorers** section and click **IoT Devices**. Then, click **+ New**.
+2. To add a new IoT device, scroll down to the **Explorers** section and click **IoT Devices**. Then, click **+ Add, + Create, + New**.
 
 	![Screenshot of the IoT devices pane, highlighted within the IoT hub navigation blade, in Azure portal. The New button is highlighted to illustrate how to add a new IoT device identity to IoT hub.](../images/0602.png)
 
@@ -54,13 +54,13 @@ In this task, we will add an IoT device to the IoT hub.
 
 	![Screenshot of the Primary Connection String page with the copy icon highlighted.](../images/0603.png)
 
-# Task 3: Test the device using the Raspberry Pi Simulator
+# Task 3: Test the device using a Raspberry Pi Simulator
 
 In this task, we will test our device using the Raspberry Pi Simulator. 
 
 1. Open a new tab in the web browser and type this shortcut link https://aka.ms/RaspPi. It will take you to a Raspberry Pi Simulator site. If you have time, read about the Raspberry Pi simulator. When done select "**X**" to close the pop-up window.
 
-2. In the code area, right side, locate the line with 'const connectionString ='. Replace it with the connection string you copied from the Azure portal. Note that the connection sting includes the DeviceId (**myRaspberryPi**) and SharedAccessKey entries.
+2. In the code area on the right side, locate the line with 'const connectionString ='. Replace it with the connection string you copied from the Azure portal. Note that the connection sting includes the DeviceId (**myRaspberryPi**) and SharedAccessKey entries.
 
 	![Screenshot of the coding area within the Raspberry Pi simulator.](../images/0604.png)
 
