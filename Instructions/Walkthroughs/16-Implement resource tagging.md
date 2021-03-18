@@ -19,11 +19,11 @@ In this task, we will configure the **Require a tag on resources** policy and as
 
 4. Notice the **Scope** for our policy will be subscription wide. 
 
-5. Select the **Policy definition** ellipsis button (end of the textbox on the right). **Search** for policy definitions including the value **tag**, in the result set, click on the  **Require a tag on resources** definition, then click **Select**.
+5. Under **Basics** Select the **Policy definition** ellipsis button (right side of textbox). In the **Search** box, enter the value **tag**. A list of related Policies with the word **tag** will appear. Scroll down till you find the **Require a tag on resources** definition, click on it and click **Select**.
 
    ![Screenshot of Available Definitions pane with Require a tag on resources selected.](../images/1701.png)
 
-6. On the **Assign policy** blade, in the **Parameters** tab, type in **Company** for the tag name. Click **Review + create**, and then **Create**.
+6. On the **Parameters** tab, type in **Company** for the tag name. And **Contoso** for the Value. Click **Review + create**, and then **Create**.
 
     **Note:** This is a simple example to demonstrate tagging. Please note that the assignment takes around 30 minutes to take effect. 
 
@@ -44,7 +44,7 @@ In this task, we will create storage accounts to test the required tagging.
     | Setting | Value | 
     | --- | --- |
     | Subscription | **Use your subscription** |
-    | Resource group | **myRGTags** (new) |
+    | Resource group | **myRGTags**  |
     | Storage account name | **storageaccountxxxx** |
     | Location | **(US) East US** |
     | | |
