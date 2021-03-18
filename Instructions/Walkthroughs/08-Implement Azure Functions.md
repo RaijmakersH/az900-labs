@@ -13,14 +13,14 @@ In this task, we will create a Function app.
 
 1. Sign in to the [Azure portal](https://portal.azure.com).
 
-2. In the **Search resources, services, and docs** bar at the top of the portal, search for and select **Function App** and then, from the **Function App** blade, click **+ Add**.
+2. In the **Search ** bar at the top of the portal, search for and select **Function App** and then, from the **Function App** blade, click **+ Add, + Create, + New**.
 
 3. On the **Basic** tab of the **Function App** blade, specify the following settings (replace **xxxx** in the name of the function with letters and digits such that the name is globally unique and leave all other settings with their default values): 
 
     | Settings | Value |
     | -- | --|
-    | Subscription | Keep default supplied |
-    | Resource group | Use default from the drop down |
+    | Subscription | **Keep default supplied** |
+    | Resource group | **Use default from the drop down** |
     | Function App name | **function-xxxx** |
     | Publish | **Code** |
     | Runtime stack | **.NET** |
@@ -43,7 +43,7 @@ In this task, we will use the Webhook + API function to display a message when t
 
 1. On the **Function App** blade, click the newly created function app. 
 
-2. On the function app blade, in the **Functions** section, click **Functions** and then click **+ Add**.
+2. On the function app blade, in the **Functions** section, click **Functions** and then click **+ Add, + Create, + New**.
 
     ![Screenshot of the choose a development environment step in the azure functions for dot net getting started pane inside Azure portal. The display elements for creating a new in-portal function are highlighted. The highlighted elements are expand the function app, add new function, in-portal, and the continue button.](../images/0702.png)
 
@@ -69,11 +69,11 @@ In this task, we will use the Webhook + API function to display a message when t
 
 9. Append **&name=*yourname*** to the end of the URL.
 
-    **Note**: Replace ***yourname*** with your first name. For example, if your name is Cindy, the final URL will resemble the following `https://azfuncxxx.azurewebsites.net/api/HttpTrigger1?code=X9xx9999xXXXXX9x9xxxXX==&name=cindy`
+    **Note**: Replace ***yourname*** with your first name. For example, if your name is Cindy, the final URL will resemble the following: `https://azfuncxxx.azurewebsites.net/api/HttpTrigger1?code=X9xx9999xXXXXX9x9xxxXX==&name=cindy`
 
     ![Screenshot of a highlighted function URL and an appended example user name in the address bar of a web browser. The hello message and user name are also highlighted to illustrate the output of the function in the main browser window.](../images/0707.png)
 
-10. When your function runs, every invocation is traced. To view the traces in Azure portal, return to the **HttpTrigger1 \| Code + Test** blade and click **Monitor**.
+10. WHen you hit enter, your function runs and every invocation is traced. To view the traces, return to the Portal **HttpTrigger1 \| Code + Test** blade and click **Monitor**. **Configure** Application Insights by selecting the function you chose and the region. Select **Create**.
 
     ![Screenshot of a trace information log resulting from running the function inside the function editor in Azure portal.](../images/0709.png) 
 
