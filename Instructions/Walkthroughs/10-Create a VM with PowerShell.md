@@ -17,16 +17,18 @@ In this task, we will configure Cloud Shell.
 
     ![Screenshot of Azure Portal Azure Cloud Shell icon.](../images/1002.png)
 
-3. If you have previously used the Cloud Shell, proceed to the next task. 
+3. If you have previously used the Cloud Shell, proceed to Task 2. 
 
 4. When prompted to select either **Bash** or **PowerShell**, select **PowerShell**.
 
-5. On the **You have no storage mounted** screen select **Show advanced settings** Fill in the information below
+5. On the **You have no storage mounted** screen select **Show advanced settings** then fill in the information below
  | Settings | Values |
     |  -- | -- |
-    | Resource Group | Use default supplied |
+    | Resource Group | **Use default supplied** |
     | Storage account (create new) | **cloudshell15155995** |
     | File share (create new) | **shellstorage** |
+    
+6. Select **Create Storage**
 
 # Task 2: Create a resource group and virtual machine
 
@@ -34,20 +36,13 @@ In this task, we will use PowerShell to create a resource group and a virtual ma
 
 1. Ensure **PowerShell** is selected in the upper-left drop-down menu of the Cloud Shell pane.
 
-2. In the PowerShell session, within the Cloud Shell pane, create a new resource group. 
-
-    ```PowerShell
-    New-AzResourceGroup -Name myRGPS -Location EastUS
-    ```
-Note: if resource group already exists, do not update it, select **No**.
-
-3. Verify your new resource group. 
+2. Verify your new resource group by running teh following command in the Powershell window. Press **Enter** to run the command.
 
     ```PowerShell
     Get-AzResourceGroup | Format-Table
     ```
 
-4. Create a virtual machine. When prompted provide the username (**azureuser**) and the password (**Pa$$w0rd1234**) that will be configured as the local Administrator account on that virtual machines. Ensure that you include the tick (`) characters at the end of each line except for the last one (there should not be any tick characters if you type entire command on a single line).
+3. Create a virtual machine by pasting the following command into the terminal window. 
 
     ```PowerShell
     New-AzVm `
@@ -59,7 +54,8 @@ Note: if resource group already exists, do not update it, select **No**.
     -SecurityGroupName "myNSGPS" `
     -PublicIpAddressName "myPublicIpPS"
     ```
-** Wait for VM to deploy before closing PowerShell
+    
+4. When prompted provide the username (**azureuser**) and the password (**Pa$$w0rd1234**) that will be configured as the local Administrator account on that virtual machines.azureadmin
 
 5. Close the PowerShell session Cloud Shell pane.
 
