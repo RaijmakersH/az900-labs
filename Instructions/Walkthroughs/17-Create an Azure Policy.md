@@ -23,7 +23,7 @@ In this task, we will configure the allowed location policy and assign it to our
 
       | Setting | Value | 
     | --- | --- |
-    | Scope| Use default selected|
+    | Scope| **Use default selected**|
     | Policy definition | click elipses then search **Allowed Locations** then **Select** |
     | Assignment Name | **Allowed Locations** |
     
@@ -48,14 +48,14 @@ In this task, we will test the Allowed location policy.
 
     | Setting | Value | 
     | --- | --- |
-    | Subscription | Use the default supplied |
+    | Subscription | **Use the default supplied** |
     | Resource group | **myRGPolicy** (create new) |
     | Storage account name | **storageaccountxxxx** |
     | Location | **(US) East US** |
 
 3. Click **Review + create** and then click **Create**. 
 
-4. You will receive the deployment failed error stating that resource was disallowed by policy, including the **Allowed locations** policy name.
+4. You will receive the **deployment failed** error stating that resource was disallowed by policy, including the **Allowed locations** policy name.
 
 # Task 3: Delete the policy assignment
 
