@@ -32,11 +32,7 @@ In this walkthrough, we will create a virtual machine in the Azure portal, conne
     | Inbound port rules - | **Allow select ports **|
     | Select inbound ports | **RDP (3389)** and **HTTP (80)**| 
 
-5. Switch to the Management tab, and look for **Select inbound ports**:
-
-    | Settings | Values |
-    | -- | -- |
-    | Ensure these ports are selected | **HTTP (80), RDP (3389)**|
+5. Switch to the Networking tab to ensure **HTTP (80) and RDP (3389)** are selected in section **Select inbound ports**.
 
 6. Switch to the Management tab, and in its **Monitoring** section, select the following setting:
 
@@ -70,9 +66,9 @@ In this task, we will connect to our new virtual machine using RDP (Remote Deskt
 
     ![Screenshot of the virtual machine properties with the Connect button highlighted. ](../images/0102.png)
 
-4. In the **Windows Security** window, sign in using the Admin Credentials you used when creating your VM (azureuser) and the password (Pa$$w0rd1234). 
+4. In the **Windows Security** window, sign in using the Admin Credentials you used when creating your VM **azureuser** and the password **Pa$$w0rd1234**. 
 
-5. You may receive a certificate warning during the sign-in process. Click **Yes** or to create the connection and connect to your deployed VM. You should connect successfully.
+5. You may receive a warning certificate during the sign-in process. Click **Yes** or to create the connection and connect to your deployed VM. You should connect successfully.
 
     ![Screenshot of the Certificate warning dialogue informing the user of an untrusted certificate, with the Yes button highlighted. ](../images/0104.png)
 
