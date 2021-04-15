@@ -82,7 +82,7 @@ In this task, we will try to test whether the virtual machines can communicate (
 
 5. In the **Windows Security** window, type the username **azureuser** and password **Pa$$w0rd1234** and then click **OK**.
 
-6. You may receive a certificate warning during the sign-in process. Click **Yes** to create the connection and connect to your deployed VM. You should connect successfully. Close the Windows Server and Dashboard windows that pop up. You should see a Blue Windows background. YOu are now in your virtual machine.
+6. You may receive a certificate warning during the sign-in process. Click **Yes** to create the connection and connect to your deployed VM. You should connect successfully. Close the Windows Server and Dashboard windows that pop up. You should see a Blue Windows background. You are now in your virtual machine.
 
 7. Open up PowerShell on the virtual machine by clicking the **Start** button, and in Search type **PowerShell**, right click on **Windows PowerShell** to **Run as administrator**
 
@@ -92,9 +92,9 @@ In this task, we will try to test whether the virtual machines can communicate (
    ping vm2
    ```
 
- 9. You should now be successful. You can ping VM2 from VM1.
+ 9. You should be successful. You have pinged VM2 from VM1.
 
 
-**Congratulations!** You have configured and deployed two virtual machines in a virtual network, and then you were able to coonnect them.
+**Congratulations!** You have configured and deployed two virtual machines in a virtual network, and then you were able to connect them.
 
 **Note**: To avoid additional costs, you can remove this resource group. Search for resource groups, click your resource group, and then click **Delete resource group**. Verify the name of the resource group and then click **Delete**. Monitor the **Notifications** to see how the delete is proceeding.
