@@ -44,13 +44,12 @@ In this walkthrough, we will view available support plan options and then practi
     | Summary | **Monthly charge is not correct** |
     | Problem type | **Pricing** |
     | Problem subtype | **Help me discover the service prices** |    
-    | | |
 
 2. Click **Next: Solutions** and read through the recommended solutions.
 
 3. Click **Next: Details**.  When submitting a real support request you would provide as much information as possible to allow for a speedy resolution of the issue. 
 
-    **Note:** We will stop at this point. Do you understand how to submit a support request?
+    **Note:** We will STOP at this point. Do you understand how to submit a support request?
 
 4. Click **All support requests**. This is where your support requests are shown. An email is also sent to your email address containing details of the support request.
 
