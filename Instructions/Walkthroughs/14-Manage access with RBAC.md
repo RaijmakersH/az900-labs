@@ -38,7 +38,7 @@ In this task, we will assign the Virtual machine contributor role.
     | -- | -- |
     | Role | **Virtual machine contributor** |
     | Assign access to | **user, group, or service principal** |
-    | Select | **your user account** |
+    | Select | **Add your user account** |
  
 
     **Note:** The Virtual machine contributor role lets you manage virtual machines, but not access their operating system or manage the virtual network and storage account they are connected to.
