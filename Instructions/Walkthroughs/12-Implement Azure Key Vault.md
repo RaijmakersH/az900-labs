@@ -22,8 +22,8 @@ In this walkthrough, we will create an Azure Key vault and then create a passwor
     | Key vault name | **keyvaulttestxxx** |
     | Location | **East US** |
     | Pricing tier | **Standard** |
+    
     **Note** replace **xxxx** to find a unique name.
-
 4. Click **Review + create**, and then click **Create**. 
 
 5. Once the new key vault is provisioned, click **Go to resource**. Or you can locate your new key vault by searching for it. 
