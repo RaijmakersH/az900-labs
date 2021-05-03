@@ -15,7 +15,7 @@ In this task, we will create a virtual network.
 
 2. From the **All services** blade, search for and select **Virtual networks**, and then click **+ Add, + Create, or + New**. 
 
-3. On the **Create virtual network** blade, fill in the following (leave the defaults for everything else):
+3. On the **Basics** tab, fill in the following then click on **Next: IP Addresses**:
 
     | Setting | Value | 
     | --- | --- |
@@ -28,9 +28,20 @@ In this task, we will create a virtual network.
     | Subnet Address range | **10.1.0.0/24** |
 
     ![Screenshot of the "Basic" step of Create virtual network blade with the default fields.](../images/0301a.png)
+    
+4. In the **IP Addressess** tab, under **IPv4 address space** and enter **10.1.0.0/16**. 
+
+5. Click on **+Add subnet**. For **Subnet name** use **Default**. For the **Subnet address range** input **10.1.0.0/24**
+
     ![Screenshot of the "IP Addresses" step of Create virtual network blade with the default fields.](../images/0301b.png)
 
-5. Click the **Review + create** button. Ensure the validation passes.
+6. Click on the **Tags** tab and input the following:
+
+    | Name | Value |
+    | **Name** | **vnet1** |
+    | | |
+    
+8. Click the **Review + create** button. Ensure the validation passes.
 
 6. Click the **Create** button to deploy the virtual network. 
 
@@ -98,9 +109,9 @@ In this task, we will allow log into one VM and ping the other.
 
 6. You may receive a certificate warning during the sign-in process. Click **Yes** or to create the connection and connect to your deployed VM. You should connect successfully.
 
-7. Open up a PowerShell command prompt on the virtual machine, by clicking the **Start** button, typing **PowerShell**, right clicking **Windows PowerShell** in the right-click menu, and clicking **Run as administrator**
+7. Close Server Manager and any other pop ups. Open up a PowerShell command prompt on the virtual machine, by clicking the **Start** button, typing **PowerShell**, right clicking **Windows PowerShell** in the right-click menu, and clicking **Run as administrator**
 
-8. In Powershell, type the following command to try to communicate with vm2, you will notice you are successful.
+8. In Powershell, type the following command to try to communicate with vm2, you will notice you are successful when you see 4 successful replies from vm2's IP address.
 
    ```PowerShell
    ping vm2
