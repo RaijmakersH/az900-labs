@@ -16,7 +16,7 @@ In this task, we will create a new container instance for the web application.
 
 2. From the **All services** blade, search for and select **Container instances** and then click **+ Add, + Create, or + New**. 
 
-3. Provide the following Basic details for the new container instance  (leave the defaults for everything else)): 
+3. Provide the following Basic details for the new container instance (leave the defaults for everything else): 
 
 	| Setting| Value|
 	|----|----|
@@ -30,6 +30,8 @@ In this task, we will create a new container instance for the web application.
 	| OS type| **Linux** |
 	| Size| ***Leave at the default***|
 	|||
+	
+CLick on **Next: Networking**
 
 4. Configure the Networking tab (replace **xxxx** with letters and digits such that the name is globally unique). Leave all other settings at their default values .
 
@@ -43,9 +45,16 @@ In this task, we will create a new container instance for the web application.
 
 	![Screenshot of the configuration pane of the create container instances blade, in Azure portal, with the DNS name label entered. ](../images/0201.png)
 
-5. Click **Review and Create** to start the automatic validation process.
+5. Click **Tags** at the top of the page and input the following information:
 
-6. Click **Create** to create the container instance. 
+	| Name | Value|
+	|--|--|
+	| **Name**| **mycontainerdnsxxxx** |
+	|||
+	
+6. Click **Review and Create** to start the automatic validation process.
+
+. Click **Create** to create the container instance. 
 
 7. Monitor the deployment page and the **Notifications** page. 
 
