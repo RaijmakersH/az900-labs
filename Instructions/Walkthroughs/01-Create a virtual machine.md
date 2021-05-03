@@ -23,7 +23,7 @@ In this task, we will create a Windows Server 2019 Datacenter - Gen1 virtual mac
     |  -- | -- |
     | Subscription | **Choose your subscription**|
     | Resource group | **myRGVM** (create new) |
-    | Virtual machine name | **myVm** |
+    | Virtual machine name | **myVM** |
     | Location | **(US) East US**|
     | Image | **Windows Server 2019 Datacenter - Gen1**|
     | Size | Standard D2s v3|
@@ -32,27 +32,39 @@ In this task, we will create a Windows Server 2019 Datacenter - Gen1 virtual mac
     | Inbound port rules - Allow select ports | **RDP (3389)** and **HTTP (80)**|
     | | |
 
-4. Switch to the Networking tab, and look for the **Select inbound ports**:
+4. Click **Next: Disks** and noticethe different disk options that are available and the ability to add additonal or preexisting disks. For the purpose of this lab we are going to leave everything at its default settings. Click on **Next: Networking**.
+
+
+5. In the **Networking** tab, and look for the **Select inbound ports** then click on **Next: Management**:
 
     | Settings | Values |
     | -- | -- |
     | Select inbound ports | **HTTP (80), RDP (3389)**|
     | | |
 
-    **Note** - Verify that both port 80 and 3389 are selected
+    **Note** - Verify that both port 80 and 3389 are selected as they should have been selected in the **Basics** tab.
 
-5. Switch to the Management tab, and in its **Monitoring** section, select the following setting:
+6. In the **Management** tab in the **Monitoring** section, select the following setting:
 
     | Settings | Values |
     | -- | -- |
     | Boot diagnostics | **Disable**|
     | | |
 
-6. Leave the remaining defaults and then click the **Review + create** button at the bottom of the page.
+7. Leave the remaining defaults and then click the **Next: Advance**.
 
-7. Once Validation is passed click the **Create** button. It can take anywhere from five to seven minutes to deploy the virtual machine.
+8. Leave everything as deafult here. Notice here is where you can add a script, choose your VMs generation, and other additional features. When you're done click **Next: Tags**
 
-8. You will receive updates on the deployment page and via the **Notifications** area (the bell icon in the top menu).
+9. In the **Tags** section inpuyt the following information then click on **Review + create**:
+
+   | Name | Value |
+   | -- | -- |
+   | Name | myVM |
+   | | |
+
+10. Ensure all the information is correct once Validation is passed and then click the **Create** button. It can take anywhere from five to seven minutes to deploy the virtual machine.
+
+11. You will receive updates on the deployment page and via the **Notifications** area (the bell icon in the top menu).
 
 * **Verify Port 80 and 3389 were opened**
 
@@ -76,7 +88,7 @@ In this task, we will connect to our new virtual machine using RDP.
 
     ![Screenshot of the virtual machine properties with the Connect button highlighted. ](../images/0102.png)
 
-4. In the **Windows Security** window, select **More choices** and then **Use a different account**. Provide the username (.\azureuser) and the password (Pa$$w0rd1234). Click **OK** to connect.
+4. In the **Windows Security** window, select **More choices** and then **Use a different account**. Provide the username **.\azureuser** and the password **Pa$$w0rd1234**. Click **OK** to connect.
 
     ![Screenshot of the Windows security dialogue with use a different account selected and the username azure user entered and a password.](../images/0103.png)
 
@@ -90,7 +102,9 @@ Congratulations! You have deployed and connected to a Windows Server virtual mac
 
 In this task, install the Web Server role on the server and ensure the default IIS welcome page can be displayed.
 
-1. Open up a PowerShell command prompt on the virtual machine, by clicking the **Start** button, typing **PowerShell**, right clicking **Windows PowerShell**, and selecting **Run as administrator** in the right-click menu.
+1. Now that you are logged in, Close out of **Server Manager**. you will not be needing this. On the side of your screen you might also see a **Network** pane, select **No**. 
+
+2. Open up a PowerShell command prompt on the virtual machine, by clicking the **Start** button, typing **PowerShell**, right clicking **Windows PowerShell**, and selecting **Run as administrator** in the right-click menu.
 
     ![Screenshot of the virtual machine desktop with the start button clicked and PowerShell selected with run as an administrator highlighted.](../images/0105.png)
 
