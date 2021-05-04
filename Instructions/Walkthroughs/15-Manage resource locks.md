@@ -13,15 +13,20 @@ In this task, we will create a resource group for this exercise.
 
 1. Sign in to the [Azure portal](https://portal.azure.com).
 
-2. In the **Search** bar at the top of the portal, search for **Resource groups**. Click on the resource group **myRGLocks-XXXXXXXX**.
+2. From the **All services** blade, search for and select **Resource groups**, then click **+ Add, + Create, or + New**.
 
-3. In the **Settings** section, click **Locks**, and then click **+Add +New +Create **. 
+3. Create a new resource group. Click **Create** when you are finished. 
 
     | Setting | Value |
     | -- | -- |
-    | Subscription | **Use your subscription** |
-    | Name | **myRGLocks** |
+    | Subscription | **Choose your subscription** |
+    | Resource group | **myRGLocks** |
     | Region | **(US) East US** |
+    | | |
+
+4. Create **Review + create** and then click **Create**.
+
+5. **Refresh** the resource group page and click the entry representing the newly created resource group.
     
 
 # Task 2:  Add a Lock to the resource group and test deletion
@@ -40,7 +45,7 @@ In this task, we will add a resource lock to the resource group and test deletin
 
     | Setting | Value |
     | -- | -- |
-    | Lock name | **RGLock** |
+    | Lock name | '''RGLock''' |
     | Lock Type | **Delete** |
     | | |
 
