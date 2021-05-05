@@ -11,9 +11,10 @@ In this walkthrough, we will create a virtual machine in the Azure portal, conne
 
 # Task 1: Create the virtual machine (10 min)
 
-1. Use the Edge Browser (located on the bottom left your Virtual Machine menu bar) to bring up a browser window and log into the Azure portal by typing https://portal.azure.com in the address bar.
+1. Sign-in to the Azure portal: **https://portal.azure.com**
 
-2. Log into Azure using the supplied Username and password below. 
+   - **Username**: +++@lab.CloudPortalCredential(LabUser).Username+++
+   - **Passworld**: +++@lab.CloudPortalCredential(LabUser).Password+++
 
 3. From the **All services** blade in the Portal Menu, search for and select **Virtual machines**, and then click **+Add, +Create, +New** and choose **+Virtual machine** from the drop down.
 
