@@ -85,7 +85,7 @@ In this task, we will configure the SQL server and run a SQL query.
 
 8. Return to your SQL database (slide the bottom toggle bar to the left) and click on **Query Editor (Preview)**. Try to login again as **sqluser** with the password **Pa$$w0rd1234**. This time you should succeed. Note that it may take a couple of minutes for the new firewall rule to be deployed. 
 
-9. Once you log in successfully, the query pane appears. Enter the following query into the editor pane. (position your cursor in the blank box beside #1 , then Click the **T** tool)
+9. Once you log in successfully, the query pane appears. Enter the following query into the editor pane. 
 
     ```SQL
     SELECT TOP 20 pc.Name as CategoryName, p.name as ProductName
