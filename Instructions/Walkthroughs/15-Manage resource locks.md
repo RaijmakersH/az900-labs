@@ -36,7 +36,7 @@ In this task, we will test if the resource lock protects a storage account in th
     | Setting | Value | 
     | --- | --- |
     | Subscription | **Use default provided** |
-    | Resource group | **Select default provided from drop down** |
+    | Resource group | **Create new resource group** |
     | Storage account name | **storageaccountxxxx** |
     | Location | **(US) East US**  |
     | Performance | **Standard** |
