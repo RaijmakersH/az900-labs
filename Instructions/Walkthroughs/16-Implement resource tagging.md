@@ -43,7 +43,7 @@ In this task, we will create storage accounts to test the required tagging.
     | Setting | Value | 
     | --- | --- |
     | Subscription | **Use default provided** |
-    | Resource group | **Use defualt in drop down** |
+    | Resource group | **Create new resource group** |
     | Storage account name | **storageaccountxxxx** |
     | Location | **(US) East US** |
 
