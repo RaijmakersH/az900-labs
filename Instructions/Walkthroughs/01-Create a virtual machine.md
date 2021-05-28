@@ -20,7 +20,7 @@ In this walkthrough, we will create a virtual machine in the Azure portal, conne
     | Settings | Values |
     |  -- | -- |
     | Subscription | **Use default supplied** |
-    | Resource group | **Create New** |
+    | Resource group | **Create new resourece group** |
     | Virtual machine name | **myVM** |
     | Region | **(US) East US**|
     | Image | **Windows Server 2019 Datacenter - Gen1**|
