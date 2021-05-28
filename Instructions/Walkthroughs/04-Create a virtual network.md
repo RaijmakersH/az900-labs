@@ -20,7 +20,7 @@ In this task, we will create a virtual network.
     | Setting | Value | 
     | --- | --- |
     | Subscription | **Leave default provided** |
-    | Resource Group | **Select default in drop down** |
+    | Resource Group | **Create new resource group** |
     | Name | **vnet1** |
     | Region | **(US) East US** |
     
