@@ -22,14 +22,13 @@ In this task, we will configure the **Require a tag on resources** policy and as
 5. Under **Basics** Select the **Policy definition** ellipsis button (right side of textbox). In the **Search** box, enter the value **tag**. A list of related Policies with the word **tag** will appear. Scroll down till you find the **Require a tag and its value on resources** definition, click on it and click **Select**.
 
    ![Screenshot of Available Definitions pane with Require a tag on resources selected.](../images/1701.png)
-
-6. On the **Parameters** tab, type in **Company** for the tag name. And **Contoso** for the Value. Click **Review + create**, and then **Create**.
-
-    **Note:** This is a simple example to demonstrate tagging. Please note that the assignment takes around 30 minutes to take effect. 
+   
+6.  On the **Parameters** tab, type in **Company** for the tag name. And **Contoso** for the Value. Click **Review + create**, and then **Create**.
 
     ![Screenshot of Assign policy pane with the Tag name filled out.](../images/1702.png)
 
 7. The **Require a tag on resources** policy assignment is now in place. When a resource is created, it must include a tag with the Company key.
+   **Note - you need to wait up to 30 minutes for the Policy to be applied.** 
 
    ![Screenshot of Policy - Assignments pane with the allowed locations assignment highlighted.](../images/1703.png)
 
@@ -37,21 +36,20 @@ In this task, we will configure the **Require a tag on resources** policy and as
 
 In this task, we will create storage accounts to test the required tagging. 
 
-1. In the Azure Portal, from the **All services** blade, search for and select **Storage accounts**, and then click **+ Add, + Create, or + New**.
+1. In the Azure Portal, from the **All services** blade, search for and select **Storage accounts**, and then click **+Add +New +Create**.
 
 2. On the **Basics** tab of the **Create storage account** blade, fill in the following information (replace **xxxx** in the name of the storage account with letters and digits such that the name is globally unique). Leave the defaults for everything else.
 
     | Setting | Value | 
     | --- | --- |
-    | Subscription | **Use your subscription** |
-    | Resource group | **myRGTags**  |
+    | Subscription | **Use default provided** |
+    | Resource group | **Use defualt in drop down** |
     | Storage account name | **storageaccountxxxx** |
     | Location | **(US) East US** |
-    | | |
 
 3. Click **Review + create**. 
 
-    **Note:** We are testing to see what happens when the tag is not supplied. 
+    **Note:** We are testing to see what happens when the tag is not supplied. Please note, it can take up to 30 minutes for Policies to take effect.
 
 4. You will receive a Validation failed message. Click the **Click here to view details** message. On the **Errors** blade, on the **Summary** tab note the error message stating that resource was disallowed by Policy.
 
@@ -59,7 +57,6 @@ In this task, we will create storage accounts to test the required tagging.
 
     ![Screenshot of disallowed due to policy error.](../images/1704.png)
 
-    **Note - you need to wait 30 minutes for tagging to be complete.** 
 
 5. Close the **Error** pane and click **Previous** (bottom of the screen). Provide the tagging information. 
 
@@ -67,7 +64,6 @@ In this task, we will create storage accounts to test the required tagging.
     | --- | --- |
     | Tag name | **Company** (may not be in the drop-down list) |
     | Tag value | **Contoso** |
-    | | |
 
 6. Click **Review + create** and verify that the validation was successful. Click **Create** to deploy the storage account. 
 
@@ -99,7 +95,7 @@ In this task, we will remove the **Require a tag on resources** policy so it doe
 
 5. If you have time, create another resource without a tag to ensure the policy is no longer in effect.
 
-In this walkthrough, we created a policy assignment that required tagging, created a storage account and tested the tagging, viewed resources with a specified tag, and removed the tagging policy.
+Congratulations! In this walkthrough, we created a policy assignment that required tagging, created a resource (storage account) and tested the Policy for tagging, viewed resources with a specified tag, and removed the tagging policy.
 
 
 **Note**: To avoid additional costs, you can remove this resource group. Search for resource groups, click your resource group, and then click **Delete resource group**. Verify the name of the resource group and then click **Delete**. Monitor the **Notifications** to see how the delete is proceeding.
