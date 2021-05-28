@@ -21,7 +21,7 @@ In this task, we will create a SQL database based on the AdventureWorksLT sample
     | Setting | Value | 
     | --- | --- |
     | Subscription | **Use default supplied** |
-    | Resource group | **Use default in drop down** |
+    | Resource group | **Create new resource group** |
     | Database name| **db1** | 
     | Server | Select **Create new** (A new sidebar will open on the right)|
     | Server name | **sqlserverxxxx** (must be unique) | 
