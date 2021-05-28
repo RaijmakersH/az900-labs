@@ -19,13 +19,12 @@ In this walkthrough, we will view available support plan options and then practi
 
     | Setting | Value|
     |----|--------|
-    | What is your issue relating to? | **Azure Services** |
     | Issue Type| **Technical** |
     | Subscription | **Choose your subscription** |
     | Service | **All services**, **Virtual Machine running Linux** |
     | Summary | **Disk access is very slow for large files** |
     | Problem type | **VM performance** |
-    | Problem subtype | **Disk throughput or IOPS are lower than expected** |    
+    | Problem subtype | **Disk throughput is lower than expected** |    
     | | |
 
 5. Click **Next: Solutions >>** and read through the recommended solutions.
@@ -40,19 +39,17 @@ In this walkthrough, we will view available support plan options and then practi
 
     | Setting | Value|
     |----|--------|
-    | What is your issue relating to? | **Azure Services** |
     | Issue Type| **Billing** |
     | Subscription | **Choose your subscription** |
     | Summary | **Monthly charge is not correct** |
     | Problem type | **Pricing** |
     | Problem subtype | **Help me discover the service prices** |    
-    | | |
 
 2. Click **Next: Solutions** and read through the recommended solutions.
 
 3. Click **Next: Details**.  When submitting a real support request you would provide as much information as possible to allow for a speedy resolution of the issue. 
 
-    **Note:** We will stop at this point. Do you understand how to submit a support request?
+    **Note:** We will STOP at this point. Do you understand how to submit a support request?
 
 4. Click **All support requests**. This is where your support requests are shown. An email is also sent to your email address containing details of the support request.
 
