@@ -20,7 +20,7 @@ In this task, we will create an IoT hub.
     | Settings | Value |
     |--|--|
     | Subscription | **Keep default supplied** |
-    | Resource Group | **Use default supplied in drop down** |
+    | Resource Group | **Create new resource group** |
     | Region | **East US** |
     | IoT Hub Name | **my-hub-groupxxxxx** |
 
