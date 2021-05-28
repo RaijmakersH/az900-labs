@@ -21,7 +21,7 @@ In this task, we will create a new container instance for the web application.
 	| Setting| Value|
 	|----|----|
 	| Subscription | ***Use default supplied*** |
-	| Resource group | ***Use default in drop down*** |
+	| Resource group | **Create new resource group** |
 	| Container name| **mycontainer**|
 	| Region | **(US) East US** |
 	| Image source| **Docker Hub or other registry**|
