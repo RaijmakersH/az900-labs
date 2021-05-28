@@ -11,13 +11,13 @@ In this walkthrough, we will deploy a virtual machine with a QuickStart template
 
 In this task, we will browse the Azure QuickStart gallery and deploy a template that creates a virtual machine. 
 
-1. In a browser, access the [Azure Quickstart Templates gallery](https://azure.microsoft.com/resources/templates?azure-portal=true). In the gallery you will find a number of popular and recently updated templates. These templates automate deployment of Azure resources, including installation of popular software packages.
+1. In a browser, access the +++https://azure.microsoft.com/resources/templates?azure-portal=true+++ In the gallery you will find a number of popular and recently updated templates. These templates automate deployment of Azure resources, including installation of popular software packages.
 
 2. Browse through the many different types of templates that are available. 
 
     **Note**: Are there are any templates that are of interest to you?
 
-3. Search for or directly access the [Deploy a Virtual Machine ](https://azure.microsoft.com/resources/templates/101-vm-simple-windows?azure-portal=true) template.
+3. Search for **Deploy a simple Windows VM** or directly access +++https://azure.microsoft.com/resources/templates/101-vm-simple-windows?azure-portal=true+++
 
     **Note**: The **Deploy to Azure** button enables you to deploy the template via the Azure portal. During such deployment, you will be prompted only for small set of configuration parameters. 
 
