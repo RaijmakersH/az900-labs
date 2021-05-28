@@ -20,7 +20,7 @@ In this task, we will create a new storage account.
     | Setting | Value | 
     | --- | --- |
     | Subscription | **Leave provided default** |
-    | Resource group | **Select default from drop down** |
+    | Resource group | **Create new resource group** |
     | Storage account name | **storageaccountxxxxx** |
     | Location | **(US) East US**  |
     | Performance | **Standard** |
