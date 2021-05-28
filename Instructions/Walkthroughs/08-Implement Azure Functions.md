@@ -20,7 +20,7 @@ In this task, we will create a Function app.
     | Settings | Value |
     | -- | --|
     | Subscription | **Keep default supplied** |
-    | Resource group | **Use default from the drop down** |
+    | Resource group | **Create new resource group** |
     | Function App name | **function-xxxx** |
     | Publish | **Code** |
     | Runtime stack | **.NET** |
