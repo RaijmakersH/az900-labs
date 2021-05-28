@@ -14,7 +14,7 @@ Our example application consists of these Azure services. We will not go in to d
 + **Application Gateway**: To manage application access, and scaling. 
 + **Azure SQL Database**: To store application data. 
 
-# Task 1: Determine the SLA uptime percentage values for our application (5 min)
+# Task 1: Determine the SLA uptime percentage values for our application
 
 1. In a browser, go to the [SLA summary for Azure services](https://azure.microsoft.com/en-us/support/legal/sla/summary/) page.
 
