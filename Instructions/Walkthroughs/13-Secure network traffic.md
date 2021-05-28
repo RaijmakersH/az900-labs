@@ -20,7 +20,7 @@ In this task, we will create a Windows Server 2019 Datacenter virtual machine.
     | Settings | Values |
     |  -- | -- |
     | Subscription | **Use default provided** |
-    | Resource group | **Use default from drop down** |
+    | Resource group | **Create new resource group** |
     | Virtual machine name | **SimpleWinVM** |
     | Region | **(US) East US**|
     | Image | **Windows Server 2019 Datacenter Gen 1**|
