@@ -19,12 +19,13 @@ In this walkthrough, we will view available support plan options and then practi
 
     | Setting | Value|
     |----|--------|
+    | What is your issue relating to? | **Azure Services** |
     | Issue Type| **Technical** |
     | Subscription | **Choose your subscription** |
     | Service | **All services**, **Virtual Machine running Linux** |
     | Summary | **Disk access is very slow for large files** |
     | Problem type | **VM performance** |
-    | Problem subtype | **Disk throughput is lower than expected** |    
+    | Problem subtype | **Disk throughput or IOPS are lower than expected** |    
     | | |
 
 5. Click **Next: Solutions >>** and read through the recommended solutions.
@@ -39,6 +40,7 @@ In this walkthrough, we will view available support plan options and then practi
 
     | Setting | Value|
     |----|--------|
+    | What is your issue relating to? | **Azure Services** |
     | Issue Type| **Billing** |
     | Subscription | **Choose your subscription** |
     | Summary | **Monthly charge is not correct** |
