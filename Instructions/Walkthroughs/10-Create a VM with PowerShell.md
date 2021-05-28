@@ -20,12 +20,13 @@ In this task, we will configure Cloud Shell.
 3. When prompted to select either **Bash** or **PowerShell**, select **PowerShell**.
 
 4. On the **You have no storage mounted** screen select **Show advanced settings** then fill in the information below
- | Settings | Values |
+
+    | Settings | Values |
     |  -- | -- |
-    | Resource Group | **Use default supplied** |
+    | Resource Group | **Create new resource group** |
     | Storage account (create new) | **cloudshell15155995** |
     | File share (create new) | **shellstorage** |
-    
+
 5. Select **Create Storage**
 
 # Task 2: Create a resource group and virtual machine
