@@ -19,7 +19,7 @@ In this task, we will configure the **Require a tag on resources** policy and as
 
 4. Notice the **Scope** for our policy will be subscription wide. 
 
-5. Under **Basics** Select the **Policy definition** ellipsis button (right side of textbox). In the **Search** box, enter the value **tag**. A list of related Policies with the word **tag** will appear. Scroll down till you find the **Require a tag on resources** definition, click on it and click **Select**.
+5. Under **Basics** Select the **Policy definition** ellipsis button (right side of textbox). In the **Search** box, enter the value **tag**. A list of related Policies with the word **tag** will appear. Scroll down till you find the **Require a tag and its value on resources** definition, click on it and click **Select**.
 
    ![Screenshot of Available Definitions pane with Require a tag on resources selected.](../images/1701.png)
 
