@@ -61,6 +61,7 @@ In this task, we will test our device using the Raspberry Pi Simulator.
 
 1. Open a new tab in the web browser and browse to the +++https://azure-samples.github.io/raspberry-pi-web-simulator/#Getstarted+++ 
 
+
 2. Read about the Raspberry Pi simulator. If there is an overview pop-up select "**X**" to close the window.
 
 3. In the code area, right side, locate the line with 'const connectionString ='. Replace it with the connection string you copied from the Azure portal. Note that the connection sting includes the DeviceId (**myRaspberryPi**) and SharedAccessKey entries.

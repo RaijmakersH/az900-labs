@@ -13,9 +13,9 @@ In this task, we will create a resource group for this exercise.
 
 1. Sign in to the [Azure portal](https://portal.azure.com).
 
-2. In the **Search** bar at the top of the portal, search for **Resource groups**. Click on the resource group **myRGLocks-XXXXXXXX**.
+2. In the **Search** bar at the top of the portal, search for **Resource groups**. 
 
-3. In the **Settings** section, click **Locks**, and then click **+Add +New +Create **. 
+3. Then click **+Add +New +Create **. 
 
     | Setting | Value |
     | -- | -- |

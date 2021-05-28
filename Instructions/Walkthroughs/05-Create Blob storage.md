@@ -29,6 +29,12 @@ In this task, we will create a new storage account.
     | | |
 
     **Note** - Remember to change the **xxxx** so that it makes a unique **Storage account name**
+    
+5. Click on the **Tags** tab and enter the following:
+
+    | Name | Value |
+    | -- |
+    | **Name** | **storageaccountxxxx** |
 
 5. Click **Review + Create** to review your storage account settings and allow Azure to validate the configuration. 
 
@@ -71,7 +77,7 @@ In this task, we will create a Blob container and upload a blob file.
 
 # Task 3: Monitor the storage account
 
-1. If needed, return to the storage account blade and click **Diagnose and solve problems**. 
+1. If needed, return to the storage account blade (located in the upper left hand corner, it will be labled storageaccountxxxx) and click **Diagnose and solve problems**. 
 
 2. Explore some of the most common storage problems. Notice there are multiple troubleshooter.
 
