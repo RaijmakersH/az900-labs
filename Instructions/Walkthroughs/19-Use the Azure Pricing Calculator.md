@@ -61,9 +61,10 @@ In this task, we will estimate cost of a sample infrastructure by using the Azur
 
 9. Add a name for your VM bandwidth configuration. This walkthrough example uses the name **Bandwidth: Windows VM**. Modify the default bandwidth configuration by adding the following details.
 
-    | Region | Zone 1 Outbound Data Transfer Amount |
-    | ------ | -------------------------------------- |
-    | North Europe | 50 GB |
+    | **Data Transfer Type:** | Inter Region |
+    | **Source Region:** | North Europe |
+    | **Destination Region:** | East US |
+    | **Outbound Data Transfer** | 50 GB |
 
    ![Screenshot of the network bandwidth configuration area within the Azure pricing calculator estimate webpage. The highlighted examples of user inputted bandwidth property values indicate how to specify a bandwidth configuration for a vm within an Azure pricing calculator estimate.](../images/1907.png)
 
@@ -88,7 +89,7 @@ In this task, we will estimate cost of a sample infrastructure by using the Azur
     | 50 GB |
     | | |
 
-    | Zone 1: North America, Europe |
+    | Outbound Data Trasfer |
     | ----------------------------- |
     | 50 GB |
     | | |
