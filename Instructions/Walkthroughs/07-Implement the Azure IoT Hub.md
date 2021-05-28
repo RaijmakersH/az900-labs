@@ -13,21 +13,20 @@ In this task, we will create an IoT hub.
 
 1. Sign in to the [Azure portal](https://portal.azure.com).
 
-2. From the **All services** blade, search for and select **IoT Hub** and then click **+ Add, + Create, or + New**.
+2. From the **All services** blade, search for and select **IoT Hub** and then click **+ Add, + Create, + New**.
 
 3. On the **Basics** tab of the **IoT hub** blade, fill in the fields with the following details (replace **xxxx** in the name of the storage account with letters and digits such that the name is globally unique):
 
     | Settings | Value |
     |--|--|
-    | Subscription | **Choose your subscription** |
-    | Resource Group |  **myRGIoT** (create new)|
+    | Subscription | **Keep default supplied** |
+    | Resource Group | **Use default supplied in drop down** |
     | Region | **East US** |
-    | IoT Hub Name | **my-hub-groupxxxx** |
-    | | |
+    | IoT Hub Name | **my-hub-groupxxxxx** |
 
-    **Note** - Remember to change the **xxxx** so that it makes a unique **IoT Hub Name**.
+    **Note** - Remember to change the **xxxxx** so that it makes a unique **IoT Hub Name**.
 
-4. Go to the **Management** tab, and use the dropdown list to set the **Pricing and scale tier** to **S1: Standard tier**.
+4. Go to the **Management** tab, and use the dropdown to set the **Pricing and scale tier** to **S1: Standard tier**.
 
 5. Click the **Review + create** button.
 
@@ -43,7 +42,7 @@ In this task, we will add an IoT device to the IoT hub.
 
 	![Screenshot of the deployment in progress and deployment succeeded notifications in Azure portal.](../images/0601.png)
 
-2. To add a new IoT device, scroll down to the **Explorers** section and click **IoT Devices**. Then, click **+ New**.
+2. To add a new IoT device, scroll down to the **Explorers** section and click **IoT Devices**. Then, click **+ Add, + Create, + New**.
 
 	![Screenshot of the IoT devices pane, highlighted within the IoT hub navigation blade, in Azure portal. The New button is highlighted to illustrate how to add a new IoT device identity to IoT hub.](../images/0602.png)
 
@@ -55,30 +54,27 @@ In this task, we will add an IoT device to the IoT hub.
 
 	![Screenshot of the Primary Connection String page with the copy icon highlighted.](../images/0603.png)
 
-# Task 3: Test the device using the Raspberry Pi Simulator
+# Task 3: Test the device using a Raspberry Pi Simulator
 
 In this task, we will test our device using the Raspberry Pi Simulator. 
 
-1. Open a new tab in the web browser and browse to the +++https://azure-samples.github.io/raspberry-pi-web-simulator/#Getstarted+++ 
+1. Open a new tab in the web browser and type this shortcut link https://aka.ms/RaspPi. It will take you to a Raspberry Pi Simulator site. If you have time, read about the Raspberry Pi simulator. When done select "**X**" to close the pop-up window.
 
-
-2. Read about the Raspberry Pi simulator. If there is an overview pop-up select "**X**" to close the window.
-
-3. In the code area, right side, locate the line with 'const connectionString ='. Replace it with the connection string you copied from the Azure portal. Note that the connection sting includes the DeviceId (**myRaspberryPi**) and SharedAccessKey entries.
+2. In the code area on the right side, locate the line with 'const connectionString ='. Replace it with the connection string you copied from the Azure portal. Note that the connection sting includes the DeviceId (**myRaspberryPi**) and SharedAccessKey entries.
 
 	![Screenshot of the coding area within the Raspberry Pi simulator.](../images/0604.png)
 
-4. Click **Run** (below the code area) to run the application. The console output should show the sensor data and messages that are sent from the Raspberry Pi simulator to your Azure IoT Hub. Data and messages are sent each time the Raspberry Pi simulator LED flashes. 
+3. Click **Run** (below the code area) to run the application. The console output should show the sensor data and messages that are sent from the Raspberry Pi simulator to your Azure IoT Hub. Data and messages are sent each time the Raspberry Pi simulator LED flashes. 
 
 	![Screenshot of the Raspberry Pi simulator console.  The console output shows sensor data and messages sent from the Raspberry Pi simulator to Azure IoT Hub.](../images/0605.png)
 
 5. Click **Stop** to stop sending data.
 
-6. Return to the Azure portal and your IoT Hub.
+6. Return to the Azure portal.
 
-7. Switch the IoT Hub **Overview** blade and scroll down to the **IoT Hub Usage** information.
+7. Switch the IoT Hub **Overview** blade and scroll down to the **IoT Hub Usage** information to view usage. Change your timeframe in the **show data for last** to see data in the last hour.
 
-	![Screenshot of metrics within the IoT hub usage area of Azure portal.](../images/0606.png)
+	![Screenshot of metrics within the IoT hub usage area of Azure portal.](../images/0604a.png)
 
 
 Congratulations! You have set up Azure IoT Hub to collect sensor data from an IoT device.
