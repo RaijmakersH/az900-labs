@@ -59,7 +59,8 @@ In this task, we will add an IoT device to the IoT hub.
 
 In this task, we will test our device using the Raspberry Pi Simulator. 
 
-1. Open a new tab in the web browser and browse to the [online Raspberry Pi simulator]'https://azure-samples.github.io/raspberry-pi-web-simulator/#Getstarted'. 
+1. Open a new tab in the web browser and browse to the +++https://azure-samples.github.io/raspberry-pi-web-simulator/#Getstarted+++ 
+
 
 2. Read about the Raspberry Pi simulator. If there is an overview pop-up select "**X**" to close the window.
 
