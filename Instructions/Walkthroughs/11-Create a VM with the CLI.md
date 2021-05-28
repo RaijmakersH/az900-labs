@@ -22,14 +22,14 @@ In this task, we will configure Cloud Shell, then use Azure CLI to create a reso
 4. A new window will open stating **You have no storage mounted**. Select **advanced settings**.
 
 5. In the advanced settings screen, fill in the following fields, then click Create Storage:
-    - Resource Group: Use the existing group
+    - Resource Group: **Create new resource group**
     - Storage Account: Create a new account a use a globally unique name (ex: cloudshellstoragemystorage)
     - File Share: Create a new one and name it cloudshellfileshare
 
 
 # Task 2: Use CLI to create a virtual machine (10 min)
 
-In Cloud Shell, paste the following command using the T type tool. Make sure that each line except for the last one is followed by the backslash (`\`) character. If you type the whole command on the same line, do not use any backslash characters. 
+In Cloud Shell enter the command below and make sure that each line, except for the last one, is followed by the backslash (`\`) character. If you type the whole command on the same line, do not use any backslash characters. 
 
 ```cli
 az vm create \
