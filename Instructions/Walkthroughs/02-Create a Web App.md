@@ -31,7 +31,7 @@ In this task, you will create an Azure App Service Web App.
     
     **Note** - Remember to change the **xxxx** so that it makes a unique **Name**
 
-4. Click **Next > Docker** and configure the container information. The startup command is optional and not needed in this exercise. 
+4. Click **Next: Docker** and configure the container information. The startup command is optional and not needed in this exercise. 
 
     **Note:** This is same container that was used in the Container Instances walkthrough to display a hello world message. 
 
@@ -43,8 +43,16 @@ In this task, you will create an Azure App Service Web App.
     | Image and tag | **microsoft/aci-helloworld** |
     | | |	
 
+5. At the top of the page select **Tags** and input the following:
 
-5. Click **Review + create**, and then click **Create**. 
+    | Name | Value |
+    | -- | -- |
+    | **Name** | **myDockerWebAppxxxx** |
+    | | |
+    
+**Note** - Remember to change the **xxxx** to your unique name.
+
+6. Click **Review + create**, and then click **Create**. 
 
 # Task 2: Test the Web App
 

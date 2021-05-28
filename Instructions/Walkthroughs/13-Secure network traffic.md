@@ -114,7 +114,7 @@ In this task, we will allow RDP traffc to the virtual machine by configuring an 
 
 In this task, we will create a NSG outbound port rule that will deny Internet access and then test to ensure the rule is working.
 
-1. Continue in your virtual machine RDP session. 
+1. Continue in your virtual machine RDP session. Close out of **Server Manager** and click **No** under **Networks**.
 
 2. After the machine starts, open an **Internet Explorer** browser. 
 
@@ -122,7 +122,7 @@ In this task, we will create a NSG outbound port rule that will deny Internet ac
 
     **Note**: We will now configure a rule to deny outbound internet access. 
 
-4. In the Azure portal, navigate back to the blade of the **SimpleWinVM** virtual machine. 
+4. At the top of your screen minimize your newly created VM. In the Azure portal, navigate back to the blade of the **SimpleWinVM** virtual machine. 
 
 5. Under **Settings**, click **Networking**, and then **Outbound port rules**.
 
