@@ -19,7 +19,7 @@ In this task, we will assign the Virtual machine contributor role.
 
     | Setting | Value |
     | -- | -- |
-    | Subscription | **Use default provided**myRGRBAC |
+    | Subscription | **Use default provided** |
     | Resource group | **myRGRBAC** |
     | Region | **(US) East US** |
    
