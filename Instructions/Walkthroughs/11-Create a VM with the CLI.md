@@ -29,7 +29,25 @@ In this task, we will configure Cloud Shell, then use Azure CLI to create a reso
 
 # Task 2: Use CLI to create a virtual machine (10 min)
 
-In Cloud Shell enter the command below and make sure that each line, except for the last one, is followed by the backslash (`\`) character. If you type the whole command on the same line, do not use any backslash characters. 
+In this task, we will use Azure CLI to create a resource group and a virtual machine.
+
+1. Ensure **Bash** is selected in the upper-left drop-down menu of the Cloud Shell pane (and if not, select it).
+
+    ![Screenshot of Azure Portal Azure Cloud Shell with the Bash dropdown highlighted.](../images/1002a.png)
+
+2. In the Bash session, within the Cloud Shell pane, create a new resource group. 
+
+    ```cli
+    az group create --name myRGCLI --location EastUS
+    ```
+
+3. Verify the resource group was created.
+
+    ```cli
+    az group list --output table
+    ```
+
+4. In Cloud Shell enter the command below and make sure that each line, except for the last one, is followed by the backslash (`\`) character. If you type the whole command on the same line, do not use any backslash characters. 
 
 ```cli
 az vm create \
