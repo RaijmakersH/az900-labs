@@ -66,7 +66,7 @@ In this task, we will remove the resource lock and test.
 
     ![Screenshot of the Lock with the Delete link highlighted.](../images/1604.png)
 
-3. Return to the storage account blade and confirm you can now delete the resource. You will need to type it teh storage account name to confirm.
+3. Return to the storage account blade and confirm you can now delete the resource. You will need to type it the storage account name to confirm.
 
 Congratulations! You created a resource group, added a lock to resource group and tested deletion of a resource in the resource group, removed the resource lock and then deleted the resource. 
 
