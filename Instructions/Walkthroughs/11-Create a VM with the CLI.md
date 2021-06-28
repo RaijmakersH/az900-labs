@@ -29,21 +29,39 @@ In this task, we will configure Cloud Shell, then use Azure CLI to create a reso
 
 # Task 2: Use CLI to create a virtual machine (10 min)
 
-In Cloud Shell enter the command below and make sure that each line, except for the last one, is followed by the backslash (`\`) character. If you type the whole command on the same line, do not use any backslash characters. 
+In this task, we will use Azure CLI to create a resource group and a virtual machine.
 
-```cli
-az vm create \
---name myVMCLI \
---resource-group myRGCLI \
---image UbuntuLTS \
---location EastUS2 \
---admin-username azureuser \
---admin-password Pa$$w0rd1234
-```
+1. Ensure **Bash** is selected in the upper-left drop-down menu of the Cloud Shell pane (and if not, select it).
 
->**Note**: If you are using the command line on a Windows computer, replace the backslash (`\`) character with the caret (`^`) character.
+    ![Screenshot of Azure Portal Azure Cloud Shell with the Bash dropdown highlighted.](../images/1002a.png)
 
-**Note**: The command will take 2 to 3 minutes to complete. The command will create a virtual machine and various resources associated with it such as storage, networking and security resources. Do not continue to the next step until the virtual machine deployment is complete. 
+2. In the Bash session, within the Cloud Shell pane, create a new resource group. 
+
+    ```cli
+    az group create --name myRGCLI --location EastUS
+    ```
+
+3. Verify the resource group was created.
+
+    ```cli
+    az group list --output table
+    ```
+
+4. In Cloud Shell enter the command below and make sure that each line, except for the last one, is followed by the backslash (`\`) character. If you type the whole command on the same line, do not use any backslash characters. 
+
+    ```cli
+    az vm create \
+    --name myVMCLI \
+    --resource-group myRGCLI \
+    --image UbuntuLTS \
+    --location EastUS2 \
+    --admin-username azureuser \
+    --admin-password Pa$$w0rd1234
+    ```
+
+    >**Note**: If you are using the command line on a Windows computer, replace the backslash (`\`) character with the caret (`^`) character.
+
+    **Note**: The command will take 2 to 3 minutes to complete. The command will create a virtual machine and various resources associated with it such as storage, networking and security resources. Do not continue to the next step until the virtual machine deployment is complete. 
 
 5. When the command finishes running, in the browser window, close the Cloud Shell pane.
 
