@@ -14,7 +14,7 @@ In this task, we will create a SQL database based on the AdventureWorksLT sample
 
 1. Sign in to the Azure portal at [**https://portal.azure.com**](https://portal.azure.com).
 
-2. From the **All services** blade, search for and select **SQL databases**, and then click ** + Add, + Create, + New**. 
+2. From the **All services** blade, search for and select **SQL databases**, and then click **+ Add, + Create, + New**. 
 
 3. On the **Basics** tab, fill in this information.  
 
