@@ -43,9 +43,11 @@ In this task, we will create a SQL database based on the AdventureWorksLT sample
    ![Screenshot of the Networking tab of the Create SQL Database blade with settings selected as per the table and the Review + create button highlighted.](../images/0501b.png)
 
 5. On the **Security** tab. 
- | Setting | Value | 
+
+    | Setting | Value | 
     | --- | --- |
     | Azure Defender for SQL| **Not now** |
+    
 6. Move to the **Additional settings** tab. We will be using the AdventureWorksLT sample database.
 
     | Setting | Value | 
