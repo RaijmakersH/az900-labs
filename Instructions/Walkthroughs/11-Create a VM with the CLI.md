@@ -70,7 +70,7 @@ In this task, we will use Azure CLI to create a resource group and a virtual mac
     ![Screenshot of the virtual machines page with myVMPS in a running state.](../images/1101.png)
 
 
-# Task 3: Execute commmands in the Cloud Shell
+# Task 3: Execute commands in the Cloud Shell
 
 In this task, we will practice executing CLI commands from the Cloud Shell. 
 
