@@ -23,15 +23,13 @@ In this task, we will estimate cost of a sample infrastructure by using the Azur
 
 4. Modify the default VM configuration.
 
-    | Region | Operating system | Type |
-    |------|----------------|----|
-    | North Europe | Windows | (OS only) |
-    | | |
-
-    | Tier | Instance |
-    |----|--------|
-    | Standard | A2: 2 Core(s), 3.5 GB RAM, 135 GB Temporary storage |
-    | | |
+    | Settings | Value |
+    | -- | -- |
+    | Region | **North Europe** |
+    | Operating System | **Windows** |
+    | Type | **(OS only)** |
+    | Tier | **Standard** |  
+    | Instances | **A2: 2 Core(s), 3.5 GB RAM, 135 GB Temporary storage** |
 
    ![Screenshot of the vm configuration area within the Azure pricing calculator estimate webpage. The highlighted examples of user inputted vm configuration property values indicate how to specify a vm configuration within an Azure pricing calculator estimate.](../images/1902.png)
 
@@ -73,25 +71,15 @@ In this task, we will estimate cost of a sample infrastructure by using the Azur
 
 11. Add a name for your Application Gateway configuration. This walkthrough uses the name **App Gateway: Windows VM**. Modify the default Application Gateway configuration by adding the following details.
 
-    | Region | Tier | Size |
-    | ------ | ---- | ---- |
-    | North Europe | Basic | Small |
-    | | |
-
-    | Instances | Hours |
-    | ------- | ------- |
-    | 1 | 365 |
-    | | |
-
-    | Data processed |
-    | -------------- |
-    | 50 GB |
-    | | |
-
-    | Zone 1: North America, Europe |
-    | ----------------------------- |
-    | 50 GB |
-    | | |
+    | Settings | Value |
+    | -- | -- |
+    | Region | **North Europe** |
+    | Tier | **Basic** |
+    | Size | **Small** |
+    | Instances | **1** |  
+    | Hours | **365** |
+    | Data processed | **50 GB** |
+    | Zone 1: North America, Europe | **50**|
 
     ![Screenshot of the application gateway configuration area within the Azure pricing calculator estimate webpage.](../images/1909.png)
 
