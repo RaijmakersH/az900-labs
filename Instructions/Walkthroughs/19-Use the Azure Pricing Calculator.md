@@ -79,7 +79,7 @@ In this task, we will estimate cost of a sample infrastructure by using the Azur
     | Instances | **1** |  
     | Hours | **365** |
     | Data processed | **50 GB** |
-    | Zone 1: North America, Europe | **50**|
+    | Zone 1: North America, Europe | **50 GB**|
 
     ![Screenshot of the application gateway configuration area within the Azure pricing calculator estimate webpage.](../images/1909.png)
 
