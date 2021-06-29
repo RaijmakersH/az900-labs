@@ -29,7 +29,7 @@ In this task, we will estimate cost of a sample infrastructure by using the Azur
     | Operating System | **Windows** |
     | Type | **(OS only)** |
     | Tier | **Standard** |  
-    | Instances | **A2: 2 Core(s), 3.5 GB RAM, 135 GB Temporary storage** |
+    | Instance | **A2: 2 Core(s), 3.5 GB RAM, 135 GB Temporary storage** |
 
    ![Screenshot of the vm configuration area within the Azure pricing calculator estimate webpage. The highlighted examples of user inputted vm configuration property values indicate how to specify a vm configuration within an Azure pricing calculator estimate.](../images/1902.png)
 
