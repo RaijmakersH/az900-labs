@@ -30,7 +30,6 @@ In this task, we will add infrastructure information to the calculator.
     | RAM (GB) | **16** |
     | Optimize by | **CPU** |
     | Windows Server 2008/2008 R2 | **Off** |
-    | | |
 
 3. Select **+ Add server workload** to make a row for a new server workloads definition. 
 
@@ -46,7 +45,6 @@ In this task, we will add infrastructure information to the calculator.
     | RAM (GB) | **16** |
     | Optimize by | **CPU** |
     | Windows Server 2008/2008 R2 | **Off** |
-    | | |
 
 4. In the **Storage** pane, click **Add storage**.
 
@@ -58,14 +56,12 @@ In this task, we will add infrastructure information to the calculator.
     | Capacity | **60 TB** |  
     | Backup | **120 TB** |
     | Archive | **0 TB** |
-    | | |
 
 5. In the **Networking** pane, add bandwidth. 
 
     | Settings | Value |
     | -- | -- |
     | Outbound bandwidth | 15 TB|
-    | | |
 
 6. Click **Next**.
 
@@ -74,7 +70,6 @@ In this task, we will add infrastructure information to the calculator.
     | Settings | Value |
     | -- | -- |
     | Currency | **Euro** |
-    | | |
 
 8. Click **Next**.
 
@@ -88,8 +83,6 @@ In this task, we will review cost saving recommendations and download a report.
     | -- | -- |
     | Timeframe| **3 years** |
     | Region | **North Europe** |
-    | | |
-
 
 2. To modify the information you provided, go to the bottom of the page, and click **Back**. 
 
