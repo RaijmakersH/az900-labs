@@ -24,10 +24,8 @@ In this task, we will create a new storage account.
     | Storage account name | **storageaccountxxxxx** |
     | Location | **(US) East US**  |
     | Performance | **Standard** |
-    | Account kind | **StorageV2 (general purpose v2)** |
     | Redundancy | **Locally redundant storage (LRS)** |
     
-
     **Note** - Remember to change the **xxxxx** so that it makes a unique **Storage account name**
 
 5. Click **Review + Create** to review your storage account settings and allow Azure to validate the configuration. 
@@ -42,9 +40,9 @@ In this task, we will create a new storage account.
 
 In this task, we will create a Blob container and upload a blob file. 
 
-1. Click the name of the new storage account, scroll to the **Blob service** section in the left menu, and then click **Containers**.
+1. Click the name of the new storage account, scroll to the **Data storage** section in the left menu, and then click **Containers**.
 
-2. Click **+ Container** and complete the information. Use the Information icons to learn more. When done click **OK**.
+2. Click **+ Container** and complete the information. Use the Information icons to learn more. When done click **Create**.
 
 
     | Setting | Value |
