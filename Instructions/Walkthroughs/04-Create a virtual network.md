@@ -3,11 +3,11 @@ wts:
     title: '04 - Create a virtual network (20 min)'
     module: 'Module 02 - Core Azure Services (Workloads)'
 ---
-# 04 - Create a virtual network
+# 04 - Create a virtual network (20 min)
 
 In this walkthrough, we will create a virtual network, deploy two virtual machines onto that virtual network and then configure them to allow one virtual machine to ping the other within that virtual network.
 
-# Task 1: Create a virtual network (20 min)
+# Task 1: Create a virtual network 
 
 In this task, we will create a virtual network. 
 
