@@ -3,7 +3,7 @@ wts:
     title: '18 - Explore the Trust Center (5 min)'
     module: 'Module 05: Describe identity, governance, privacy, and compliance features'
 ---
-# 18 - Explore Microsoft Compliance Offerings
+# 18 - Explore Microsoft Compliance Offerings (5 min)
 
 In this walkthrough, we will access Compliance Offerings, the Service Trust Portal (STP), and Compliance Manager. 
 
