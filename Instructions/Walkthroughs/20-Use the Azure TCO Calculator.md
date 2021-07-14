@@ -3,7 +3,7 @@ wts:
     title: '20 - Use the Azure TCO Calculator (10 min)'
     module: 'Module 06: Describe Azure cost management and service level agreements'
 ---
-# 20 - Use the Azure TCO Calculator
+# 20 - Use the Azure TCO Calculator (10 min)
 
 
 In this walkthrough, you will use the Total Cost of Ownership (TCO) Calculator to generate cost comparison report for an on-premises environment.
