@@ -3,11 +3,11 @@ wts:
     title: '11 - Create a VM with the CLI (10 min)'
     module: 'Module 03: Describe core solutions and management tools'
 ---
-# 11 - Create a VM with the CLI
+# 11 - Create a VM with the CLI (10 min)
 
 In this walk-through, we will configure the Cloud Shell, use Azure CLI to create a resource group and virtual machine, and review Azure Advisor recommendations. 
 
-# Task 1: Configure the Cloud Shell (10 min)
+# Task 1: Configure the Cloud Shell 
 
 In this task, we will configure Cloud Shell, then use Azure CLI to create a resource group and a virtual machine.  
 
