@@ -27,7 +27,7 @@ In this task, we will configure Cloud Shell, then use Azure CLI to create a reso
     - File Share: Create a new one and name it cloudshellfileshare
 
 
-# Task 2: Use CLI to create a virtual machine (10 min)
+# Task 2: Use CLI to create a virtual machine
 
 In this task, we will use Azure CLI to create a resource group and a virtual machine.
 
