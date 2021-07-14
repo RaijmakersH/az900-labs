@@ -3,11 +3,11 @@ wts:
     title: '15 - Manage resource locks (5 min)'
     module: 'Module 05: Describe identity, governance, privacy, and compliance features'
 ---
-# 15 - Manage resource locks
+# 15 - Manage resource locks (5 min)
 
 In this walkthrough, we will add a lock to the resource group and test deleting the resource group. Locks can be applied in a subscription to resource groups, or individual resources to prevent accidental deletion or modification of critical resources.  
 
-# Task 1: Create a resource group (5 min)
+# Task 1: Create a resource group 
 
 In this task, we will create a resource group for this exercise. 
 
