@@ -74,7 +74,7 @@ In this task, we will test our device using the Raspberry Pi Simulator.
 
 7. Switch the IoT Hub **Overview** blade and scroll down to the **IoT Hub Usage** information to view usage. Change your timeframe in the **show data for last** to see data in the last hour.
 
-	![Screenshot of metrics within the IoT hub usage area of Azure portal.](../images/0604a.png)
+	![Screenshot of metrics within the IoT hub usage area of Azure portal.](../images/0606.png)
 
 
 Congratulations! You have set up Azure IoT Hub to collect sensor data from an IoT device.
