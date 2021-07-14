@@ -3,11 +3,11 @@ wts:
     title: '14 - Manage access with RBAC (5 min)'
     module: 'Module 05: Describe identity, governance, privacy, and compliance features'
 ---
-# 14 - Manage access with RBAC
+# 14 - Manage access with RBAC (5 min)
 
 In this walkthrough, we will assign permission roles to resources and view logs.
 
-# Task 1: View and assign roles (5 min)
+# Task 1: View and assign roles
 
 In this task, we will assign the Virtual machine contributor role. 
 
