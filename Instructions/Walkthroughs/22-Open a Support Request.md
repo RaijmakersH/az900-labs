@@ -3,11 +3,11 @@ wts:
     title: '22 - Open a Support Request (5 min)'
     module: 'Not currently utilized in current exam'
 ---
-# 22 - Open a Support Request
+# 22 - Open a Support Request (5 min)
 
 In this walkthrough, we will view available support plan options and then practice creating and monitoring a new support request.
 
-# Task 1: View available support plan options and a technical support request (5 min)
+# Task 1: View available support plan options and a technical support request
 
 1. Sign in to the [**Azure portal**](https://portal.azure.com).
 
