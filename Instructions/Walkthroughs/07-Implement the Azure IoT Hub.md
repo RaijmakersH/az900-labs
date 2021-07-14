@@ -3,11 +3,11 @@ wts:
     title: '07 - Implement an Azure IoT Hub (10 min)'
     module: 'Module 03: Describe core solutions and management tools'
 ---
-# 07 - Implement an Azure IoT Hub
+# 07 - Implement an Azure IoT Hub (10 min)
 
 In this walkthrough, we will configure a new Azure IoT Hub in Azure Portal, and then authenticate a connection to an IoT device using the online Raspberry Pi device simulator. Sensor data and messages are passed from the Raspberry Pi simulator to your Azure IoT Hub, and you view metrics for the messaging activity in Azure Portal.
 
-# Task 1: Create an IoT hub (10 min)
+# Task 1: Create an IoT hub 
 
 In this task, we will create an IoT hub. 
 
