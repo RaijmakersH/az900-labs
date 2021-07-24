@@ -35,7 +35,7 @@ In this task, we will use PowerShell to create a resource group and a virtual ma
 
 1. Ensure **PowerShell** is selected in the upper-left drop-down menu of the Cloud Shell pane.
 
-2. Verify your new resource group by running teh following command in the Powershell window. Press **Enter** to run the command.
+2. Verify your new resource group by running the following command in the Powershell window. Press **Enter** to run the command.
 
     ```PowerShell
     Get-AzResourceGroup | Format-Table
