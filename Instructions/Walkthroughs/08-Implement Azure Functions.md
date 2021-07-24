@@ -13,7 +13,7 @@ In this task, we will create a Function app.
 
 1. Sign in to the [Azure portal](https://portal.azure.com).
 
-2. In the **Search ** bar at the top of the portal, search for and select **Function App** and then, from the **Function App** blade, click **+ Add, + Create, + New**.
+2. In the **Search** bar at the top of the portal, search for and select **Function App** and then, from the **Function App** blade, click **+ Add, + Create, + New**.
 
 3. On the **Basic** tab of the **Function App** blade, specify the following settings (replace **xxxx** in the name of the function with letters and digits such that the name is globally unique and leave all other settings with their default values): 
 
@@ -49,7 +49,7 @@ In this task, we will use the Webhook + API function to display a message when t
 
 3. An **Add function** pop-up window will appear on the right. In the **Select a template** section click **HTTP trigger**. Click **Add** 
 
-    ![Screenshot of the create a function step in the azure functions for dot net getting started pane inside Azure portal. The HTTP trigger card is highlighted to illustrate the display elements used to add a new webhook to an Azure function.](../images/0702ab.png)
+    ![Screenshot of the create a function step in the azure functions for dot net getting started pane inside Azure portal. The HTTP trigger card is highlighted to illustrate the display elements used to add a new webhook to an Azure function.](../images/0702a.png)
 
 4. On the **HttpTrigger1** blade, in the **Developer** section, click **Code + Test**. 
 
