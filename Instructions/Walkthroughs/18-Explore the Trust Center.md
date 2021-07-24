@@ -9,7 +9,7 @@ In this walkthrough, we will access Compliance Offerings, the Service Trust Port
 
 # Task 1: Access Microsoft Compliance Offerings
 
-1. Open a new browser window. In the address bar, replace the default text with T https://docs.microsoft.com/en-us/compliance/regulatory/offering-home
+1. In a browser, navigate to the [Compliance Offerings](https://docs.microsoft.com/en-us/compliance/regulatory/offering-home) page.
 
 2. On the Compliance page, notice the offerings are grouped into **Global**, **US Government**, **Industry**, and **Regional**.
 
@@ -20,7 +20,7 @@ In this walkthrough, we will access Compliance Offerings, the Service Trust Port
 
 # Task 2: Access the Service Trust Portal (STP)
 
-1. Open a new browser window. In the address bar, replace the default text with T https://servicetrust.microsoft.com/.
+1. In a browser, navigate to the [Service Trust Portal](https://servicetrust.microsoft.com/) page.
 
 2. Notice the **Audit Reports** section. In this section are independent audit reports for different Microsoft's Cloud services. If you want to try the Compliance Manager you will need to login.
 
@@ -31,7 +31,7 @@ In this walkthrough, we will access Compliance Offerings, the Service Trust Port
 
 The Compliance Manager makes it easy to perform risk assessments of Microsoft's cloud services. Use Compliance Manager to manage your organization's compliance activities from implementation to reporting. 
 
-1. If your browser window is still open from Task 2, proceed to Step 2. Otherwise, open a new browser window, and paste T https://servicetrust.microsoft.com/Documents/TrustDocuments.  
+1. If your browser window is still open from Task 2, proceed to Step 2. Otherwise, In a browser, navigate to the [Compliance Manager](https://servicetrust.microsoft.com/ComplianceManager) page. 
 
 2. Scroll down to **Audit Reports**. Take a look around.
 
