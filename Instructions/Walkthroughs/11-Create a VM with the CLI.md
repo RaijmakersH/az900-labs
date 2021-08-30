@@ -23,7 +23,7 @@ In this task, we will configure Cloud Shell, then use Azure CLI to create a reso
 
 5. In the advanced settings screen, fill in the following fields, then click Create Storage:
     - Resource Group: **Create new resource group**
-    - Storage Account: Create a new account a use a globally unique name (ex: cloudshellstoragemystorage)
+    - Storage Account: Create a new account a use a globally unique name (ex: cloudshellxyzstorage)
     - File Share: Create a new one and name it cloudshellfileshare
 
 
@@ -35,13 +35,8 @@ In this task, we will use Azure CLI to create a resource group and a virtual mac
 
     ![Screenshot of Azure Portal Azure Cloud Shell with the Bash dropdown highlighted.](../images/1002a.png)
 
-2. In the Bash session, within the Cloud Shell pane, create a new resource group. 
 
-    ```cli
-    az group create --name myRGCLI --location EastUS
-    ```
-
-3. Verify the resource group was created.
+2. Verify the resource group you are using by entering the following command.
 
     ```cli
     az group list --output table
