@@ -11,8 +11,8 @@ In this walk-through, we will configure the Cloud Shell, use Azure PowerShell mo
 
 In this task, we will configure Cloud Shell. 
 
-1. Sign in to the [Azure portal](https://portal.azure.com).
-
+1. Sign in to the [Azure portal](https://portal.azure.com).** You can find your login credentials within the resources tab (directly next to this Instructions tab!)
+**
 2. From the Azure portal, open the **Azure Cloud Shell** by clicking on the icon in the top right of the Azure Portal.
 
     ![Screenshot of Azure Portal Azure Cloud Shell icon.](../images/1002.png)
@@ -117,4 +117,4 @@ In this task, we will review Azure Advisor recommendations for our virtual machi
 
 Congratulations! You have configured Cloud Shell, created a virtual machine using PowerShell, practiced with PowerShell commands, and viewed Advisor recommendations.
 
-**Note**: To avoid additional costs, you can remove this resource group. Search for resource groups, click your resource group, and then click **Delete resource group**. Verify the name of the resource group and then click **Delete**. Monitor the **Notifications** to see how the delete is proceeding.
+**Note**: To avoid additional costs, you can optionally remove this resource group. Search for resource groups, click your resource group, and then click **Delete resource group**. Verify the name of the resource group and then click **Delete**. Monitor the **Notifications** to see how the delete is proceeding.
