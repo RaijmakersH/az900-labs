@@ -34,7 +34,7 @@ In this task, we will add a resource lock to the resource group and test deletin
 
     ![Screenshot of the delete locks failed.](../images/1602.png)
 
-# Task 3: Test deleting a member of the resource group
+# Task 2: Test deleting a member of the resource group
 
 In this task, we will test if the resource lock protects a storage account in the resource group. 
 
@@ -66,7 +66,7 @@ In this task, we will test if the resource lock protects a storage account in th
 
     **Note**: Although we did not create a lock specifically for the storage account, we did create a lock at the resource group level, which contains the storage account. As such, this *parent* level lock prevents us from deleting the resource and the storage account inherits the lock from the parent.
 
-# Task 4: Remove the resource lock
+# Task 3: Remove the resource lock
 
 In this task, we will remove the resource lock and test. 
 
