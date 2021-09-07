@@ -7,41 +7,22 @@ wts:
 
 In this walkthrough, we will add a lock to the resource group and test deleting the resource group. Locks can be applied in a subscription to resource groups, or individual resources to prevent accidental deletion or modification of critical resources.  
 
-# Task 1: Create a resource group 
 
-In this task, we will create a resource group for this exercise. 
-
-1. Sign in to the [Azure portal](https://portal.azure.com).
-
-2. From the **All services** blade, search for and select **Resource groups**, then click **+ Add, + Create, or + New**.
-
-3. Create a new resource group. Click **Create** when you are finished. 
-
-    | Setting | Value |
-    | -- | -- |
-    | Subscription | **Choose your subscription** |
-    | Resource group | **myRGLocks** |
-    | Region | **(US) East US** |
-    | | |
-
-4. Create **Review + create** and then click **Create**.
-
-5. **Refresh** the resource group page and click the entry representing the newly created resource group.
-    
-
-# Task 2:  Add a Lock to the resource group and test deletion
+# Task 1:  Add a Lock to the resource group and test deletion
 
 In this task, we will add a resource lock to the resource group and test deleting the resource group. 
 
-1. In the Azure portal, navigate to the newly created resource group **myRGLocks**.
+1. Sign in to the [Azure portal](https://portal.azure.com).
 
-2. You can apply a lock to a subscription, resource group, or individual resource to prevent accidental deletion or modification of critical resources. 
+2. In the Azure portal, navigate to the resource group **myRGLocks**.
 
-3. In the **Settings** section, click **Locks**, and then click **+ Add**. 
+3. You can apply a lock to a subscription, resource group, or individual resource to prevent accidental deletion or modification of critical resources. 
+
+4. In the **Settings** section, click **Locks**, and then click **+ Add**. 
 
     ![Screenshot of the myRGLocks resource group with the Locks pane displaying.](../images/1601.png)
 
-4. Configure the new lock. When you are done click **OK**. 
+5. Configure the new lock. When you are done click **OK**. 
 
     | Setting | Value |
     | -- | -- |
@@ -49,7 +30,7 @@ In this task, we will add a resource lock to the resource group and test deletin
     | Lock Type | **Delete** |
     | | |
 
-5. Click **Overview** and click **Delete resource group**. Type the name of the resource group and click **OK**. You receive an error message stating the resource group is locked and can't be deleted.
+6. Click **Overview** and click **Delete resource group**. Type the name of the resource group and click **OK**. You receive an error message stating the resource group is locked and can't be deleted.
 
     ![Screenshot of the delete locks failed.](../images/1602.png)
 
