@@ -63,7 +63,6 @@ In this task, we will create storage accounts to test the required tagging.
     | Setting | Value | 
     | --- | --- |
     | Tag name | **Company** (may not be in the drop-down list) |
-    | Tag value | **Contoso** |
 
 6. Click **Review + create** and verify that the validation was successful. Click **Create** to deploy the storage account. 
 
