@@ -25,7 +25,7 @@ In this task, we will create a virtual network.
     | Region | **(US) East US** |
     
    
-4. Click the **Review + create** button. Ensure the validation passes.
+4. Click the **Review + create** button. Ensure the validation passes. Then hit create to deploy the resource.
 
 
 # Task 2: Create two virtual machines
