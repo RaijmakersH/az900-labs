@@ -26,7 +26,7 @@ In this task, we will create a new container instance for the web application.
 	| Region | **(US) East US** |
 	| Image source| **Docker Hub or other registry**|
 	| Image type| **Public**|
-	| Image| **microsoft/aci-helloworld**|
+	| Image| **mcr.microsoft.com/azuredocs/aci-helloworld**|
 	| OS type| **Linux** |
 	| Size| ***Leave at the default***|
 
