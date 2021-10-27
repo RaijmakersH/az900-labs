@@ -11,6 +11,8 @@ In this walkthrough, we will create a virtual network, deploy two virtual machin
 
 In this task, we will create a virtual network. 
 
+Note: Before beginning the lab, disable both the public and private firewall in your virtual machine by opening the Start menu > Settings > Network and Internet > Locate Windows Firewall
+
 1. Sign in to the Azure portal at <a href="https://portal.azure.com" target="_blank"><span style="color: #0066cc;" color="#0066cc">https://portal.azure.com</span></a>
 
 2. From the **All services** blade, search for and select **Virtual networks**, and then click **+ Add, + Create, + New**. 
@@ -83,6 +85,8 @@ In this task, we will try to test whether the virtual machines can communicate (
 5. In the **Windows Security** window, type the username **azureuser** and password **Pa$$w0rd1234** and then click **OK**.
 
 6. You may receive a certificate warning during the sign-in process. Click **Yes** to create the connection and connect to your deployed VM. You should connect successfully. Close the Windows Server and Dashboard windows that pop up. You should see a Blue Windows background. You are now in your virtual machine.
+
+Note: In your newly created virtual machine, disable both the public and private firewall by opening the Start menu > Settings > Network and Internet > Locate Windows Firewall
 
 7. Open up PowerShell on the virtual machine by clicking the **Start** button, and in Search type **PowerShell**, right click on **Windows PowerShell** to **Run as administrator**
 
