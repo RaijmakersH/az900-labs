@@ -99,7 +99,7 @@ In this task, we will review Azure Advisor recommendations.
 
 1. From the **All services** blade, search for and select **Advisor**. 
 
-2. On the **Advisor** blade, select **Overview**. Notice recommendations are grouped by High Availability, Security, Performance, and Cost. 
+2. On the **Advisor** blade, select **Overview**. Notice recommendations are grouped by Reliability, Security, Performance, and Cost. 
 
     ![Screenshot of the Advisor Overview page. ](../images/1103.png)
 
