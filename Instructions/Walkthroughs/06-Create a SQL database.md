@@ -46,7 +46,7 @@ In this task, we will create a SQL database based on the AdventureWorksLT sample
 
     | Setting | Value | 
     | --- | --- |
-    | Azure Defender for SQL| **Not now** |
+    | Microsoft Defender for SQL| **Not now** |
     
 6. Move to the **Additional settings** tab. We will be using the AdventureWorksLT sample database.
 
