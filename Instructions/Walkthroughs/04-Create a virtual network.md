@@ -61,7 +61,7 @@ In this task, we will create two virtual machines in the virtual network.
 
     | Setting | Value |
     | --- | --- |
-    | Resource group | **myRGVNet** |
+    | Resource group | **select default in dropdown (same as Task1-3 & Task2-2)** |
     | Virtual machine name |  **vm2** |
     | Virtual network | **vnet1** |
     | Public IP | **vm2-ip** |
