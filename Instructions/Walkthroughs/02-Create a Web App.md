@@ -28,7 +28,7 @@ In this task, you will create an Azure App Service Web App.
     | Operating System | **Linux** |
     | Region | **East US** |
     
-    **Note** - Remember to change the **xxxx** so that your Web App name is unique.
+    **Note:** Remember to change the **xxxx** so that your Web App name is unique.
 
 4. Click **Next > Docker** and configure the container information.  
 
@@ -37,9 +37,9 @@ In this task, you will create an Azure App Service Web App.
     | Options | **Single container** |
     | Image Source | **Docker Hub** |
     | Access Type | **Public** |
-    | Image and tag | **microsoft/aci-helloworld** |
+    | Image and tag | **mcr.microsoft.com/azuredocs/aci-helloworld** |
     
- **Note** The startup command is optional and not needed in this exercise.
+ **Note:** The startup command is optional and not needed in this exercise.
 
 5. Click **Review + create**, and then click **Create**. 
 
