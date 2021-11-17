@@ -23,7 +23,7 @@ In this task, we will configure the **Require a tag on resources** policy and as
 
    ![Screenshot of Available Definitions pane with Require a tag on resources selected.](../images/1701.png)
    
-6.  On the **Parameters** tab, type in **Company** for the tag name. And **Contoso** for the Value. Click **Review + create**, and then **Create**.
+6.  On the **Parameters** tab, type in **Company** for the tag name. Click **Review + create**, and then **Create**.
 
     ![Screenshot of Assign policy pane with the Tag name filled out.](../images/1702.png)
 

@@ -25,9 +25,10 @@ In this task, we will create a SQL database based on the AdventureWorksLT sample
     | Database name| **db1** | 
     | Server | Select **Create new** (A new sidebar will open on the right)|
     | Server name | **sqlserverxxxx** (must be unique) | 
+    | Location | **(US) East US** |
+    | Authentication method | **Use SQL authentication** |
     | Server admin login | **sqluser** |
     | Password | **Pa$$w0rd1234** |
-    | Location | **(US) East US** |
     | Click  | **OK** |
 
    ![Screenshot of the Server pane and the New Server pane with fields filled in as per the table and the Review + create and OK buttons highlighted.](../images/0501.png)
