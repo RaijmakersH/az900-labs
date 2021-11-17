@@ -21,8 +21,8 @@ In this task, we will create an IoT hub.
     |--|--|
     | Subscription | **Keep default supplied** |
     | Resource Group | **Create new resource group** |
-    | Region | **East US** |
     | IoT Hub Name | **my-hub-groupxxxxx** |
+    | Region | **East US** |
 
     **Note** - Remember to change the **xxxxx** so that it makes a unique **IoT Hub Name**.
 
