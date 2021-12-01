@@ -29,21 +29,19 @@ In this task, we will assign the Virtual machine contributor role.
 5. **Refresh** the resource group page and click the entry representing the newly created resource group.
 
 6. Click on the **Access control (IAM)** blade, and then switch to the **Roles** tab. Scroll through the large number of roles definitions that are available. Use the Informational icons to get an idea of each role's permissions. Notice there is also information on the number of users and groups that are assigned to each role.
+7. 
+![image](https://user-images.githubusercontent.com/89808319/144266949-f19d91ab-31d6-4c8b-af36-c00035925cf0.png)
 
-    ![Screenshot of IAM roles blade. Owner, contributor, and reader roles are shown.](../images/1501.png)
+7. Switch to the **Role assignments** tab of the **myRGRBAC - Access control (IAM)** blade, click **+ Add** and then click **Add role assignment**. Search for the Virtual Machine Contributor role and select. Switch to the "Members" tab and Assign access to: User, group, or service principal. Then click + Select members and type in your name to the popup search function and hit 'select.' Then hit 'Review and Assign'
 
-7. Switch to the **Role assignments** tab of the **myRGRBAC - Access control (IAM)** blade, click **+ Add** and then click **Add role assignment**. Assign the Virtual Machine Contributor role to your user account, then click **Save**. 
+    
+    ![image](https://user-images.githubusercontent.com/89808319/144266255-3a0f8574-9358-4c21-8f95-3503747e77c8.png)
 
-    | Setting | Value |
-    | -- | -- |
-    | Role | **Virtual machine contributor** |
-    | Assign access to | **user, group, or service principal** |
-    | Select | **Add your user account** |
  
 
     **Note:** The Virtual machine contributor role lets you manage virtual machines, but not access their operating system or manage the virtual network and storage account they are connected to.
 
-    ![Screenshot of the Add role assignment page filled out with the necessary information.](../images/1502.png)
+  
 
 8. **Refresh** the Role assignments page and ensure you are now listed as a Virtual machine contributor. 
 
