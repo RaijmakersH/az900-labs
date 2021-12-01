@@ -23,7 +23,7 @@ In this task, we will create a Windows Server 2019 Datacenter virtual machine.
     | Resource group | **Create new resource group** |
     | Virtual machine name | **SimpleWinVM** |
     | Region | **(US) East US**|
-    | Image | **Windows Server 2019 Datacenter Gen 1**|
+    | Image | **Windows Server 2019 Datacenter Gen 2**|
     | Size | **Standard D2s v3**|
     | Administrator account username | **azureuser** |
     | Administrator account password | **Pa$$w0rd1234**|
@@ -72,7 +72,7 @@ In this task, we will create a network security group and associate it with the 
 
 4. After the NSG is created, click **Go to resource**.
 
-5. Under **Settings** click **Network interfaces** and then **+ Associate**.
+5. Under **Settings** click **Network interfaces** and then ** Associate**.
 
 6. Select the network interface you identified in the previous task. 
 
