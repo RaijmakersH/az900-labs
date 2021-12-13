@@ -86,17 +86,17 @@ In this task, we will try to test whether the virtual machines can communicate (
 
 6. You may receive a certificate warning during the sign-in process. Click **Yes** to create the connection and connect to your deployed VM. You should connect successfully. Close the Windows Server and Dashboard windows that pop up. You should see a Blue Windows background. You are now in your virtual machine.
 
-Note: In your newly created virtual machine, disable both the public and private firewall by opening the Start menu > Settings > Network and Internet > Locate Windows Firewall
+7. In your newly created virtual machine, disable both the public and private firewall by opening the Start menu > Settings > Network and Internet > Locate Windows Firewall
 
-7. Open up PowerShell on the virtual machine by clicking the **Start** button, and in Search type **PowerShell**, right click on **Windows PowerShell** to **Run as administrator**
+8. Open up PowerShell on the virtual machine by clicking the **Start** button, and in Search type **PowerShell**, right click on **Windows PowerShell** to **Run as administrator**
 
-8. In Powershell, try to ping vm2 by typing:
+9. In Powershell, try to ping vm2 by typing:
 
    ```PowerShell
    ping vm2
    ```
 
- 9. You should be successful. You have pinged VM2 from VM1.
+ 10. You should be successful. You have pinged VM2 from VM1.
 
 
 **Congratulations!** You have configured and deployed two virtual machines in a virtual network, and then you were able to connect them.
