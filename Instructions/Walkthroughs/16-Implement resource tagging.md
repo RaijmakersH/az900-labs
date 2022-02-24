@@ -19,18 +19,18 @@ In this task, we will configure the **Require a tag on resources** policy and as
 
 4. Notice the **Scope** for our policy will be subscription wide. 
 
-5. Under **Basics** Select the **Policy definition** ellipsis button (right side of textbox). In the **Search** box, enter the value **tag**. A list of related Policies with the word **tag** will appear. Scroll down till you find the **Require a tag on resources** definition, click on it and click **Select**.
+5. Under **Basics** Select the **Policy definition** ellipsis button (right side of textbox). In the **Search** box, enter the value **tag**. A list of related Policies with the word **tag** will appear. Scroll down till you find the **Require a tag and its value on resources** definition, click on it and click **Select**.
 
-   ![Screenshot of Available Definitions pane with Require a tag on resources selected.](../images/1701.png)
+   ![image](https://user-images.githubusercontent.com/89808319/155607579-d564a43e-a9cd-443d-8482-f47879eff2e9.png)
    
 6.  On the **Parameters** tab, type in **Company : Contoso ** for the tag key/value pair name. Click **Review + create**, and then **Create**.
 
-    ![Screenshot of Assign policy pane with the Tag name filled out.](../images/1702.png)
+  
 
-7. The **Require a tag on resources** policy assignment is now in place. When a resource is created, it must include a tag with the Company : Contoso key.
+7. The **Require a tag amd its value on resources** policy assignment is now in place. When a resource is created, it must include a tag with the Company : Contoso key.
    **Note - you need to wait up to 30 minutes for the Policy to be applied.** 
 
-   ![Screenshot of Policy - Assignments pane with the allowed locations assignment highlighted.](../images/1703.png)
+  ![image](https://user-images.githubusercontent.com/89808319/155607357-556646b6-9ca7-4817-a02e-643869b2c4dd.png)
 
 # Task 2: Create a storage account to test the required tagging
 
