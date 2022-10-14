@@ -12,7 +12,7 @@ In this walkthrough, we will add a lock to the resource group and test deleting 
 
 In this task, we will add a resource lock to the resource group and test deleting the resource group. 
 
-1. Sign in to the [Azure portal](https://portal.azure.com).
+1. Sign in to the [Azure portal](https://portal.azure.com), and create a resource group **myRGLocks**
 
 2. In the Azure portal, navigate to the resource group **myRGLocks**.
 
