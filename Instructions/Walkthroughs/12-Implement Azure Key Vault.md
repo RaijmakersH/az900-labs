@@ -38,7 +38,7 @@ In this walkthrough, we will create an Azure Key vault and then create a passwor
         
 In this task, we will add a password to the key vault. 
 
-1. Under **Settings** click **Secrets**, then click **+ Generate/Import**.
+1. Under **Objects** click **Secrets**, then click **+ Generate/Import**.
 
 2. Configure the secret. Leave the other values at their defaults. Notice you can set an activation and expiration date. Notice you can also disable the secret.
 
