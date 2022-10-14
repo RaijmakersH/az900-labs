@@ -35,7 +35,7 @@ In this task, we will create a Windows Server 2019 Datacenter virtual machine.
     | -- | -- |
     | NIC network security group | **None**|
 
-5. Switch to the **Management** tab, and in its **Monitoring** section, select the following setting:
+5. Switch to the **Monitoring** tab, and select the following setting:
 
     | Settings | Values |
     | -- | -- |
