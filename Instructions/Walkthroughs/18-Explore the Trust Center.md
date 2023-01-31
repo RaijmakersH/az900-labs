@@ -29,7 +29,7 @@ In this walkthrough, we will access Compliance Offerings, the Service Trust Port
 
 # Task 3: Access the Compliance Manager via the Service Trust Portal
 
-The Compliance Manager makes it easy to perform risk assessments of Microsoft's cloud services. Use Compliance Manager to manage your organization's compliance activities from implementation to reporting. 
+The Compliance Manager makes it easy to perform risk assessments of Microsoft's cloud services. Use Compliance Manager to manage your organization's compliance activities from implementation to reporting. **This site requires an work account and will not be accessable with the Azure Pass account**
 
 1. If your browser window is still open from Task 2, proceed to Step 2. Otherwise, In a browser, navigate to the [Compliance Manager](https://servicetrust.microsoft.com/ComplianceManager) page. 
 
